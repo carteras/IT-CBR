@@ -1,5 +1,3 @@
-# Make a copy for your own work! 
-
 # Object-oriented programming
 
 Object-oriented Programming (OOP) is one of the most effective approaches to writing software. 
