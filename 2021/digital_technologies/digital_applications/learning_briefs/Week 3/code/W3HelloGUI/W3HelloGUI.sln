@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W3HelloGUI", "W3HelloGUI.csproj", "{FF59F6B4-B9DA-4FF7-93ED-6D5CA25C878E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF59F6B4-B9DA-4FF7-93ED-6D5CA25C878E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF59F6B4-B9DA-4FF7-93ED-6D5CA25C878E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF59F6B4-B9DA-4FF7-93ED-6D5CA25C878E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF59F6B4-B9DA-4FF7-93ED-6D5CA25C878E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B5DC146-D3B6-4F95-B327-5A514F132610}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\bin\Debug\W3HelloGUI.exe.config
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\bin\Debug\W3HelloGUI.exe
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\bin\Debug\W3HelloGUI.pdb
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\obj\Debug\W3HelloGUI.csproj.AssemblyReference.cache
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\obj\Debug\W3HelloGUI.Form1.resources
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\obj\Debug\W3HelloGUI.Properties.Resources.resources
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\obj\Debug\W3HelloGUI.csproj.GenerateResource.cache
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\obj\Debug\W3HelloGUI.csproj.CoreCompileInputs.cache
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\obj\Debug\W3HelloGUI.exe
+D:\github\IT-CBR\2021\digital_technologies\digital_applications\learning_briefs\Week 3\code\W3HelloGUI\obj\Debug\W3HelloGUI.pdb
