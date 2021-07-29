@@ -1,48 +1,52 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HelloObjects
-{
-
-    class Dog
-    {
-        
-
+namespace HelloObjects {
+    // name 
+    // barkSound
+    // breed
+    class Dog {
         public string Name { get; set; }
-        public int NumTreats { get; set; }
+        public string Bark { get; set; }
 
-        public Dog(string name) {
+        public string Breed { get; set; }
+
+        public Dog(string name, string bark, string breed) {
             this.Name = name;
-            this.NumTreats = 0;
+            this.Bark = bark;
+            this.Breed = breed;
         }
 
-        public string bark()
-        {
-            return $"{this.Name} barks. Woof Woof!";
+        public string describe() {
+            return $"This dog's name is: {this.Name} they are a {this.Breed}. They barks! {this.Bark}, {this.Bark}!";
         }
 
-        public void eatTreat()
-        {
-            this.NumTreats++;
-        }
+
     }
-    class Program
-    {
+    class Program {
         static List<Dog> dogs;
-        static void Main(string[] args)
-        {
+        static Random rand; 
+        static void Main(string[] args) {
             dogs = new List<Dog>();
-            dogs.Add(new Dog("Sam"));
-            dogs.Add(new Dog("Max"));
-            dogs.Add(new Dog("Ranger"));
+            rand = new Random();
+            
+            var dogNames = new List<string> {"Sam", "Max", "Ranger", "Charlie" };
+            var barks = new List<string> { "woof", "yip" };
+            var breeds = new List<string> { "Greyhound", "Border Collie" };
 
-            foreach (Dog dog in dogs)
-            {
-                Console.WriteLine(dog.bark());
+            for (int i = 0; i < 10; i++) {
+                var nameIndex = rand.Next(dogNames.Count);
+                var barksIndex = rand.Next(barks.Count);
+                var breedsIndex = rand.Next(breeds.Count);
+                dogs.Add(new Dog(dogNames[nameIndex], barks[barksIndex], breeds[breedsIndex]));
             }
 
-            dogs[0].eatTreat();
-            Console.WriteLine(dogs[0].NumTreats);
+            for (int j = 0; j < 10; j++) {
+                foreach (Dog dog in dogs) {
+                    Console.WriteLine(dog.describe());
+                }
+                Console.WriteLine(j);
+            }
         }
     }
 }
