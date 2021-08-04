@@ -213,7 +213,7 @@ BENEFITS OF BUILDING YOUR OWN COOKBOOK
 * You can see your progress over time
 * You have a library of reference material in your own style.
 * It is quicker than looking up documentation or looking for a Stack Overflow answer.
-Explore new topics
+* Explore new topics
 
 What can I use to make my cookbook? 
 
