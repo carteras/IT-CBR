@@ -8,6 +8,37 @@ Learn how to configure VLANs and see why you need a Layer 3 device to communicat
 
 VLANs help you segment your network for easier administration and added security. It’s important you understand how they work because they will form part of your daily routine as a network engineer.
 
+## Topics: 
+
+### VLans
+
+VLAN is a network that is usually segmented by function or application. VLANs behave much like physical LANs, but you can group hosts even if they are not physically co-located. A switch port can belong to a VLAN. Unicast, broadcast, and multicast packets are forwarded and flooded out ports in the same VLAN.
+
+VLANs can also be used to enhance performance by reducing the need to send broadcasts and multicasts to unnecessary destinations. It also eases network configuration by logically connecting devices without physically relocating those devices.
+
+![](2021-08-06-10-50-52.png)
+
+* VLAN1 - This is the default VLAN. The switch is connected to the router through this VLAN. This can be used but cannot be modified or deleted.
+* VLAN10 - Virtual network for the Admin department. The network address is 192.168.10.1 with subnet mask 255.255.255.0 or /24.
+* VLAN20 - Virtual network for the Finance department. The network address is 192.168.20.1 with subnet mask 255.255.255.0 or /24.
+* VLAN30 - Virtual network for the Operations department. The network address is 192.168.30.1 with subnet mask 255.255.255.0 or /24.
+
+In a bigger network, the configured VLANs with interfaces assigned as access and trunk ports on switches could look like this:
+
+![](2021-08-06-10-52-19.png)
+
+he port modes are defined as follows:
+
+Access Port - The frames received on the interface are assumed to not have a VLAN tag and are assigned to the specified VLAN. Access ports are used primarily for hosts and can only carry traffic for a single VLAN.
+
+Trunk Port - The frames received on the interface are assumed to have VLAN tags. Trunk ports are for links between switches or other network devices and are capable of carrying traffic for multiple VLANs.
+
+### What's this /24 stuff? 
+
+We are going to cover this a little later (subnet masks) but in essence they limit the size of a network. In this case, they limit the size of a network to 254 hosts. 
+
+### Switchport
+Configures the interface to support non-trucking non-tagged VLANs. 
 ## Lab 
 
 ###Topology: 
