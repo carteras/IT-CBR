@@ -5,6 +5,13 @@ Learn how DHCP servers allocate IP information.
 
 The vast majority of IP networks use DHCP to allocate IP information to hosts. Here we’ll configure a scope of addresses and other IP information to be allocated. 
 
+
+## Topics
+
+### DHCP 
+
+Dynamic Host Configuration Protocol (DHCP) is a network management protocol used to automate the process of configuring devices on IP networks, thus allowing them to use network services such as DNS, NTP, and any communication protocol based on UDP or TCP. A DHCP server dynamically assigns an IP address and other network configuration parameters to each device on a network so they can communicate with other IP networks.
+
 ## Lab Topology: 
 
 Please use the following topology to complete this lab exercise:
