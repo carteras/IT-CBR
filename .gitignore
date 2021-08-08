@@ -1,5 +1,9 @@
 .foo/*
 *.cache
+*.suo
+*.AssemblyInfo.cs
+*.AssemblyAttributes.cs
+*.FileListAbsolute.txt
 2021/digital_technologies/digital_applications/learning_briefs/Week 4/DogPark/DogPark/bin/Debug/net5.0/DogPark.exe
 2021/digital_technologies/digital_applications/learning_briefs/Week 4/DogPark/.vs/DogPark/v16/.suo
 *.sln
