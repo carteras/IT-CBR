@@ -70,28 +70,15 @@ namespace FactoryMethods {
             }
         }
 
-
-        public static Dog GetDog() {
-            Console.WriteLine("What is your dog's name?");
-            var DogName = Console.ReadLine();
-            Console.WriteLine("Press 1 for Greyhound.");
-            Console.WriteLine("Press 2 for Collie.");
-            var DogType = Console.ReadLine();
-            if (DogType.Equals("1")) {
-                return new Greyhound(DogName);
-            }
-            return new Collie(DogName);
-        }
-
         
         static void Main(string[] args) {
-            var myDog; 
-            Console.WriteLine("What is the name of your dog?")
+            Dog myDog;
+            Console.WriteLine("What is the name of your dog?");
             var DogName = Console.ReadLine();
             Console.WriteLine("Type 1 if your dog is a Greyhound");
             Console.WriteLine("Type 2 if your dog is a Collie");
             var Breed = Console.ReadLine();
-            if (Breed.Equals("1")){
+            if (Breed.Equals("1")) {
                 myDog = new Greyhound(DogName);
             } else {
                 myDog = new Collie(DogName);
