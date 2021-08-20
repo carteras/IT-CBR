@@ -29,7 +29,7 @@ We are going to create a Dog factory. We will create Dogs based off of input in 
 
 ![](2021-08-20-13-25-05.png)
 
-### Polymorphic impelementation 
+### Polymorphic implementation 
 
 ```csharp
 using System;
