@@ -15,12 +15,14 @@
 ### Topic 2
 ### Topic 3
 
-## Practice and Challenges
+## Discussion
 
 ### Technical Literacy 
 
+## Practice and Challenges
+
 ### Questions
 
-### Practice
+#### Practice
 
-### Challenge
+#### Challenge
