@@ -17,6 +17,10 @@ Your challenge is to build a thing that incorporates everything you've learnt so
 
 My goal at the start of this term was to build physical things but ... here we are. If your thing is super abstract can you also include a dodgy diagram. 
 
+### Platform
+
+TinkerCad is perfectly fine :)
+
 ## I can't think of a thing! 
 
 It doesn't have to be amazing or a flying shark with laser beams. Just a thing. 
