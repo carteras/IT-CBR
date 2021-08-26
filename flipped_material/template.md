@@ -6,7 +6,7 @@
 
 ### Dictionary Corner
 
-*To be able to answer a question, you need to be able to answer it. Pay special attention to Dictionary Corner because it arms you with the language to express yourself in this space.*
+*To be able to answer a question, you need to be able to understand it. Pay special attention to Dictionary Corner because it arms you with the language to express yourself in this space.*
 
 
 ## Lesson
