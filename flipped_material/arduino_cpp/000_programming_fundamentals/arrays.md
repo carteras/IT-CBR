@@ -36,7 +36,7 @@ type name[#elements];
 A more explicit example: 
 
 ```cpp
-int foo[10];
+int foo[5];
 ```
 
 
@@ -55,7 +55,7 @@ This creates the following array:
 |--|--|--|--|--|
 |0|0|0|0|0|
 
-he number of values between braces {} shall not be greater than the number of elements in the array. For example, in the example above, foo was declared having 5 elements (as specified by the number enclosed in square brackets, []), and the braces {} contained exactly 5 values, one for each element. If declared with less, the remaining elements are set to their default values (which for fundamental types, means they are filled with zeroes). For example:
+The number of values between braces {} shall not be greater than the number of elements in the array. For example, in the example above, foo was declared having 5 elements (as specified by the number enclosed in square brackets, []), and the braces {} contained exactly 5 values, one for each element. If declared with less, the remaining elements are set to their default values (which for fundamental types, means they are filled with zeroes). For example:
 
 ```cpp
 int bar [5] = { 10, 20, 30 }; 
@@ -75,7 +75,7 @@ name[index];
 Let's take the following array
 
 ```cpp
-int foo = {10, 20, 30, 40, 50};
+int foo[5] = {10, 20, 30, 40, 50};
 ```
 
 We can access the first element like this: 
