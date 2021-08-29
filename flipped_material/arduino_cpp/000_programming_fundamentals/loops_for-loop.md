@@ -106,7 +106,7 @@ Hey, what's that fancy `.length()`? :)
 
 ##### Practice 5
 
-Toby wants to assign pins 3 to 8 as input and then pints 9 to 13 as output. Do this with two for loops! 
+Toby wants to assign pins 3 to 8 as input and then pins 9 to 13 as output. Do this with two for loops! 
 
 
 ##### Practice 6
