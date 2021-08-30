@@ -102,6 +102,49 @@ I don't have a mac machine. So I can't give you screenshots.
 * Type terminal
 * Open it
 
+
+### Lachlan's Shell Service (webshell)
+
+```
+Hello!
+
+First, type
+
+./make_person firstname
+
+e.g.
+
+./make_person lachlan
+
+
+then type
+
+cd firstname/
+
+and then type
+
+ls
+
+to see the files in the current directory
+Type
+
+./bandit.sh bandit0
+
+to get started, whenever you have a new password type
+
+echo "the password you got" > banditN
+
+e.g.
+
+echo "fGUhj4kla9jbbUNNfktd78OOpsqOltut" > bandit1
+
+then, you can type
+
+./bandit.sh bandit1
+
+to login to the next bandit challenge!!
+```
+
 ### Linux 
 
 Open a terminal session 
