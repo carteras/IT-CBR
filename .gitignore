@@ -31,3 +31,4 @@
 *.ffs_db
 *.drawio
 *.cache
+*.AssemblyReference.*
