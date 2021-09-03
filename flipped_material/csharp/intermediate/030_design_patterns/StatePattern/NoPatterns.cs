@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace PatternsState {
 
-class Program {
-        static void Main(string[] args) {
+public class Program {
+        public static void Main(string[] args) {
             var quotes = new List<string>();
             quotes.Add("Be yourself; everyone else is taken - Oscar WIlde");
             quotes.Add("The greatest glory in living lies not in never falling, but in rising every time we fall. -Nelson Mandela");

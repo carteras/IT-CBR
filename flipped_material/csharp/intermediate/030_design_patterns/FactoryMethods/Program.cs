@@ -31,7 +31,7 @@ namespace FactoryMethods {
             return $"Hey, my name is {Name} and I am a {Type}. I am very excited!";
         }
     }
-    class Program {
+    public class Program {
 
         public static Dog DogFactory() {
             Dog myDog;
@@ -48,7 +48,7 @@ namespace FactoryMethods {
 
             return myDog;
         }
-        static void Main(string[] args) {
+        public static void Main(string[] args) {
             Dog myDog = DogFactory();            
             Console.WriteLine(myDog.describe());
         }

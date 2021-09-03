@@ -33,7 +33,7 @@ namespace FactoryMethods {
             return $"Hey, my name is {Name} and I am a {Type}. I am very excited!";
         }
     }
-    class Program {
+    public class Program {
 
         public static Dog GetDog() {
             Console.WriteLine("What is your dog's name?");
@@ -48,7 +48,7 @@ namespace FactoryMethods {
         }
 
 
-        static void Main(string[] args) {
+        public static void Main(string[] args) {
             Dog myDog;
             Console.WriteLine("What is the name of your dog?");
             var DogName = Console.ReadLine();

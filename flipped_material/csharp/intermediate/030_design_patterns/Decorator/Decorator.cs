@@ -69,8 +69,8 @@ namespace DecoratorPattern {
         public override void ReceiveDamage(int damage) => _Infantry.ReceiveDamage(damage / 2);
     }
 
-    class Program {
-        static void Main(string[] args) {
+    public class Program {
+        public static void Main(string[] args) {
             Infantry soldier = new Soldier();
             Console.WriteLine($"1 {soldier._Damage} {soldier._Armour} {soldier._Health}");
             soldier.ReceiveDamage(2);

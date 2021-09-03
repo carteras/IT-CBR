@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PatternsState {
 
-class Program {
+public class Program {
         public abstract class CaseState {
             public abstract void WriteOut(String Phrase);
         }
@@ -32,7 +32,7 @@ class Program {
             }
         }
 
-        static void Main(string[] args) {
+        public static void Main(string[] args) {
             var quotes = new List<string>();
             quotes.Add("Be yourself; everyone else is taken - Oscar WIlde");
             quotes.Add("The greatest glory in living lies not in never falling, but in rising every time we fall. -Nelson Mandela");
