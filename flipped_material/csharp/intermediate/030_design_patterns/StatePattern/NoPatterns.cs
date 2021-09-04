@@ -4,6 +4,7 @@ using System.Collections.Generic;
 namespace PatternsState {
 
 public class Program {
+
         public static void Main(string[] args) {
             var quotes = new List<string>();
             quotes.Add("Be yourself; everyone else is taken - Oscar WIlde");
@@ -17,8 +18,16 @@ public class Program {
             for (int i = 0; i < quotes.Count; i++) {
                 if (i % 2 == 0) {
                     Console.WriteLine(quotes[i].ToLower());
-                } else {
+                } else if (i % 3 == 0) {
                     Console.WriteLine(quotes[i].ToUpper());
+                } else {
+                    for (int j = 0; j < Phrase.Length; j++) {
+                        if (j % 2 == 0) {
+                            Console.Write(char.ToUpper(Phrase[j]));
+                        } else {
+                            Console.Write(Phrase[j]);
+                        }
+                    }
                 }
             }
         }
