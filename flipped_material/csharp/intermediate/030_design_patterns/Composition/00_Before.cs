@@ -51,7 +51,6 @@ namespace Composition {
                 finalDamage = damage;
             } 
             Health -= finalDamage;
-            //Health -= damage;
             return finalDamage;
         }
     }
@@ -75,7 +74,6 @@ namespace Composition {
         }
 
         public string Fight() {
-            // return a string
             var random = new Random();
             
             Combatant f1 = fighters[random.Next(fighters.Count)];
@@ -89,7 +87,7 @@ namespace Composition {
             int damageTaken = f2.ReceiveDamage(dmg);
    
 
-            return $"{f1.Name} a {f1.Class} attacks {f2.Name} a {f2.Class} for {dmg}. {f2.Name} ends up taking {damageTaken} and has {f2.Health} remaining";
+            return $"{f1.Name} a {f1.Class} attacks {f2.Name} a {f2.Class} for {dmg}. {f2.Name} ends up taking {damageTaken} damage and has {f2.Health} remaining";
         }
 
         public string CleanUp() {
@@ -109,8 +107,8 @@ namespace Composition {
 
         }
 
-        public string GetWinner() {
-            return fighters[0].Name;
+        public Combatant GetWinner() {
+            return fighters[0];
         }
     }
 
@@ -131,7 +129,7 @@ namespace Composition {
                 Console.WriteLine(pit.CleanUp());
                 Console.WriteLine();
             }
-            Console.WriteLine($"{pit.GetWinner()} is the winner!");
+            Console.WriteLine($"{pit.GetWinner().Name} the {pit.GetWinner().Class} is the winner!");
             
         }
     }
