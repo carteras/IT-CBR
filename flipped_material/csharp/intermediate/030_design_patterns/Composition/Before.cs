@@ -2,54 +2,73 @@ using System;
 using System.Collections.Generic;
 
 namespace Composition {
-    public enum FighterClass {
+    public enum CombatantTypes {
         Knight,
-        Ninja,
-        Samurai,
-        Assassin,
-        Viking,
-        Mamluk
+        Serf,
+        Assassin
     }
-    public class Fighter {
+    public class Combatant {
         public string Name { get; set; }
-        public int Damage { get; set; }
+        public int Damage {get; set; }
         
         public int Health { get; set; }
 
         public int Armour { get; set; }
 
-        public FighterClass FighterClass {get;set;} 
+        public CombatantTypes Class {get; set; } 
 
-        public Fighter(string name, FighterClass fighterClass) {
+        public Combatant(string name, CombatantTypes fighterClass) {
             Name = name;
-            Damage = 1;
-            Health = 10;
-            FighterClass = fighterClass;
+            Damage = 2;
+            Health = 5;
+            Class = fighterClass;
         }
 
 
         public int  Attack() {
-            return Damage;
+            if (Class == CombatantTypes.Knight) {
+                return Damage * 2;
+            } else if (Class == CombatantTypes.Serf) {
+                return Damage / 2;
+            } else if (Class == CombatantTypes.Assassin) {
+                var random = new Random();
+                var chance = random.Next(2);
+                if (chance >= 1) return 10;
+                return Damage * 1;
+            } else {
+                return 1;
+            }
+
         }
 
-        public void RecieveDamage(int damage) {
-            Health -= damage;
+        public int ReceiveDamage(int damage) {
+            int finalDamage = damage;
+            if (Class == CombatantTypes.Knight) {
+                finalDamage = damage / 2;
+            } else if (Class == CombatantTypes.Serf) {
+                finalDamage = damage * 2;
+            } else if (Class == CombatantTypes.Assassin) {
+                finalDamage = damage;
+            } 
+            Health -= finalDamage;
+            //Health -= damage;
+            return finalDamage;
         }
     }
 
     public class FightPit {
-        List<Fighter> fighters;
+        List<Combatant> fighters;
 
         public FightPit() {
-            fighters = new List<Fighter>();
+            fighters = new List<Combatant>();
         }
 
-        public void AddFighter(Fighter f) {
+        public void AddFighter(Combatant f) {
             fighters.Add(f);
         }
 
         public Boolean StillFighting() {
-            if (fighters.Count > 0) {
+            if (fighters.Count > 1) {
                 return true;
             }
             return false;
@@ -59,18 +78,24 @@ namespace Composition {
             // return a string
             var random = new Random();
             
-            Fighter f1 = fighters[random.Next(fighters.Count)];
-            Fighter f2 = fighters[random.Next(fighters.Count)];
-   
-            f2.RecieveDamage(f1.Attack());
+            Combatant f1 = fighters[random.Next(fighters.Count)];
+            Combatant f2 = fighters[random.Next(fighters.Count)];
 
-            return $"{f1.Name} attacks {f2.Name} for {f1.Damage}. {f2.Name} has {f2.Health} remaining";
+            if (f1 == f2) {
+                return $"{f1.Name} couldn't find anybody to fight!";
+            }
+
+            int dmg = f1.Attack();
+            int damageTaken = f2.ReceiveDamage(dmg);
+   
+
+            return $"{f1.Name} a {f1.Class} attacks {f2.Name} a {f2.Class} for {dmg}. {f2.Name} ends up taking {damageTaken} and has {f2.Health} remaining";
         }
 
         public string CleanUp() {
             List<string> output = new List<String>();
-            List<Fighter> remaining = new List<Fighter>();
-            foreach (Fighter f in fighters) {
+            List<Combatant> remaining = new List<Combatant>();
+            foreach (Combatant f in fighters) {
                 if (f.Health > 0) {
                     remaining.Add(f);
                 } else {
@@ -78,10 +103,14 @@ namespace Composition {
                 }
             }
             fighters = remaining;
-            if (output.Count > 1) return $"{string.Join(",", output.ToArray())} are dead.";
-            if (output.Count == 1) return $"{string.Join(",", output.ToArray())} is dead.";
+            if (output.Count > 1) return $"{string.Join(",", output.ToArray())} are dead and are removed from the pit.";
+            if (output.Count == 1) return $"{string.Join(",", output.ToArray())} is dead and is removed from the pit.";
             return "Nobody died this round!";
 
+        }
+
+        public string GetWinner() {
+            return fighters[0].Name;
         }
     }
 
@@ -89,17 +118,20 @@ namespace Composition {
 
         public static void Main(string[] args) {
             FightPit pit = new FightPit();
-            pit.AddFighter(new Fighter("Ada", FighterClass.Knight));
-            pit.AddFighter(new Fighter("Bob", FighterClass.Ninja));
-            pit.AddFighter(new Fighter("Charles", FighterClass.Assassin));
-            pit.AddFighter(new Fighter("Eva", FighterClass.Samurai));
-            pit.AddFighter(new Fighter("Fred", FighterClass.Viking));
-            pit.AddFighter(new Fighter("Georgia", FighterClass.Mamluk));
+            pit.AddFighter(new Combatant("Ada", CombatantTypes.Knight));
+            pit.AddFighter(new Combatant("Bob", CombatantTypes.Serf));
+            pit.AddFighter(new Combatant("Charles", CombatantTypes.Assassin));
+            pit.AddFighter(new Combatant("Eva", CombatantTypes.Serf));
+            pit.AddFighter(new Combatant("Fred", CombatantTypes.Assassin));
+            pit.AddFighter(new Combatant("Georgia", CombatantTypes.Serf));
 
             while (pit.StillFighting()) {
+                Console.WriteLine();
                 Console.WriteLine(pit.Fight());
                 Console.WriteLine(pit.CleanUp());
+                Console.WriteLine();
             }
+            Console.WriteLine($"{pit.GetWinner()} is the winner!");
             
         }
     }
