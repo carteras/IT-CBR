@@ -2,11 +2,7 @@ using System;
 using System.Collections.Generic;
 
 namespace Composition {
-    public enum CombatantTypes {
-        Knight,
-        Serf,
-        Assassin
-    }
+    
     public abstract class Combatant {
         public string Name { get; set; }
         public int Damage {get; set; }
@@ -15,7 +11,6 @@ namespace Composition {
 
         public int Armour { get; set; }
 
-        public CombatantTypes Class {get; set; } 
 
         public Combatant(string name) {
             Name = name;
