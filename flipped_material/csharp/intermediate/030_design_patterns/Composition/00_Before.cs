@@ -130,7 +130,6 @@ namespace Composition {
                 Console.WriteLine();
             }
             Console.WriteLine($"{pit.GetWinner().Name} the {pit.GetWinner().Class} is the winner!");
-            
         }
     }
 }
