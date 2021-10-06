@@ -91,24 +91,41 @@ using System;
 namespace HelloObjects
 {
 
-    class Dog {
-        private string _name;
-
+    public abstract class Animal {
         public string Name { get; set; }
+        public string Sound { get; set; }
 
-        public Dog(string name) {
-            this.Name = name;
+        public Animal(string name, string sound) {
+            Name = name;
+            Sound = sound;
         }
+        public abstract string MakeNoise();
+    }
 
-        public string bark()
-        {
-            return $"{this.Name} barks. Woof Woof!";
+    public class Dog : Animal {
+
+        public Dog(string name) : base(name, sound) { 
+            string sound = "Woof";
+        }
+        public override string MakeNoise() {
+            return $"{Name} goes {Sound}";
         }
     }
-    class Program {
-        static void Main(string[] args) {
+
+    public class Cat : Animal {
+        public Cat(string name) : base(name, sound){
+            string sound = "Mew";
+        }
+
+        public override string MakeNoise() {
+            return $"{Name} goes {Sound} and it love/hates you.";
+        }
+    }
+    public class Program {
+        public static void Main(string[] args) {
             Dog d = new Dog("Sam");
-            Console.WriteLine(d.bark());
+            Console.WriteLine(d.MakeNoise());
+            System.Diagnostics.Trace.WriteLine(d.MakeNoise());
         }
     }
 }
@@ -187,7 +204,7 @@ namespace Revision2021S2 {
             double carSpeed1 = 0;
             double carDistance1 = 0;
             double carReliability1 = 1.25;
-            double maxSpeed1 = 15
+            double maxSpeed1 = 15;
 
             double carAccel2 = 1.0;
             double carSpeed2 = 0;
