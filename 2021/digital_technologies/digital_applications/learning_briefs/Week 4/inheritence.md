@@ -19,7 +19,7 @@ Structural features (attributes) define what objects of the class "know"
 * Represent the state of an object of the class
 * Are descriptions of the structural or static features of a class
 
-Behavioral features (operations) define what objects of the class "can do"
+Behavioural features (operations) define what objects of the class "can do"
 * Define the way in which objects may interact
 * Operations are descriptions of behavioral or dynamic features of a class
 
