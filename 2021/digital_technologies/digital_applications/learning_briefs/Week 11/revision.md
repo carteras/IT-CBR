@@ -240,3 +240,83 @@ namespace Revision2021S2 {
 }
 
 ```
+Update after class. 
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+
+namespace Testing {
+
+    public class Car {
+        public double Acceleration { get; set; }
+        public double Speed { get; set; }
+        public double Distance { get; set; }
+        public double Reliability { get; set; }
+
+        public double MaxSpeed { get; set; }
+
+        public int RacingNumber { get; set; }
+
+        public Car(int racingNumber, double accel, double reliability, double maxSpeed) {
+            RacingNumber = racingNumber;
+            Acceleration = accel;
+            Speed = 0;
+            Distance = 0;
+            Reliability = reliability;
+            MaxSpeed = maxSpeed;
+        }
+
+        public void Drive() {
+            Random rnd = new Random();
+            var test = rnd.Next(0, 2);
+            if (Reliability > test && Speed <= MaxSpeed) {
+                Speed += Acceleration;
+            }
+            Distance += Speed;
+        }
+
+        public bool HasFinished(int raceDistance) {
+            if (Distance > raceDistance) {
+                return true;
+            }
+
+            return false;
+        }
+    }
+
+        public class Program {
+
+        public static void Main(string[] args) {
+
+            List<Car> cars = new List<Car>();
+
+            for (int i = 0; i < 100; i++) {
+                cars.Add(new Car(i, 1, 1, 10));
+            }
+
+            Debug.WriteLine(cars.Count);
+
+            int raceDistance = 1000;
+            bool racing = true;
+
+            while (racing) {
+                foreach (Car c in cars) {
+                    c.Drive();
+                    if (c.HasFinished(raceDistance)) {
+                        racing = false;
+                    }
+                    Debug.WriteLine($"Car number {c.RacingNumber} car is moving at {c.Speed} and has currently ");
+                }
+            }
+            Debug.WriteLine("This race finished");
+
+            foreach (Car c in cars) {
+                if (c.Distance > raceDistance) {
+                    Debug.WriteLine($"Car number {c.RacingNumber} won the race");
+                }
+            }
+        }
+    }
+}
+```
