@@ -320,3 +320,133 @@ namespace Testing {
     }
 }
 ```
+
+Finished
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+
+namespace Testing {
+    public abstract class Car {
+        public double Acceleration { get; set; }
+        public double Speed { get; set; }
+        public double Distance { get; set; }
+        public double Reliability { get; set; }
+
+        public double MaxSpeed { get; set; }
+
+        public int RacingNumber { get; set; }
+
+        public Car(int racingNumber) {
+            RacingNumber = racingNumber;
+            Speed = 0;
+            Distance = 0;
+        }
+
+        public void Drive() {
+            Random rnd = new Random();
+            var test = rnd.Next(0, 2);
+            if (Reliability > test && Speed <= MaxSpeed) {
+                Speed += Acceleration;
+            }
+            Distance += Speed;
+        }
+
+        public bool HasFinished(int raceDistance) {
+            if (Distance > raceDistance) {
+                return true;
+            }
+
+            return false;
+        }
+    }
+
+    public class Sedan : Car {
+        public Sedan(int racingNumber ) : base(racingNumber) {
+            Acceleration = 1;
+            Reliability = 1;
+            MaxSpeed = 10;
+        }
+    }
+
+    public class SUV : Car {
+        public SUV(int racingNumber) : base(racingNumber) {
+            Acceleration = 0.75;
+            Reliability = 1.25;
+            MaxSpeed = 15;
+        }
+    }
+
+    public class Ute : Car {
+        public Ute(int racingNumber) : base(racingNumber) {
+            Acceleration = 1.5;
+            Reliability = .5;
+            MaxSpeed = 17.5;
+        }
+    }
+
+    public class Truck : Car {
+        public Truck(int racingNumber) : base(racingNumber) {
+            Acceleration = .25;
+            Reliability = 1.5;
+            MaxSpeed = 17.5;
+        }
+    }
+
+
+
+    public class Program {
+
+        public static Car CarFactory(int racingNumber) {
+            Random rnd = new Random();
+            var rndCar = rnd.Next(0, 4);
+
+            if (rndCar == 0) {
+                return new Sedan(racingNumber);
+            } else if (rndCar == 1) {
+                return new SUV(racingNumber);
+            } else if (rndCar == 2) {
+                return new Ute(racingNumber);
+            } else {
+                return new Truck(racingNumber);
+            }
+        }
+
+        public static void Main(string[] args) {
+
+            List<Car> cars = new List<Car>();
+
+            for (int i = 0; i < 100; i++) {
+                Car c = CarFactory(i);
+                cars.Add(c);
+            }
+
+            Debug.WriteLine(cars.Count);
+
+            int raceDistance = 100;
+            bool racing = true;
+
+            while (racing) {
+                foreach (Car c in cars) {
+                    c.Drive();
+                    if (c.HasFinished(raceDistance)) {
+                        racing = false;
+                        break;
+                    }
+                    Debug.WriteLine($"Racer number {c.RacingNumber} a {c.GetType().Name} is moving at {c.Speed} and has currently travelled {c.Distance} ");
+                }
+            }
+            Debug.WriteLine("This race finished");
+
+            foreach (Car c in cars) {
+                if (c.Distance > raceDistance) {
+                    Debug.WriteLine($"Racer number {c.RacingNumber} a {c.GetType().Name} won the race");
+                }
+            }
+        }
+    }
+}
+
+```
