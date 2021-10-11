@@ -292,8 +292,8 @@ Using the following circuit:
 Create a program that does the following. 
 
 * If the `currentTime/1000` is 3 turn the red LED on and green LED off
-* If the `currentTime/1000` is 3 turn the red LED off and green LED no
-* If the `currentTime/1000` is 15 turn the red LED on and green LED no
+* If the `currentTime/3000` is 5 turn the red LED off and green LED on
+* If the `currentTime/1000` is 15 turn the red LED on and green LED on
 * If the `currentTime/1000` is any other number, turn both LEDs off and print the currentTime/1000 to Serial.print. 
 
 Bonus flex if you can do it in less than 30 lines of formatted code.
