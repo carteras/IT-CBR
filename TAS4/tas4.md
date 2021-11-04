@@ -100,7 +100,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 0/3/6 ms
 R1#
 ```
 
-## Configure Switch 1
+## Configure Switch
 
 ```bash
 Switch>en
