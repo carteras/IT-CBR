@@ -1,4 +1,4 @@
-# Topic 
+# Strings, Variables, and Operations in Python 
 
 ### Learning Goals
 
