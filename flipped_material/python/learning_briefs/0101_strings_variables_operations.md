@@ -19,7 +19,7 @@
 We can use the print function to print most data types to the standard console. 
 
 ```python
-print("hello world)
+print("hello world")
 ```
 
 ### Problem: we need to store something in a variable and then print it.
