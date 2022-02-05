@@ -8,7 +8,7 @@ def make_guess(min_value, max_value, moves):
             still_guessing = False
     return guess, moves + 1
 
-def check_for_hints(guess):
+def check_for_hints(guess, answer):
     if guess < answer:
         return "your guess was too low!"
     elif guess > answer:
@@ -23,6 +23,6 @@ moves = 0
 
 while answer != guess:
     guess, moves = make_guess(min_value, max_value, moves)
-    print(check_for_hints(guess))
+    print(check_for_hints(guess, answer))
 
 print(f"You won in {moves} moves.")
