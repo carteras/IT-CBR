@@ -1,3 +1,5 @@
 # Custom Dictionary Words
+pointer
+std
 timetabler
 tracert
