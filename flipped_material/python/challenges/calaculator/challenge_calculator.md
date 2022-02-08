@@ -41,7 +41,7 @@ Too easy? Hungry for some extra marks? Want to flex your nerd-fu? I got you with
 
 * create some other operations
   * example `L 4 3` could calculate the hypotenuse of a right angle triangle
-* example: `^ 2 2` could calculate 2 to the power of 2
+  * example: `^ 2 2` could calculate 2 to the power of 2
 
 #### C
 
