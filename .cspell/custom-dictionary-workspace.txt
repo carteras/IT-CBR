@@ -1,4 +1,5 @@
 # Custom Dictionary Words
+nerdfu
 pointer
 std
 timetabler
