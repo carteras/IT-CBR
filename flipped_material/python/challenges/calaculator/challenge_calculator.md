@@ -31,7 +31,7 @@ Your code is expected:
 
 Diagram of working program: 
 
-!["Challenge diagram](calaculator/challenge_python.gif)
+![Challenge diagram](challenge_python.gif)
 
 ### Extra spicy
 
