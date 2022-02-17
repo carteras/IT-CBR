@@ -166,7 +166,9 @@ with open(filename, 'a') as file_object:
 *Practice questions are essential to mastering a skill. Often, you will be asked to do things you haven't exactly done yet, or not at all. Be challenged by it and see if you can get google, the person next to you, or the teacher, to help before you stop working.*
 
 
-Learning Python: Open a blank file in your text editor and write a few
+#### Practice: Reading a file
+
+Open a blank file in your text editor and write a few
 lines summarizing what you’ve learned about Python so far. Start each line
 with the phrase In Python you can.... Save the file as learning_python.txt in the
 same directory as your exercises from this chapter. Write a program that reads
@@ -174,7 +176,9 @@ the file and prints what you wrote three times. Print the contents once by readi
 in the entire file, once by looping over the file object, and once by storing
 the lines in a list and then working with them outside the with block.
 
-Learning C: You can use the replace() method to replace any word in a
+#### Practice: Manipulating a file on the fly
+
+You can use the replace() method to replace any word in a
 string with a different word. Here’s a quick example showing how to replace
 'dog' with 'cat' in a sentence:
 >>> message = "I really like dogs."
@@ -185,16 +189,25 @@ replace the word Python with the name of another language, such as C. Print
 each modified line to the screen.
 
 
+#### Practice: Writing files
+
 Guest: Write a program that prompts the user for their name. When they
 respond, write their name to a file called guest.txt.
 
+#### Practice: Appending to files
 
 Guest Book: Write a while loop that prompts users for their name. When
 they enter their name, print a greeting to the screen and add a line recording
 their visit in a file called guest_book.txt. Make sure each entry appears on a
 new line in the file.
 
+#### Practice appending to files II
 
 Programming Poll: Write a while loop that asks people why they like
 programming. Each time someone enters a reason, add their reason to a file
 that stores all the responses.
+
+
+#### Meaty practice
+
+Create a program that reads from the text document "class_grades.txt". Find the student with the highest grade and the lowest grade. The find the average grade. If you are very fancy, research how you can calculate the standard deviation of all scores. 
