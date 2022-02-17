@@ -210,4 +210,12 @@ that stores all the responses.
 
 #### Meaty practice
 
-Create a program that reads from the text document "class_grades.txt". Find the student with the highest grade and the lowest grade. The find the average grade. If you are very fancy, research how you can calculate the standard deviation of all scores. 
+Create a program that reads from the text document "class_grades.txt". 
+
+* Find who has the highest score in the class and what their score was. 
+* Find the average of all scores 
+* Find the standard deviation of all scores (note, check python modules)
+* Find the z scores of each student (try not to use pandas or scipi)
+* Use python to write a file with that information in the following format: 
+  * > Lastname, Adam: score, z-score
+* Bonus kudos if the text file is in highest to lowest order 
