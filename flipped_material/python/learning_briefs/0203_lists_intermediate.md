@@ -7,6 +7,47 @@
 * How to work with only a part of a list
 * Creating numerical lists
 
+## Revision
+
+### Fix this broken code
+
+#### Revision 1: writing what now?
+
+Chad wants to write a file of usernames and passwords. He wants the written format of the file to be the following:
+
+```
+passwords.txt
+name:password
+name:password
+```
+
+Chad's code is below:
+
+```python
+names = ['ada", 'bob', 'charlie', `erin`]
+passwords = [123456, 123455678, password, qwerty ,123456789]
+with open("foo") as file_handler:
+  for i in enumerate(names):
+    file_handler.write(b"{names[i]};{passwords{i}")
+```
+
+#### Revision 2: What are functions?
+
+Someone told Chad that passwords should be "hashed". Chad has found the hash library for python and chosen the MD5 protocol because it looks easy to use.
+
+```python
+from hashlib import md5
+
+str hash_password(password)
+  return md5(pass.encode()),hexdigest()
+
+passwords = {123456, 123455678, "password", "qwerty" ,123456789}
+
+for password in passwords;
+    print(hash_password(password))
+
+```
+
 ## Code
 
 *It is important to practice code and challenge our brain in new ways. Do all of the problems below, including the example problems. They will make you a better programmer.*
