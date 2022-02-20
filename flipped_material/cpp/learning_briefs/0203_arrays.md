@@ -184,7 +184,21 @@ int * myFunction() {
 
 A better solutions is to not return the array and instead manipulate the one passed in. 
 
+```cpp#include <stdio.h>
+#include <string.h>
 
+void test(char *foo){
+    strcpy(foo, "hello world");
+}
+
+int main(void){
+    char foo[20];
+    test(foo);
+    printf("%s\n", foo);
+    return 1;
+}
+
+```
 
 ### Example Problems
 
