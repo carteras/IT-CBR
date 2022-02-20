@@ -4,7 +4,35 @@
 
 *By the end of this module you should be able to answer the following:*
 
+* What are dictionaries? 
+* How to retrieve a value with a given key? 
+* How to loop through the keys and values of a dictionary?
+* How can you loop through a dictionary to get keys and use those keys for values?
+* How can you loop through a dictionary and just inspect the values?
 
+## Revision: Fix my buggy code
+
+Karen wants to print 3 subsets of the following list of people. She wants to print out: 
+
+* Only the first 10 people
+* Only the last 10 people
+* Only the middle 10(ish) people
+
+```python
+names = ['Sally Clark','Melissa Sutulovich','Jack Lanzillo','John Smith','Connie Ortiz','Sharon Madlung','Leon Hensley','Robert Aldridge','Debra Atkins','Prince Herrera','Mary Jenkins','Suzanne Sherratt','Lydia Harris','Matthew Mejias','David Johnson','Frances Devaney','James Abbott','Mary Bedford','Frederick Bentley','Judy Flores','Gustavo Humphrey','Lanette Morris','James Dipietro','Jacqueline Smith','Jacob Schmaltz','Joann Lott','Heather Wilson','Daniel Cauterucci','Dawn Douglas','Charlotte Thomas','Cruz Beverly','Luisa Bailey','Harry Tomlinson','Brian Gusman','Jimmy Heber','Nicole Salamanca','Walter Rackley','Matthew Spann','Doris Graff','Marion Arnold','Hilary Flores','Joseph Bourgeois','Charles Walthall','Mary Nelson','Alexis Turnbull','Patrice Smith','Nicholas Steele','Lela Biagioni','Larry Johnson','Demetrius Lawrence','Ruth Childers','Scott Morales','Chris Lawrence','Spring Chadderton','Debra Gaston','India Woodson','Shirley Shomo','Sallie Pilkenton','Suzanne Tran','Mark Morris','Jose Brewer','Darryl Smith','Robby Parker','Julia Makinen','Alan Mayer','David Phillips','Tracy Stout','Paul Yao','Patricia Hungerford','Mona Armstrong','Louise Gochenour','Sydney Vargas','Renee Marshall','Travis Woodard','Ryan Mcdonald','Margret Nicols','Henry Blackman','Jennifer Lyons','Margaret Donnell','Ryan Urias','Annette Mayer','Brenda Demps','Zachary Fox','Sharon Sanders','Michael Howell','Isabelle Fleischmann','Carlos Rogers','Roland Demott','Thelma Boyd','Shelia Thornton','Royce Kendall','Joyce Shanholtzer','Margaret Wilson','Derek Chambers','Joyce Mitchum','Billy Spradlin','Betty Mogan','Kelly Taube','Dorothy Bloxham','Dana Barbetta']
+
+# Print only the first 10 names
+for name in names[;10]:
+  print(name)
+
+# Print only the last 10 names
+for name in names[len(names)-10]:
+  print(name)
+
+# Print only the middle 10 names
+for name in names[(len(names)/2)-5:(len(names)/2)+5]:
+  print(name)
+```
 
 ## Concepts
 
