@@ -7,6 +7,8 @@
 * converts it all to capital letters
 * checks to see if it is a Palindrome
 
+Note: You should use prior learning briefs to gauge what is "at level".
+
 Palindrome: A word, sentence, or longer written work that reads the same backwards. Example: A declaration facetiously attributed to Napoleon, "Able was I ere I saw Elba." Weird Al Yankovic's song "Bob" spoofs Bob Dylan's "Subterranean Homesick Blues" using a slew of palindromes. Need more palindromes? Find a huge stash here.
 
 ## Extra spiciness
