@@ -1,15 +1,22 @@
 # Challenge 2
 
-Create a program that does the following
+## Create a program that does the following
 
 * Accepts a string
 * Stores it as a char[]
 * converts it all to capital letters
 * checks to see if it is a Palindrome
+
+Palindrome: A word, sentence, or longer written work that reads the same backwards. Example: A declaration facetiously attributed to Napoleon, "Able was I ere I saw Elba." Weird Al Yankovic's song "Bob" spoofs Bob Dylan's "Subterranean Homesick Blues" using a slew of palindromes. Need more palindromes? Find a huge stash here.
+
+## Extra spiciness
+
+If you want to flex your nerdfu you could attempt the following:
+
 * checks to see if it is an Isogram
 * checks to see if it is a Pangram
 
-Palindrome: A word, sentence, or longer written work that reads the same backwards. Example: A declaration facetiously attributed to Napoleon, "Able was I ere I saw Elba." Weird Al Yankovic's song "Bob" spoofs Bob Dylan's "Subterranean Homesick Blues" using a slew of palindromes. Need more palindromes? Find a huge stash here.
+
 
 Isogram:  A word in which no letter of the alphabet occurs more than once. Dimitri Borgmann's longest example: dermatoglyphics, the study of skin markings or patterns on fingers, hands, and feet, and its application, especially in criminology.
 
