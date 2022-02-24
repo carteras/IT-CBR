@@ -1,13 +1,13 @@
 # Challenge name
 
-## Topics covered 
+## Topics covered
 
 You should have completed the mastery questions from the following sections
 
-* link
-* link
-* link
+* name: link
+* name: link
+* name: link
 
 ## Challenge
 
-....
+...
