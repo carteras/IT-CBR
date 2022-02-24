@@ -1,4 +1,4 @@
-# Learning brief
+# Cookbook name
 
 ## Topics covered
 
@@ -25,10 +25,24 @@
 
 ## Practice Questions
 
-### Question 1
+### Practice Question 1
 
 ...
 
-### Question 2
+### Practice Question 2
+
+...
+
+## Mastery Questions
+
+### Mastery Question 1
+
+...
+
+### Mastery Question 2
+
+...
+
+### Mastery Question 3
 
 ...

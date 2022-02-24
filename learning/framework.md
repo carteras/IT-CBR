@@ -1,8 +1,8 @@
-writing text
-variables and simple data types
+hello_world
+printing_text
+data_types
 * variables
   * naming and using variables
-  * avoiding name errors
   * strings
     * joining strings
     * string functions
@@ -10,23 +10,22 @@ variables and simple data types
     * stripping white space
     * f-strings
   * numbers
-    * Integers
-    * Floats
-  * Changing types 
+    * integers
+    * floats
+  * Changing types
 * comments
 operations
 user input
 making decisions
 * conditions
-  * if conditions
-  * else conditions
-  * elif conditions
-* ANDED conditions
-* ORED conditions
+  * if
+  * else
+  * else_if
+* ANDED_conditions
+* ORED_conditions
 * switch/case
-* 
 functions
-datastructures
+data structures
 * lists
   * Making a list
     * changing elements
@@ -34,13 +33,22 @@ datastructures
   * sorting lists
   * index errors
 * dictionaries
+* tuples
+* maps
 Iteration
+* looping while some condition is true 
 * looping through lists with for
 * making numerical lists
 * strings as lists
 * working with parts of a list
 * tuples
 files
-
+* reading files
+* writing files
+* appending to files
 exceptions
 unit testing
+Networking
+* request
+* socket programming
+
