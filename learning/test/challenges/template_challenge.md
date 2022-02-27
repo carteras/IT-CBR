@@ -2,6 +2,7 @@
 
 ## Required Mastery
 
+
 You should have completed the mastery questions from the following sections
 
 * name: link

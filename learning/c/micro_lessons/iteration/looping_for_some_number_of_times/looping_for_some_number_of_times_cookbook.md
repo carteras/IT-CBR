@@ -4,6 +4,7 @@
 
 "At the end of this learning brief, you will be able to answer the following questions"
 
+
 * How can you use while loops to count from some number to some other number
 * How can you use for loops to count from some number to some other number
 
@@ -14,11 +15,16 @@
 
 ## Topics
 
+
 ### Counting with while loops
 
 ```cpp
 
 ```
+=======
+### Topic 1
+
+...
 
 ### Topic 2
 

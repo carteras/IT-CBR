@@ -2,39 +2,59 @@
 using System.Collections.Generic;
 namespace Test {
 
-    abstract class Foo{
-        public string Thing { get; set; }
+    public abstract class Door {
 
-        public abstract string describe();
-    }
+        public char ASCII { get; set; }
 
-    class Bar: Foo {
-        public Bar() {
-            Thing = "What?";
-        }
+        public abstract void Open();
 
-        public override string describe() {
-            return $"{Thing} is in Bar";
+        public virtual char Draw() {
+            return ASCII;
         }
     }
 
-    class Boo: Foo {
-        public Boo() {
-            Thing = "What what?";
+    public class ClosedState : Door {
+        public override void Open() {
+            ASCII = '+';
         }
-        public override string describe() {
-            return $"I am not bar, I am boo {Thing}";
+
+    }
+    public class OpenedState : Door {
+        public override void Open() {
+            ASCII = '=';
         }
     }
-    class Program {
+
+    public class LockedState : Door {
+        public override void Open() {
+            ASCII = '±';
+        }
+    }
+
+    public class SchoolDoor : Door {
+        public Door D {get; set;}
+
+        public SchoolDoor() {
+            D = new OpenedState();
+        }
+
+        public override void Open() {
+             D.Open();
+        }
+
+        public override char Draw() {
+            return D.Draw();
+        }
+
+    }
+    public class Program { 
         static void Main(string[] args) {
-            var foos = new List<Foo>();
-            foos.Add(new Bar());
-            foos.Add(new Boo());
-
-            foreach (Foo f in foos) {
-                Console.WriteLine(f.describe());
-            }
+            SchoolDoor A308 = new SchoolDoor();
+            Console.WriteLine(A308.Draw());
+            A308.D = new ClosedState();
+            Console.WriteLine(A308.Draw());
+            A308.D = new LockedState();
+            Console.WriteLine(A308.Draw());
         }
     }
 }

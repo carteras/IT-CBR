@@ -1,0 +1,7 @@
+# Custom Dictionary Words
+ardunio
+nerdfu
+pointer
+std
+timetabler
+tracert
