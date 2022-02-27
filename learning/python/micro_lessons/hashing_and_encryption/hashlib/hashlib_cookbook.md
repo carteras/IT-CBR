@@ -1,48 +1,34 @@
-# Cookbook name
+# Hashlib
 
 ## Topics covered
 
 "At the end of this learning brief, you will be able to answer the following questions"
 
-* Topical Question
-* Topical Question
-* Topical Question
+* What are hashs?
+* How do we roll our own hashing function?
 
 ## Learning Resources
 
-* Reference Material
-* Lecture Video
+* [Python docs: hashlib](https://docs.python.org/3/library/hashlib.html)
 
 ## Topics
 
-### Topic 1
+### What is a hash?
 
-...
+Hashing is the transformation of a string of characters into a usually shorter fixed-length value or key that represents the original string. Hashing is used to index and retrieve items in a database because it is faster to find the item using the shorter hashed key than to find it using the original value.
 
-### Topic 2
+### Creating a simple md5 digest.
 
-...
+We are going to be playing with the hash function md5. Md5 is not a secure hash anymore, but we are using it because it is small.
 
-## Practice Questions
+```python
+from haslib import md5
 
-### Practice Question 1
+def make_md5(phrase_to_hash):
+  phrase_to_hash = phrase_to_hash.encode('utf-8')
+  m = mdf(phrase_to_hash)
+  return m.hexdigest()
 
-...
-
-### Practice Question 2
-
-...
-
-## Mastery Questions
-
-### Mastery Question 1
-
-...
-
-### Mastery Question 2
-
-...
-
-### Mastery Question 3
-
-...
+passphrase = "password"
+print(passphrase, make_md5(passphrase)
+```
