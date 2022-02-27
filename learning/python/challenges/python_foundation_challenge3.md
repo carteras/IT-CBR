@@ -20,6 +20,7 @@ Using the following code as a template, crack 100 very large security numbers.
 
 * Numbers can be anything from 000000 to 999999
 * You need to work in the brute force function
+* It's very similar to what is happening in the itertools document. :) 
 * DON'T DELETE STUFF! Just ignore the parts where I am being too clever
 
 You will need itertools. I've handled the time measuring for you. 
