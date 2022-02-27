@@ -5,6 +5,8 @@ def make_lessons(topic_path, framework, cookbook):
     try:
         (topic_path.parent / 'challenges').mkdir(parents=True, exist_ok=False)
     except: 
+        pass
+
     current_path = None
     child_path = None
     subchild_path = None

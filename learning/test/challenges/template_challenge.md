@@ -1,6 +1,7 @@
 # Challenge name
 
-## Topics covered
+## Required Mastery
+
 
 You should have completed the mastery questions from the following sections
 

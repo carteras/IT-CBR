@@ -1,12 +1,12 @@
-# Cookbook name
+# Cookbook: Looping N number of times
 
 ## Topics covered
 
 "At the end of this learning brief, you will be able to answer the following questions"
 
-* Topical Question
-* Topical Question
-* Topical Question
+
+* How can you use while loops to count from some number to some other number
+* How can you use for loops to count from some number to some other number
 
 ## Learning Resources
 
@@ -15,6 +15,13 @@
 
 ## Topics
 
+
+### Counting with while loops
+
+```cpp
+
+```
+=======
 ### Topic 1
 
 ...
