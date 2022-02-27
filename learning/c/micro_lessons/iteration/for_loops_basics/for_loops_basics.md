@@ -9,8 +9,7 @@
 
 ## Learning Resources
 
-* Reference Material
-* Lecture Video
+* [Arduino C/C++: For loops](https://www.arduino.cc/reference/en/language/structure/control-structure/for/)
 
 ## Topics
 
