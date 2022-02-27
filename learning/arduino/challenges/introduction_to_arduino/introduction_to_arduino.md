@@ -11,7 +11,7 @@ You should have completed the mastery questions from the following sections
 * Using TinkerCad to simulate circuits
 * Setting Pin Modes
 * Writing to digital sensors
-* [For loops](learning\c\micro_lessons\iteration\for_loops_basics\for_loops_basics.md)
+* [For loops](..\c\micro_lessons\iteration\for_loops_basics\for_loops_basics.md)
 
 ### Recommended Masteries
 
