@@ -26,7 +26,7 @@ from haslib import md5
 
 def make_md5(phrase_to_hash):
   phrase_to_hash = phrase_to_hash.encode('utf-8')
-  m = mdf(phrase_to_hash)
+  m = md5(phrase_to_hash)
   return m.hexdigest()
 
 passphrase = "password"
