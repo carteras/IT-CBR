@@ -4,9 +4,9 @@
 
 It is expected that you have completed all elements before moving onto the warm up and the challenge.
 
-* Handling errors with files (and networks) using Exception handling
-* Downloading files using Request
-* Introduction to CTFs
+* [Handling errors with files (and networks) using Exception handling](../micro_lessons/exceptions/exceptions_cookbook.md)
+* [Downloading files using Request](../micro_lessons/networking/download_a_file_from_the_web_using_requests/download_a_file_from_the_web_using_requests_cookbook.md)
+* [Introduction to CTFs](../../ctfs/introductions/introduction_to_ctf.md)
 
 ## Challenges Questions
 
