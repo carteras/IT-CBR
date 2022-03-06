@@ -10,7 +10,7 @@ It is expected that you have completed all elements before moving onto the warm 
 
 ## Challenges Questions
 
-You must complete all three of the following challenges for the challenge component to be completed. 
+You must complete all three of the following challenges for the challenge component to be completed.
 
 ### Challenge A: Download a file and read the contents
 

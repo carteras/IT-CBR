@@ -1,4 +1,4 @@
-# Analog Signals
+# Topic
 
 ## Learning Goals 
 
@@ -35,11 +35,12 @@ Follow the video of using an ultrasound sensor.
 ![](distanceSensor.gif)
 
 
-## Mastery Question
+## Challenge
 
 Challenges are intended to get you to extend your knowledge and understanding of a topic by experimenting. 
 
-### Mastery 1
+### Challenge 1
 Using the animation below, create a solution that can detect when something is roughly equal distance between two sensors. 
 
 ![](findTheCentre.gif)
+
