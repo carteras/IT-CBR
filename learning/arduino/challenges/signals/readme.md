@@ -8,8 +8,8 @@ To complete this challenge you will need to have a mastered a range of skills an
 
 You should have completed the mastery questions from the following sections
 
-* Digital Signals
-* Analog Signals
+* [Digital Signals](../../micro_lessons/simple_digital_input/simple_digital_input_cookbook.md)
+* [Analog Signals](../../micro_lessons/simple_analog_input/analog_interactions.md)
 
 ### Recommended Masteries
 
