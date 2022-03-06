@@ -49,7 +49,7 @@ Now, we have a Response object called r. We can get all the information we need 
 ### Downloading a file with Requests
 
 ```python
-url = f'https://raw.github.com/carteras/IT_CBR/master/{file_name}.{extension}'
+url = f'https://raw.githubusercontent.com/carteras/IT-CBR/main/learning/python/micro_lessons/exceptions/alice.txt'
 r = requests.get(url, stream=True)
 
 with open(f'{file_name}.{extension}', 'wb') as file_descriptor:
