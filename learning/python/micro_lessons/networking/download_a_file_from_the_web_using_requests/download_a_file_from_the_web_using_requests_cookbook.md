@@ -38,14 +38,24 @@ Now, let’s try to get a webpage. For this example, let’s get GitHub’s publ
 ```python
 import requests
 r = requests.get('https://api.github.com/events')
+print(r)
+print(r.headers['Server'])
 ```
+
 Now, we have a Response object called r. We can get all the information we need from this object.
 
 
 
 ### Downloading a file with Requests
 
-...
+```python
+url = f'https://raw.github.com/carteras/IT_CBR/master/{file_name}.{extension}'
+r = requests.get(url, stream=True)
+
+with open(f'{file_name}.{extension}', 'wb') as file_descriptor:
+    for chunk in r.iter_content(128):
+        fd.write(chunk)
+```
 
 ## Practice Questions
 
