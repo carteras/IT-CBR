@@ -1,6 +1,7 @@
 Simple Network
 * Put a computer on the network to get to the internet
 * Put two computers on the network
+* configure home access point with DNS 
 * using DHCP to automatically configure IP addresses
 Multiple Networks
 * Switches 
