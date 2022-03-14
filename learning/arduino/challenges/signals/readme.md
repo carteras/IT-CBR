@@ -10,6 +10,7 @@ You should have completed the mastery questions from the following sections
 
 * [Digital Signals](../../micro_lessons/simple_digital_input/simple_digital_input_cookbook.md)
 * [Analog Signals](../../micro_lessons/simple_analog_input/analog_interactions.md)
+* [Distance Sensors](../../micro_lessons/distance_sensors/using_distance_sensors.md)
 
 ### Recommended Masteries
 
