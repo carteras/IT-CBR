@@ -2,7 +2,6 @@
 
 ## Required Mastery
 
-
 You should have completed the mastery questions from the following sections
 
 * reading and writing files
@@ -13,6 +12,17 @@ You should have completed the mastery questions from the following sections
 ## Challenge
 
 You must complete a program that creates an end to end solution for the following challenges. 
+
+While completing your challenges you should attempt to show evidence of all of the things we've learned this term: 
+
+* Variables
+* Operations
+* Functions
+* Iteration
+* Reading/Writing files
+* Data Structures such as lists or dictionaries
+
+As well as using some of the module tools that we've imported such as requests, such as itertools, pyzipper, etc.
 
 #### Challenge 4
 
