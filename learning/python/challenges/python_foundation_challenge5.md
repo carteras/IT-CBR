@@ -4,10 +4,10 @@
 
 You should have completed the mastery questions from the following sections
 
-* reading and writing files
-* requests
-* pyzipper
-* itertools
+* [reading and writing files](../micro_lessons/file/)
+* [requests](../micro_lessons/networking/download_a_file_from_the_web_using_requests/download_a_file_from_the_web_using_requests_cookbook.md)
+* [pyzipper](../micro_lessons/pyzipper/pyzipper.md)
+* [itertools](../micro_lessons/python_modules/itertools/itertools_cookbook.md)
 
 ## Challenge
 
