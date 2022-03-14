@@ -11,9 +11,7 @@ You should have completed the mastery questions from the following sections
 
 ## Challenge
 
-You must complete a program that creates an end to end solution for the following challenges. 
-
-While completing your challenges you should attempt to show evidence of all of the things we've learned this term: 
+You must complete a program that creates an end to end solution for the following challenges. You are not required to complete all challenges for grading. However, you must show evidence of the following:
 
 * Variables
 * Operations
@@ -22,7 +20,7 @@ While completing your challenges you should attempt to show evidence of all of t
 * Reading/Writing files
 * Data Structures such as lists or dictionaries
 
-As well as using some of the module tools that we've imported such as requests, such as itertools, pyzipper, etc.
+As well as using some of the module tools that we've imported such as requests, itertools, pyzipper, etc.
 
 #### Challenge 4
 
