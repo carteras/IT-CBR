@@ -60,13 +60,15 @@ print(hit("charles", 'erin', 'mace', 4))
 print(hit("fred", 'georgia', 'sharp stick'))
 ```
 
-1. ```text
+1. 
+```text
 Ada hit Bob with a sword for 8 points of damage
 Charles hit Erin with a mace for 4 points of damage
 Fred hit Georgia with a sharp stick for 1 points of damage
 ```
 
-2. ```text
+2. 
+```text
 ada hit bob with a sword for 8 points of damage
 charles hit erin with a mace for 4 points of damage
 fred hit georgia with a sharp stick for 1 points of damage
