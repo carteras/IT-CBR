@@ -275,7 +275,7 @@ appropriate time to ensure you achieve your best result.
 
 ## Achievement Standards
 
-![Achievement Standards](assets/NS_11_T.png)
+![Achievement Standards](assets/NS_11_A.png)
 
 ## Evidence of higher order learning:
 
