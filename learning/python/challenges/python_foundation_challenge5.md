@@ -2,17 +2,25 @@
 
 ## Required Mastery
 
-
 You should have completed the mastery questions from the following sections
 
-* reading and writing files
-* requests
-* pyzipper
-* itertools
+* [reading and writing files](../micro_lessons/file/)
+* [requests](../micro_lessons/networking/download_a_file_from_the_web_using_requests/download_a_file_from_the_web_using_requests_cookbook.md)
+* [pyzipper](../micro_lessons/pyzipper/pyzipper.md)
+* [itertools](../micro_lessons/python_modules/itertools/itertools_cookbook.md)
 
 ## Challenge
 
-You must complete a program that creates an end to end solution for the following challenges. 
+You must complete a program that creates an end to end solution for the following challenges. You are not required to complete all challenges for grading. However, you must show evidence of the following:
+
+* Variables
+* Operations
+* Functions
+* Iteration
+* Reading/Writing files
+* Data Structures such as lists or dictionaries
+
+As well as using some of the module tools that we've imported such as requests, itertools, pyzipper, etc.
 
 #### Challenge 4
 

@@ -2,7 +2,7 @@
 
 ## Required Mastery
 
-* Buttons
+* [Buttons](../../micro_lessons/simple_digital_input/using_a_button/using_a_button_cookbook.md)
 * Potentiometer
 * Digital Read
 * Analog Read
