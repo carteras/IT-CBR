@@ -140,9 +140,7 @@ Go to R1 and configure the terminal `configure terminal`
 
 Let's set up a domain name. I'm doing this so we can create an RSA key. Not because we have domain name services set up.
 
-`ip domain-name week4-lab1.cbrc.edu.au`
-
-Browning, Paul. 101 Labs - CompTIA Network+: Hands-on Practical Labs for the CompTIA Network+ Exam (N10-007) (p. 20). Kindle Edition. 
+`ip domain-name week10-lab1.cbrc.edu.au`
 
 Configure an RSA key for R1 by typing 
 
@@ -191,7 +189,7 @@ Final view
 
 ### What's next? 
 
-Create a "cookbook" to help solve the various concepts that we've encountered today. At the very least, you should create "recipes" for the following problems: 
+Create a "recipe" for a cookbook to help solve the various concepts that we've encountered today. At the very least, you should create "recipes" for the following problems: 
 
 * The different Modes 
 * How to see the status of all IP interfaces 
@@ -201,7 +199,7 @@ Create a "cookbook" to help solve the various concepts that we've encountered to
 * How to configure SSH
 * How to SSH from one device to another
 
-#### What's a cookbook? 
+#### What's a cookbook?
 
 A cookbook in the programming/networking context is collection of tiny programs that each demonstrate a particular programming concept. The Cookbook Method is the process of learning a programming language by building up a repository of small programs that implement specific programming concepts.
 
@@ -217,4 +215,6 @@ BENEFITS OF BUILDING YOUR OWN COOKBOOK
 
 What can I use to make my cookbook? 
 
-I recommend OneNote or Google Docs
+I recommend Notepad and use Markdown notation
+
+https://www.markdownguide.org/basic-syntax/
