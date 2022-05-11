@@ -1,0 +1,23 @@
+---
+driver=<class 'textual.drivers.windows_driver.WindowsDriver'>
+Load() >>> MyApp(title='Textual')
+event monitor constructed
+event monitor thread started
+Mount() >>> MyApp(title='Textual Application')
+Mount() >>> DockView(name='DockView#1')
+Mount() >>> DockView(name='DockView#2')
+Mount() >>> Header('')
+Mount() >>> DockView(name='DockView#3')
+view.forwarded Key(key='b')
+Key(key='b') >>> MyApp(title='Textual Application')
+ACTION MyApp(title='Textual Application') toggle_sidebar
+view.forwarded Key(key='b')
+Key(key='b') >>> MyApp(title='Textual Application')
+ACTION MyApp(title='Textual Application') toggle_sidebar
+view.forwarded Key(key='x')
+Key(key='x') >>> MyApp(title='Textual Application')
+ACTION MyApp(title='Textual Application') bang
+CLOSED MyApp(title='Textual Application')
+PROCESS END
+CLOSED Header('Textual Application')
+event monitor thread finished
