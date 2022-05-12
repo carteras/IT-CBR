@@ -89,16 +89,6 @@ for subject_address in subjects:
             'task' : task,
             'rubric' : rubric,
         }
-        # print(subject, assessment)
-        # print(subject.course_name, subject.unit_name, subject.assessments[assessment])
         output_name = f"{subject.year}_{''.join(subject.semester.split())}_{''.join(subject.course_name.split())}_{''.join(subject.unit_name.split())}_{subject.assessments[assessment]}"
         doc.render(context)
         doc.save(output_dir/ f"{output_name}.docx")
-        
-
-    
-
-# doc = DocxTemplate(template)
-# context = { 'company_name' : "World company" }
-# doc.render(context)
-# doc.save(output_dir / "generated_doc.docx")
