@@ -9,7 +9,7 @@ here_dir = Path(filename).resolve().parent
 data_dir = here_dir / '.data'
 assets_dir = data_dir / 'assets'
 subjects_dir = here_dir / 'subjects'
-output_dir = here_dir / "output"
+output_dir = Path.cwd() / "assignments"
 output_dir.mkdir(parents=True, exist_ok=True)
 
 template = data_dir / "template.docx"
@@ -89,10 +89,12 @@ def make_assignments():
                 'task' : task,
                 'rubric' : rubric,
             }
+            subject_output = output_dir / f"{subject.unit_name}"
+            subject_output.mkdir(parents=True, exist_ok=True)
             output_name = f"{subject.year}_{''.join(subject.semester.split())}_{''.join(subject.course_name.split())}_{''.join(subject.unit_name.split())}_{subject.assessments[assessment]}"
             print(f"MAKING: {output_name}")
             doc.render(context)
-            doc.save(output_dir/ f"{output_name}.docx")
+            doc.save(output_dir/ subject_output / f"{output_name}.docx")
 
 if __name__ == "__main__":
     make_assignments()
