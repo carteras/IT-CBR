@@ -39,3 +39,4 @@
 .idea/vcs.xml
 pip.log
 Tools/assignment_sorter/assignment_sorter.ipynb
+*.pyc
