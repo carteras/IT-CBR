@@ -68,27 +68,31 @@ def config_subject(config_location):
         assessments=assessments
     )
 
+def make_assignments():
+    subjects = get_subjects(subjects_dir)
+    task = None
+    rubric = None
+    for subject_address in subjects:
+        doc = DocxTemplate(template)
+        subject = config_subject(subject_address)
+        for assessment in subject.assessments:
+            assignment_files = get_files_in_folder(subject_address / assessment)
+            if assignment_files is None: continue
+            for file_address in assignment_files:
+                if file_address.name == "task.docx":
+                    task_path = Path(file_address)
+                    task = doc.new_subdoc(task_path)
+                elif file_address.name == 'rubric.docx':
+                    rubric_path = Path(file_address)
+                    rubric = doc.new_subdoc(rubric_path)
+            context = {
+                'task' : task,
+                'rubric' : rubric,
+            }
+            output_name = f"{subject.year}_{''.join(subject.semester.split())}_{''.join(subject.course_name.split())}_{''.join(subject.unit_name.split())}_{subject.assessments[assessment]}"
+            print(f"MAKING: {output_name}")
+            doc.render(context)
+            doc.save(output_dir/ f"{output_name}.docx")
 
-subjects = get_subjects(subjects_dir)
-task = None
-rubric = None
-for subject_address in subjects:
-    doc = DocxTemplate(template)
-    subject = config_subject(subject_address)
-    for assessment in subject.assessments:
-        assignment_files = get_files_in_folder(subject_address / assessment)
-        if assignment_files is None: continue
-        for file_address in assignment_files:
-            if file_address.name == "task.docx":
-                task_path = Path(file_address)
-                task = doc.new_subdoc(task_path)
-            elif file_address.name == 'rubric.docx':
-                rubric_path = Path(file_address)
-                rubric = doc.new_subdoc(rubric_path)
-        context = {
-            'task' : task,
-            'rubric' : rubric,
-        }
-        output_name = f"{subject.year}_{''.join(subject.semester.split())}_{''.join(subject.course_name.split())}_{''.join(subject.unit_name.split())}_{subject.assessments[assessment]}"
-        doc.render(context)
-        doc.save(output_dir/ f"{output_name}.docx")
+if __name__ == "__main__":
+    make_assignments()
