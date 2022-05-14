@@ -2,13 +2,16 @@ from lib2to3.pytree import convert
 from pathlib import Path
 from os import system
 
-def find_dirs(location):
+def find_dirs(location: Path) -> list[Path]:
     return [f for f in location.iterdir() if f.is_dir()]
 
-def find_files(location):
+def find_files(location: Path) -> list[Path]:
     return [file for file in location.iterdir() if file.is_file()]
 
-def convert_to_markdown():
+def convert_to_markdown() -> None:
+    """
+    Finds all docx files in output folder and creates markdown versions of them. 
+    """
     output_dir = Path.cwd() / "assignments"
     for dir in find_dirs(output_dir):
         for file in find_files(dir):
