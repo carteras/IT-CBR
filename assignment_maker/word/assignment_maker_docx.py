@@ -127,7 +127,7 @@ def build_doc_context_accreditation(folder: str, year: str, accrediation: str) -
         'rubric' : rubric,
     }
 
-def build_doc_context(folder: Path) -> dict | None:
+def build_doc_context(folder: Path, doc: DocxTemplate) -> dict | None:
     """
     Builds the context for the coversheet. 
 
@@ -141,8 +141,16 @@ def build_doc_context(folder: Path) -> dict | None:
     """
     if not folder.is_dir(): return None
     if not any(folder.iterdir()): return None
-    task = f"task.docx"
-    rubric = f"rubric.docx"
+    # if file_address.name == "task.docx":
+    #                 task_path = Path(file_address)
+    #                 task = doc.new_subdoc(task_path)
+    #             elif file_address.name == 'rubric.docx':
+    #                 rubric_path = Path(file_address)
+    #                 rubric = doc.new_subdoc(rubric_path)
+    task_path = Path(folder/f"task.docx")
+    rubric_path = Path(folder/f"rubric.docx")
+    task = doc.new_subdoc(task_path)
+    rubric = doc.new_subdoc(rubric_path)
     return {
         'task' : task,
         'rubric' : rubric,
@@ -158,8 +166,9 @@ def make_cover_sheet(subject: Subject, subject_address:str, doc:DocxTemplate) ->
     doc: the doc render for the context
     """
     for assessment in subject.assessments:
-        context = build_doc_context(subject_address/assessment)
+        context = build_doc_context(subject_address/assessment, doc)
         if context is None: continue
+        print(context)
         output_name = f"{subject.year}_{''.join(subject.semester.split())}_{''.join(subject.course_name.split())}_{''.join(subject.unit_name.split())}_{subject.assessments[assessment]}_{assessment}"
         subject_output = output_dir / f"{subject.unit_name}"
         subject_output.mkdir(parents=True, exist_ok=True)
