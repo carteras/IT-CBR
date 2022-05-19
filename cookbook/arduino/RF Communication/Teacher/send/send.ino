@@ -4,6 +4,7 @@
 
 
 #define SEND_PIN 7
+#define SEND_BTN 6
 
 #define debug(x) Serial.print(x); Serial.print(" ")
 #define debugln(x) Serial.println(x);
@@ -21,6 +22,7 @@ void setup() {
   }
   Serial.println("RX GO!");
   pinMode(SEND_PIN, OUTPUT);
+  pinMode(SEND_BTN, INPUT);
 
   for (int i = 0; i < 10; i++) {
     digitalWrite(SEND_PIN, LOW);
@@ -28,6 +30,8 @@ void setup() {
     digitalWrite(SEND_PIN, HIGH);
     delay(100);
   }
+
+  digitalWrite(SEND_PIN, LOW);
 
 
 }
@@ -41,10 +45,11 @@ void sendMessage() {
 
 
 void loop() {
-
-  digitalWrite(SEND_PIN, HIGH);
-  sendMessage();
-  digitalWrite(SEND_PIN, LOW);
-  delay(100);
+  if (digitalRead(SEND_BTN) == HIGH){
+    digitalWrite(SEND_PIN, HIGH);
+    sendMessage();
+    digitalWrite(SEND_PIN, LOW);
+  }
+  delayMicroseconds(2);
 
 }

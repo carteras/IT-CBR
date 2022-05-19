@@ -29,6 +29,7 @@ void setup() {
     digitalWrite(RECV_PIN, LOW);
     delay(100);
   }
+  digitalWrite(MSG_PIN, LOW);
 }
 
 void loop() {
@@ -37,8 +38,10 @@ void loop() {
   if (driver.recv(buf, &buflen)) {
     for (int i = 0; i < 10; i++) {
       digitalWrite(RECV_PIN, HIGH);
+      digitalWrite(MSG_PIN, LOW);
       delay(100);
       digitalWrite(RECV_PIN, LOW);
+      digitalWrite(MSG_PIN, HIGH);
       delay(100);
     }
   }
