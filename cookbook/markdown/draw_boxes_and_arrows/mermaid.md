@@ -1,5 +1,9 @@
 # Mermaid.js
 
 ```mermaid
-Alice->Bob
+  graph TD;
+      Ada-->Bob;
+      Ada-->Charlie;
+      Bob-->Della;
+      Charlie-->Della;
 ```
