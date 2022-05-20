@@ -19,7 +19,7 @@
 ```
 
 ```mermaid
-    flowchart;
+    flowchart TD;
         A[Hard] -->|Text| B(Round);
         B --> C{Decision};
         C -->|One| D[Result 1];
