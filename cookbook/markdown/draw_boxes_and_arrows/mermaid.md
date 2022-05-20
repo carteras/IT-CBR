@@ -1,5 +1,5 @@
 # Mermaid.js
 
 ```mermaid
-Alice -> Bob
+Alice->Bob
 ```
