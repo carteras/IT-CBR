@@ -493,8 +493,8 @@ __/2</td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A _ / 36</strong></p>
-<p><strong>T _ / 18</strong></p></td>
+<td><p><strong>A _ / 20</strong></p>
+<p><strong>T _ / 12</strong></p></td>
 </tr>
 <tr class="odd">
 <td><strong>Statement 1</strong></td>
@@ -595,12 +595,12 @@ situation or context.</p></li>
 <td><strong>Statement 3</strong></td>
 <td><p><strong>Statement</strong>: The previous assessment item asked
 students to become an expert on one of the wordle game client/player
-features. Review some of the tutorials that students generated and
-identify some things you could have used to enhance your tutorials. This
-enhancement could be good things you should include in the future or a
-'here be dragons' moment.</p>
-<p>Feel free to compare and contrast between your work or others. What
-worked in them what didn’t work.</p>
+features. Review some of the tutorials students generated and identify
+what you could have used to enhance your tutorials. This enhancement
+could be good things you should include in the future or a 'here be
+dragons' moment.</p>
+<p>Feel free to compare and contrast your work or others. What worked in
+them and what didn't work.</p>
 <p>Statement responses are used to evaluate your ability to
 <strong>analyse your learning</strong>, identify <strong>how and when
 you synthesised new understanding</strong> on your own, and your ability
@@ -687,18 +687,15 @@ situation or context.</p></td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
-<td><p>A x1</p>
-<p>T x2</p></td>
-<td><p>A __ / 4</p>
-<p>T __ / 8</p></td>
+<td>-</td>
+<td>__ / 4</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><strong>Submission Guidelines</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A __/16</strong></p>
-<p><strong>T __/20</strong></p></td>
+<td><strong>__ / 16</strong></td>
 </tr>
 <tr class="even">
 <td><strong>Readability</strong></td>
@@ -737,8 +734,8 @@ applied it constantly</strong>.</td>
 <td></td>
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
-<td><strong>A __/64<br />
-T __/78</strong></td>
+<td><strong>A __/46<br />
+T __/38</strong></td>
 </tr>
 </tbody>
 </table>
