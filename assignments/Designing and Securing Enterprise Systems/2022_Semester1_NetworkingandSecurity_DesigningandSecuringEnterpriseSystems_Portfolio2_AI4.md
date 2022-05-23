@@ -20,7 +20,7 @@ learning paths and how many hours a day you can spend on the attack box
 enough of the work to move forward. It is impossible to cram this in at
 the last minute.
 
-# Tasks for learning
+# Tasks for learning and submission
 
 Your in-class activities are to complete a range of rooms from Try Hack
 Me. You have to complete at least six rooms. Students from 2021 who
@@ -438,18 +438,21 @@ the author.</p></li>
 you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
+<p>---</p>
 <p>2</p>
 <p>2</p>
 <p>2</p>
 <p>2</p>
 <p>2</p></td>
-<td><p>__/2<br />
+<td><p>__/2</p>
+<p>---<br />
 __/2<br />
 __/2</p>
 <p>__/2<br />
 __/2<br />
 __/2</p></td>
-<td><p>__/2<br />
+<td><p>__/2</p>
+<p>---<br />
 __/2<br />
 __/2</p>
 <p>__/2<br />
