@@ -1,84 +1,28 @@
 # Task:
 
-You have been tasked to construct an evidence guide of your learning.
-The subject of the evidence guide is defaulted to the construction of
-learning material for other students to consume (see below) \-- however
-the subject can be negotiated with the teacher for individual interest
-or skills.
+You have been tasked with creating a showcase of your learning of the
+construction of a remote control car. The default showcase will be an A2
+poster of your learning and two recorded presentations, one for
+laypeople and one for technical experts.
 
-The subject of the evidence (the learning material) can be collaborated
-on together in teams of 2 ± 1 but the evidence guide of your learning is
-individual.
+The construction of the robot car is intended to be done in groups due
+to resources. However, individuals can build a vehicle, but we will have
+to think out of the box on how to solve the problem of resources.
 
-An evidence guide is a centrally located document which contains
-evidence of your growing knowledge and understanding of the content
-taught in this course. By default you are required to submit the subject
-matter that you are using to base your evidence on and your evidence
-guide itself.
+You will be provided with a default poster template. Your presentations
+can be recorded on any medium and are intended for marking only.
 
-An evidence guide document is, generally, represented on a document that
-consists of short, and sharp, responses to high level questions.
-Historically, this document has been a PowerPoint document but this year
-the focus is on creating Markdown Documents.
+Questions for posters will be provided in the rubric and must be
+effectively answered three times.
 
-**Topics for learning material** (choose one, all continuing content
-must be chosen before we can allow for duplicate choices).
+1.  The poster -- summarises learning for general audiences in a
+    condensed writing environment.
 
-### Continuing students
+2.  General Audience presentation -- informs the general audience of
+    your learning, allowing for some extrapolation
 
--   Motor Controllers
-
--   RF communication
-
--   Servo Motors
-
--   Esplora Board integration
-
--   DPad / Joystick
-
--   I2C communication between Arduinos
-
--   Flatpack design on OnShape and Using a flat pack design on the laser
-    cutter
-
--   3D design to hold components on OnShape andUsing a 3D design on the
-    3D printer
-
--   Soldering a small circuit
-
-### New year students may choose from here as well
-
--   Replicating a project from T1 on a physical Arduino (Traffic Light,
-
--   Centre Detector, Train Crossing
-
--   Sending and Receiving Serial Communications
-
-### Each topic of learning must include the following at a minimum
-
--   Some sort of explicit instruction on the topic
-
--   At least 2-4 (group size +1) worked example for any major thought
-    you are trying to express
-
--   At least 2-4 (group size +1) practice question for each worked
-    example.
-
--   At least 1 challenge question which incorporates the majority the
-    knowledge from above.
-
-### **Evidence Guide:**
-
-Students must respond to the following questions:
-
--   What was the design process that you used ensure that you met all of
-    required elements to produce your learning material?
-
--   How did your understanding of digital solutions inform your choice
-    band/or your learning solution?
-
--   What is at least one example of how existing knowledge or
-    understanding framed novel learning?
+3.  Technical Audience presentation -- informs experts (the teacher) of
+    your learning, allowing for technical depth.
 
 ##### Section 1: Knowledge Comprehension, and Application
 
@@ -392,84 +336,88 @@ they are taught and can customise their learning to ben
 <td><strong>TOTAL</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>Tutorial</strong></p>
+<td><p><strong>Planning Document</strong></p>
 <p>(group)</p></td>
 <td><p>You have submitted evidence of completing the required learning
-material. This evidence is submitted in an appropriate format (Markdown)
-unless negotiated for a different format.</p>
-<p>The evidence of learning material appears to be of appropriate level
-for your accreditation level and the topic chosen.</p>
-<p>The evidence appears to have at least 2-4 (group size +1) worked
-examples / 2-4 practice questions / 2-4 challenge and includes
-references to any appropriate required learning material that other
-students may need to know.</p>
+material. This evidence is presented appropriately (Markdown) unless
+negotiated for a different format.</p>
+<p>Your planning document must identify how to solve the following
+problems and describe how you plan to link all of the solutions
+together</p>
 <ul>
-<li><p>Explicit instruction</p></li>
-<li><p>At least 2-4 worked example for each required element (minimum
-group-size + 1)</p></li>
-<li><p>At least 1 practice question for each worked example</p></li>
-<li><p>At least 1 challenge question which requires most of the practice
-questions</p></li>
-<li><p>(If applicable) A document which includes all your teammates, and
-who submitted your body of work</p></li>
+<li><p>How will you drive your robot?</p></li>
+<li><p>How will you steer your robot?</p></li>
+<li><p>How will you control your robot?</p></li>
+<li><p>How will you communicate from your controller to your
+robot?</p></li>
+<li><p>How will you design your robot?</p></li>
+<li><p>How will you integrate all of the previous solutions?</p></li>
 </ul>
 <p>Evidence for knowledge, comprehension, and application may
 include:</p>
 <ul>
 <li><p><strong>Knowledge</strong>: Your evidence highlights that you
 recall and list relevant terms covered in your learning. It may tell a
-story to the reader (the teacher) or state the conditions of your
-learning.</p></li>
+story to the reader (the teacher) or state your learning
+conditions.</p></li>
 <li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify key aspects of your learning or explains to the author what
-you've done.</p></li>
+can identify key aspects of your learning or explain what you've done to
+the teacher.</p></li>
 <li><p><strong>Application</strong>: It is clear from your evidence that
 you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>2</p>
 <p>2</p>
+<p>2</p>
+<p>2</p>
 <p>2</p></td>
-<td>__/2<br />
-__/2<br />
-__/2<br />
-__/2</td>
-<td>__/2<br />
-__/2<br />
-__/2<br />
-__/2</td>
-<td><p>A x2</p>
-<p>T x 1</p></td>
-<td>A __/16<br />
-T __/8</td>
+<td><p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p></td>
+<td><p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p></td>
+<td><p>Ax2</p>
+<p>Tx1</p></td>
+<td><p>A__/24</p>
+<p>T__/12</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Evidence Guide</strong></p>
+<td><p><strong>Showcase</strong></p>
 <p>(individual)</p></td>
-<td><p>You have submitted evidence of your evidence guide. By default,
-your evidence guide responses to each of the three questions selected by
-your teacher. However, these questions can be negotiated or reframed
-with your teacher.<br />
+<td><p>You have submitted evidence of your showcase. By default, your
+showcase responds to each of the three questions highlighted below.
+However, these questions can be negotiated or reframed with your
+teacher.<br />
 <br />
 To achieve a passing grade (2) you must submit a serious attempt to
-response to the question. By default, your submission for the evidence
-guide would be on a Google Slide or PowerPoint document. This document
-has a maximum space allotment of 3 slides per question.<br />
-<br />
-Additional space can be used for introduction, indexes, and summary
-slides. The output can be negotiated with the teacher. Previous
-submissions have allowed for Google Sites, HTML, or Markdown
-documents.</p>
+respond to each question in each medium. By default, your submission for
+the showcase would be the given poster template, and both
+presentations</p>
+<ul>
+<li><p>Showcase poster</p></li>
+<li><p>General Audience Presentation</p></li>
+<li><p>Technical Presentation</p></li>
+</ul>
+<p>The output can be negotiated with the teacher. Previous submissions
+have allowed for Google Sites, HTML, or Markdown documents.</p>
 <p>Evidence for knowledge, comprehension, and application may
 include:</p>
 <ul>
 <li><p><strong>Knowledge</strong>: Your evidence highlights that you
 recall and list relevant terms covered in your learning. It may tell a
-story to the reader (the teacher) or state the conditions of your
-learning.</p></li>
+story to the reader (the teacher) or state your learning
+conditions.</p></li>
 <li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify key aspects of your learning or explains to the author what
-you've done.</p></li>
+can identify critical aspects of your learning or explain what you've
+done to the teacher.</p></li>
 <li><p><strong>Application</strong>: It is clear from your evidence that
 you constructed a complete submission</p></li>
 </ul></td>
@@ -482,31 +430,40 @@ __/2</td>
 <td>__/2<br />
 __/2<br />
 __/2</td>
-<td>-</td>
-<td>__/6</td>
+<td><p>Ax2</p>
+<p>Tx1</p></td>
+<td><p>A__/12</p>
+<p>T__/6</p></td>
 </tr>
 <tr class="even">
 <td></td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A _ / 24</strong></p>
-<p><strong>T _ / 12</strong></p></td>
+<td><p><strong>A _ / 36</strong></p>
+<p><strong>T _ / 18</strong></p></td>
 </tr>
 <tr class="odd">
 <td><strong>Question 1</strong></td>
-<td><p><strong>Question</strong>: What was the process you used to
-ensure that you would meet all the required elements for the
-tutorial?</p>
-<p>Evidence guides are a tool <strong>you use to highlight your learning
-to the teacher</strong>. Learning how to reflect on your learning during
-your assessments and identifying what parts of your work were high
-quality and what you could do to improve your work is an essential
+<td><p><strong>Question</strong>: Before you started to build, what was
+the process you used to identify the major features of the challenge and
+how you would bring them all together to make a solution?</p>
+<p>Consider your strategies for locating different aspects required for
+controlling a remote vehicle and how you bought them together into a
+single system.</p>
+<p>Showcases are a tool <strong>you use to highlight your learning to
+different audiences</strong>. Learning how to reflect on what you learnt
+during your assessments and identifying what parts of your work were
+high quality and what you could do to improve your work is an essential
 aspect of education.</p>
-<p>You will present your <strong>evidence guide within a PowerPoint
-document</strong>. Your response can be <strong>no more than 3
-slides</strong> <strong>following the style guide</strong> for
-PowerPoint documents.</p>
+<p>You will present your response to this question in 3 mediums</p>
+<ul>
+<li><p>a poster presentation as a summary for general audiences</p></li>
+<li><p>a recorded presentation for general audiences, which allows for
+extrapolation</p></li>
+<li><p>a recorded presentation for technical audiences, which allows for
+technical details</p></li>
+</ul>
 <p>This aspect of the assessment evaluates your ability to
 <strong>analyse your learning</strong>, identify <strong>how and when
 you synthesised new understanding</strong> on your own, and your ability
@@ -514,50 +471,58 @@ to <strong>assess your work</strong></p>
 <p>Each of your questions will be marked against the following aspects
 of your ability to:</p>
 <ul>
+<li><p>To summarise your understanding of technology concepts and
+principles to a general audience</p></li>
 <li><p>express <strong>your understanding of technology</strong>
-concepts and principles</p></li>
-<li><p><strong>your ability to communicate ideas</strong> appropriately
-in the selected medium</p></li>
+concepts and principles to a general audience</p></li>
+<li><p><strong>your ability to communicate your learning</strong>
+appropriately to experts</p></li>
 </ul>
-<p>Evidence for higher order learning may include:</p>
+<p>Evidence for higher-order learning may include:</p>
 <ul>
 <li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why you did it. For example, you may
-have explained how you did X, Y, and Z, but you continue to explain why
-you did them the way you did.</p></li>
+understanding of what you did and why. For example, you may have
+explained how you did X, Y, and Z, but you continue to explain why you
+did them the way you did.</p></li>
 <li><p><strong>Evaluative</strong>: your evidence makes a judgement of
 something or between multiple things. This judgement may be the value of
-one thing over another or a highlighting the major differences between
-two things.</p></li>
+one thing over another or highlighting the significant differences
+between two things.</p></li>
 <li><p><strong>Transferal</strong>: your evidence highlights when you
 apply information, strategies, or skills that you have learnt to a new
 situation or context.</p></li>
 </ul></td>
 <td><p>4</p>
+<p>4</p>
 <p>4</p></td>
-<td>__/4<br />
-__/4</td>
-<td>__/4<br />
-__/4</td>
-<td><p>A x1</p>
-<p>T x 2</p></td>
-<td><p>A __/ 8</p>
-<p>T __/16</p></td>
+<td><p>__/4<br />
+__/4</p>
+<p>__/4</p></td>
+<td><p>__/4<br />
+__/4</p>
+<p>__/4</p></td>
+<td>-</td>
+<td>__/12</td>
 </tr>
 <tr class="even">
 <td><strong>Question 2</strong></td>
-<td><p><strong>Question</strong>: How did your existing knowledge and/or
-understanding of Information Technology helped inform your work on the
-tutorial.</p>
-<p>Evidence guides are a tool <strong>you use to highlight your learning
-to the teacher</strong>. Learning how to reflect on your learning during
-your assessments and identifying what parts of your work were high
-quality and what you could do to improve your work is an essential
+<td><p><strong>Question</strong>: What is something that went
+unexpectedly wrong, and how did you get yourself back onto the path?</p>
+<p>Conder your strategies for troubleshooting problems and how you may
+have provided contingencies for when things go wrong</p>
+<p>Showcases are a tool <strong>you use to highlight your learning to
+different audiences</strong>. Learning how to reflect on what you learnt
+during your assessments and identifying what parts of your work were
+high quality and what you could do to improve your work is an essential
 aspect of education.</p>
-<p>You will present your <strong>evidence guide within a PowerPoint
-document</strong>. Your response can be <strong>no more than 3
-slides</strong> <strong>following the style guide</strong> for
-PowerPoint documents.</p>
+<p>You will present your response to this question in 3 mediums</p>
+<ul>
+<li><p>a poster presentation as a summary for general audiences</p></li>
+<li><p>a recorded presentation for general audiences, which allows for
+extrapolation</p></li>
+<li><p>a recorded presentation for technical audiences, which allows for
+technical details</p></li>
+</ul>
 <p>This aspect of the assessment evaluates your ability to
 <strong>analyse your learning</strong>, identify <strong>how and when
 you synthesised new understanding</strong> on your own, and your ability
@@ -565,50 +530,60 @@ to <strong>assess your work</strong></p>
 <p>Each of your questions will be marked against the following aspects
 of your ability to:</p>
 <ul>
+<li><p>To summarise your understanding of technology concepts and
+principles to a general audience</p></li>
 <li><p>express <strong>your understanding of technology</strong>
-concepts and principles</p></li>
-<li><p><strong>your ability to communicate ideas</strong> appropriately
-in the selected medium</p></li>
+concepts and principles to a general audience</p></li>
+<li><p><strong>your ability to communicate your learning</strong>
+appropriately to experts</p></li>
 </ul>
-<p>Evidence for higher order learning may include:</p>
+<p>Evidence for higher-order learning may include:</p>
 <ul>
 <li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why you did it. For example, you may
-have explained how you did X, Y, and Z, but you continue to explain why
-you did them the way you did.</p></li>
+understanding of what you did and why. For example, you may have
+explained how you did X, Y, and Z, but you continue to explain why you
+did them the way you did.</p></li>
 <li><p><strong>Evaluative</strong>: your evidence makes a judgement of
 something or between multiple things. This judgement may be the value of
-one thing over another or a highlighting the major differences between
-two things.</p></li>
+one thing over another or highlighting the significant differences
+between two things.</p></li>
 <li><p><strong>Transferal</strong>: your evidence highlights when you
 apply information, strategies, or skills that you have learnt to a new
 situation or context.</p></li>
 </ul></td>
 <td><p>4</p>
+<p>4</p>
 <p>4</p></td>
-<td>__/4<br />
-__/4</td>
-<td>__/4<br />
-__/4</td>
-<td><p>A x1</p>
-<p>T x 2</p></td>
-<td><p>A __/ 8</p>
-<p>T __/16</p></td>
+<td><p>__/4<br />
+__/4</p>
+<p>__/4</p></td>
+<td><p>__/4<br />
+__/4</p>
+<p>__/4</p></td>
+<td><p>A x</p>
+<p>T x</p></td>
+<td>__/12</td>
 </tr>
 <tr class="odd">
 <td><strong>Question 3</strong></td>
-<td><p><strong>Question</strong>: How has your understanding of
-Information Technology changed from the start of this assignment time
-until now?</p>
-<p>Evidence guides are a tool <strong>you use to highlight your learning
-to the teacher</strong>. Learning how to reflect on your learning during
-your assessments and identifying what parts of your work were high
-quality and what you could do to improve your work is an essential
+<td><p><strong>Question</strong>: What is an example of some significant
+learning achievement you made during this project?</p>
+<p>Think back to previous bodies of work, has there been anything that
+you know now that you realise that you didn't previously? Something that
+you struggled with before, but now it makes more sense. What is it?</p>
+<p>Showcases are a tool <strong>you use to highlight your learning to
+different audiences</strong>. Learning how to reflect on what you learnt
+during your assessments and identifying what parts of your work were
+high quality and what you could do to improve your work is an essential
 aspect of education.</p>
-<p>You will present your <strong>evidence guide within a PowerPoint
-document</strong>. Your response can be <strong>no more than 3
-slides</strong> <strong>following the style guide</strong> for
-PowerPoint documents.</p>
+<p>You will present your response to this question in 3 mediums</p>
+<ul>
+<li><p>a poster presentation as a summary for general audiences</p></li>
+<li><p>a recorded presentation for general audiences, which allows for
+extrapolation</p></li>
+<li><p>a recorded presentation for technical audiences, which allows for
+technical details</p></li>
+</ul>
 <p>This aspect of the assessment evaluates your ability to
 <strong>analyse your learning</strong>, identify <strong>how and when
 you synthesised new understanding</strong> on your own, and your ability
@@ -616,50 +591,53 @@ to <strong>assess your work</strong></p>
 <p>Each of your questions will be marked against the following aspects
 of your ability to:</p>
 <ul>
+<li><p>To summarise your understanding of technology concepts and
+principles to a general audience</p></li>
 <li><p>express <strong>your understanding of technology</strong>
-concepts and principles</p></li>
-<li><p><strong>your ability to communicate ideas</strong> appropriately
-in the selected medium</p></li>
+concepts and principles to a general audience</p></li>
+<li><p><strong>your ability to communicate your learning</strong>
+appropriately to experts</p></li>
 </ul>
-<p>Evidence for higher order learning may include:</p>
+<p>Evidence for higher-order learning may include:</p>
 <ul>
 <li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why you did it. For example, you may
-have explained how you did X, Y, and Z, but you continue to explain why
-you did them the way you did.</p></li>
+understanding of what you did and why. For example, you may have
+explained how you did X, Y, and Z, but you continue to explain why you
+did them the way you did.</p></li>
 <li><p><strong>Evaluative</strong>: your evidence makes a judgement of
 something or between multiple things. This judgement may be the value of
-one thing over another or a highlighting the major differences between
-two things.</p></li>
+one thing over another or highlighting the significant differences
+between two things.</p></li>
 <li><p><strong>Transferal</strong>: your evidence highlights when you
 apply information, strategies, or skills that you have learnt to a new
 situation or context.</p></li>
 </ul></td>
 <td><p>4</p>
+<p>4</p>
 <p>4</p></td>
-<td>__/4<br />
-__/4</td>
-<td>__/4<br />
-__/4</td>
-<td><p>A x1</p>
-<p>T x 2</p></td>
-<td><p>A __/ 8</p>
-<p>T __/16</p></td>
+<td><p>__/4<br />
+__/4</p>
+<p>__/4</p></td>
+<td><p>__/4<br />
+__/4</p>
+<p>__/4</p></td>
+<td><p>A x</p>
+<p>T x</p></td>
+<td>__/12</td>
 </tr>
 <tr class="even">
 <td></td>
 <td><strong>Submission Guidelines</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A __/24</strong></p>
-<p><strong>T __/48</strong></p></td>
+<td><strong>T __/36</strong></td>
 </tr>
 <tr class="odd">
 <td><strong>Readability</strong></td>
 <td><strong>Assessment submission is ordered</strong> and has a definite
-pattern to its construction. <strong>The reader is not confused as to
-the content in any given section</strong> and can follow the flow of the
-submission easily. </td>
+pattern to its construction. <strong>The reader is not confused about
+the content in any given section and can easily follow the submission
+flow</strong>. </td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
@@ -669,9 +647,9 @@ submission easily. </td>
 <tr class="even">
 <td><strong>Formatting</strong></td>
 <td><strong>Students have</strong> <strong>followed the formatting
-instructions</strong> including any provided templates and guides
-<strong>or have created their own</strong>, legible formatting guide
-<strong>and applied it constantly</strong>.</td>
+instructions,</strong> including any provided templates and guides, or
+created their own legible formatting guide <strong>and applied it
+constantly</strong>.</td>
 <td>2</td>
 <td>__/2</td>
 <td>__/2</td>
@@ -691,8 +669,8 @@ instructions</strong> including any provided templates and guides
 <td></td>
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
-<td><strong>A __/64<br />
-T __/78</strong></td>
+<td><strong>A __/82<br />
+T __/64</strong></td>
 </tr>
 </tbody>
 </table>
