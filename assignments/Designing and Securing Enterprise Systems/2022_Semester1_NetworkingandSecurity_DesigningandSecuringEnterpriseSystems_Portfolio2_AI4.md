@@ -212,7 +212,7 @@ Analysis and synthesis of the information will not be assessed through
 these criteria.*
 
 |                      | **0 Points**                                                | **1 Point**                                                                     | **2 Points**                                                                    |
-|---------|-------------------|-----------------------|-----------------------|
+|----------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | **2 Point Criteria** | Not present or able to be assessed as the required criteria | Item is presented and **does meet** expectations for quality, rigour, or detail | Item is presented and **does** meet expectations for quality, rigour, or detail |
 
 **4-Point Criteria - Analysis and Synthesis and Expert Review**
@@ -255,24 +255,12 @@ original and effective idea.*
 <tr class="odd">
 <td><strong>4 Point Criteria</strong></td>
 <td>Not present or able to be assessed as the required criteria</td>
-<td>Item is <strong>presented and explained</strong>. However, it
-<strong>does not show any evidence of higher order thinking</strong>
-such as analysis, evaluation, or synthesis.</td>
-<td>Item is presented and <strong>shows appropriate evidence of higher
-order thinking</strong> such as analysis, evaluation, or synthesis.</td>
-<td><p>Item is presented and <strong>exceeds</strong>
-<strong>expectations</strong> for <strong>evidence of higher order
-thinking</strong> such as analysis, evaluation, or synthesis.</p>
+<td>Item is <strong>presented and explained</strong>. However, it <strong>does not show any evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis.</td>
+<td>Item is presented and <strong>shows appropriate evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis.</td>
+<td><p>Item is presented and <strong>exceeds</strong> <strong>expectations</strong> for <strong>evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis.</p>
 <p><strong>-or-</strong></p>
-<p>Item is presented and <strong>shows appropriate evidence of higher
-order thinking</strong> such as analysis, evaluation, or synthesis and
-<strong>exceeds expectations</strong> for quality, rigour, or
-understanding of the selected mastery.</p></td>
-<td>Item is presented and <strong>exceeds</strong>
-<strong>expectations</strong> for <strong>evidence of higher order
-thinking</strong> such as analysis, evaluation, or synthesis.
-Additionally, this item <strong>exceeds expectations</strong> for
-quality, rigour, or understanding of the selected mastery.</td>
+<p>Item is presented and <strong>shows appropriate evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis and <strong>exceeds expectations</strong> for quality, rigour, or understanding of the selected mastery.</p></td>
+<td>Item is presented and <strong>exceeds</strong> <strong>expectations</strong> for <strong>evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis. Additionally, this item <strong>exceeds expectations</strong> for quality, rigour, or understanding of the selected mastery.</td>
 </tr>
 </tbody>
 </table>
@@ -312,26 +300,12 @@ effective idea.*
 <tr class="odd">
 <td><strong>4 Point Criteria</strong></td>
 <td>Not present or able to be assessed as the required criteria</td>
-<td>Item is <strong>presented</strong> and broadly <strong>solves the
-problem</strong>. However, upon review, it <strong>does not</strong>
-show any evidence of appropriate mastery.</td>
-<td>Item is <strong>presented</strong> and broadly <strong>solves the
-problem</strong>. On review, it <strong>does</strong> show any evidence
-of appropriate mastery.</td>
-<td><p>Item is <strong>presented and solves the specific
-problem</strong>. On review, the evidence shows understanding
-<strong>beyond expected mastery</strong>.</p>
+<td>Item is <strong>presented</strong> and broadly <strong>solves the problem</strong>. However, upon review, it <strong>does not</strong> show any evidence of appropriate mastery.</td>
+<td>Item is <strong>presented</strong> and broadly <strong>solves the problem</strong>. On review, it <strong>does</strong> show any evidence of appropriate mastery.</td>
+<td><p>Item is <strong>presented and solves the specific problem</strong>. On review, the evidence shows understanding <strong>beyond expected mastery</strong>.</p>
 <p>-or-</p>
-<p>Item is <strong>presented</strong> and broadly <strong>solves the
-problem</strong>. On review, it <strong>does</strong> show any evidence
-of appropriate mastery and is done so in a
-<strong>well-constructed</strong> or design method that <strong>clearly
-shows higher levels of understanding</strong>.</p></td>
-<td>Item is <strong>presented and solves the specific problem</strong>.
-On review, the evidence shows understanding <strong>well</strong>
-<strong>beyond expected mastery</strong> and is done so in a
-<strong>well-constructed</strong> or design method that <strong>clearly
-shows higher levels of understanding</strong>..</td>
+<p>Item is <strong>presented</strong> and broadly <strong>solves the problem</strong>. On review, it <strong>does</strong> show any evidence of appropriate mastery and is done so in a <strong>well-constructed</strong> or design method that <strong>clearly shows higher levels of understanding</strong>.</p></td>
+<td>Item is <strong>presented and solves the specific problem</strong>. On review, the evidence shows understanding <strong>well</strong> <strong>beyond expected mastery</strong> and is done so in a <strong>well-constructed</strong> or design method that <strong>clearly shows higher levels of understanding</strong>..</td>
 </tr>
 </tbody>
 </table>
@@ -401,17 +375,12 @@ they are taught and can customise their learning to ben
 </tr>
 <tr class="even">
 <td><strong>TryHackMe Sections</strong></td>
-<td><p>You have submitted <strong>evidence of completing each of the
-required sections of TryHackMe</strong>. This evidence can be presented
-as screenshots of completion.</p>
-<p><strong>There is evidence of the compulsory of the following
-submissions</strong>:</p>
+<td><p>You have submitted <strong>evidence of completing each of the required sections of TryHackMe</strong>. This evidence can be presented as screenshots of completion.</p>
+<p><strong>There is evidence of the compulsory of the following submissions</strong>:</p>
 <ul>
-<li><p>Tutorial | Starting out in cyber security | Introductory
-Researching</p></li>
+<li><p>Tutorial | Starting out in cyber security | Introductory Researching</p></li>
 </ul>
-<p>You have also submitted <strong>evidence of the 5+ of the following
-rooms</strong> (or negotiated equivalent)</p>
+<p>You have also submitted <strong>evidence of the 5+ of the following rooms</strong> (or negotiated equivalent)</p>
 <ul>
 <li><p>Linux Fundamentals 1</p></li>
 <li><p>Linux Fundamentals 2</p></li>
@@ -424,18 +393,11 @@ rooms</strong> (or negotiated equivalent)</p>
 <li><p>OWASP Juice Shop</p></li>
 <li><p>Pickle Rick</p></li>
 </ul>
-<p>Evidence for knowledge, comprehension, and application may
-include:</p>
+<p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall and list relevant terms covered in your learning. It may tell a
-story to the reader (the teacher) or state your learning
-conditions.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify key aspects of your learning or explain what you've done to
-the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that
-you constructed a complete submission</p></li>
+<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms covered in your learning. It may tell a story to the reader (the teacher) or state your learning conditions.</p></li>
+<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify key aspects of your learning or explain what you've done to the author.</p></li>
+<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>---</p>
@@ -465,28 +427,17 @@ __/2</p></td>
 </tr>
 <tr class="odd">
 <td><strong>Showcase</strong></td>
-<td><p>You have submitted evidence of completing the required assessment
-material. This evidence is presented in an appropriate format unless
-negotiated otherwise.</p>
+<td><p>You have submitted evidence of completing the required assessment material. This evidence is presented in an appropriate format unless negotiated otherwise.</p>
 <p>There is evidence of the following submissions:</p>
 <ul>
-<li><p>A poster that answers all three questions for a general
-audience</p></li>
-<li><p>A spoken presentation of the poster for general
-audiences</p></li>
+<li><p>A poster that answers all three questions for a general audience</p></li>
+<li><p>A spoken presentation of the poster for general audiences</p></li>
 </ul>
-<p>Evidence for knowledge, comprehension, and application may
-include:</p>
+<p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall and list relevant terms covered in your learning. It may tell a
-story to the reader (the teacher) or state your learning
-conditions.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify critical aspects of your learning or explain what you've
-done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that
-you constructed a complete submission</p></li>
+<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms covered in your learning. It may tell a story to the reader (the teacher) or state your learning conditions.</p></li>
+<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
+<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>2</p></td>
@@ -507,46 +458,21 @@ __/2</td>
 </tr>
 <tr class="odd">
 <td><strong>Question 1</strong></td>
-<td><p><strong>Statement</strong>: What is offensive security, and why
-is it essential for learners to work offensively? Provide examples of
-offensive security techniques in your discussion.</p>
-<p>Learning how to break things is fun but is there an educational
-benefit in doing it? Apply your learning and understanding of industry
-and the potential future to tell people why what we do in this class is
-essential for education.</p>
-<p>Statement responses are used to evaluate your ability to
-<strong>analyse your learning</strong>, identify <strong>how and when
-you synthesised new understanding</strong> on your own, and your ability
-to <strong>reflect upon your work</strong></p>
-<p>Showcases are a tool <strong>you use to highlight your learning to
-different audiences</strong>. Learning how to <strong>reflect on what
-you learnt</strong> during your assessments and
-<strong>identifying</strong> what parts of your work were <strong>high
-quality</strong> and what you could do <strong>to improve</strong> your
-work is an <strong>essential aspect of education</strong>.</p>
-<p>This question will be marked against the following aspects of your
-ability to:</p>
+<td><p><strong>Statement</strong>: What is offensive security, and why is it essential for learners to work offensively? Provide examples of offensive security techniques in your discussion.</p>
+<p>Learning how to break things is fun but is there an educational benefit in doing it? Apply your learning and understanding of industry and the potential future to tell people why what we do in this class is essential for education.</p>
+<p>Statement responses are used to evaluate your ability to <strong>analyse your learning</strong>, identify <strong>how and when you synthesised new understanding</strong> on your own, and your ability to <strong>reflect upon your work</strong></p>
+<p>Showcases are a tool <strong>you use to highlight your learning to different audiences</strong>. Learning how to <strong>reflect on what you learnt</strong> during your assessments and <strong>identifying</strong> what parts of your work were <strong>high quality</strong> and what you could do <strong>to improve</strong> your work is an <strong>essential aspect of education</strong>.</p>
+<p>This question will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>To <strong>summarise your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p>express <strong>your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p><strong>your ability to communicate your learning</strong>
-appropriately to experts</p></li>
+<li><p>To <strong>summarise your understanding of technology</strong> concepts and principles to a general audience</p></li>
+<li><p>express <strong>your understanding of technology</strong> concepts and principles to a general audience</p></li>
+<li><p><strong>your ability to communicate your learning</strong> appropriately to experts</p></li>
 </ul>
 <p>Evidence for higher-order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why. For example, you may have
-explained how you did X, Y, and Z, but you continue to explain why you
-did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or highlighting the significant differences
-between two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or highlighting the significant differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul></td>
 <td>4</td>
 <td>__/4</td>
@@ -556,46 +482,21 @@ situation or context.</p></li>
 </tr>
 <tr class="even">
 <td><strong>Question 2</strong></td>
-<td><p><strong>Question</strong>: What are some ethical considerations
-that we need to take regarding learning cyber security? Provide examples
-of what learners and teachers should consider in the education of young
-people in cyber security</p>
-<p>Learning to break things is fun, but education isn't always focused
-on fun. How can young people get themselves into strife online, and what
-can we do to protect them?</p>
-<p>Statement responses are used to evaluate your ability to
-<strong>analyse your learning</strong>, identify <strong>how and when
-you synthesised new understanding</strong> on your own, and your ability
-to <strong>reflect upon your work</strong></p>
-<p>Showcases are a tool <strong>you use to highlight your learning to
-different audiences</strong>. Learning how to <strong>reflect on what
-you learnt</strong> during your assessments and
-<strong>identifying</strong> what parts of your work were <strong>high
-quality</strong> and what you could do <strong>to improve</strong> your
-work is an <strong>essential aspect of education</strong>.</p>
-<p>This question will be marked against the following aspects of your
-ability to:</p>
+<td><p><strong>Question</strong>: What are some ethical considerations that we need to take regarding learning cyber security? Provide examples of what learners and teachers should consider in the education of young people in cyber security</p>
+<p>Learning to break things is fun, but education isn't always focused on fun. How can young people get themselves into strife online, and what can we do to protect them?</p>
+<p>Statement responses are used to evaluate your ability to <strong>analyse your learning</strong>, identify <strong>how and when you synthesised new understanding</strong> on your own, and your ability to <strong>reflect upon your work</strong></p>
+<p>Showcases are a tool <strong>you use to highlight your learning to different audiences</strong>. Learning how to <strong>reflect on what you learnt</strong> during your assessments and <strong>identifying</strong> what parts of your work were <strong>high quality</strong> and what you could do <strong>to improve</strong> your work is an <strong>essential aspect of education</strong>.</p>
+<p>This question will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>To <strong>summarise your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p>express <strong>your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p><strong>your ability to communicate your learning</strong>
-appropriately to experts</p></li>
+<li><p>To <strong>summarise your understanding of technology</strong> concepts and principles to a general audience</p></li>
+<li><p>express <strong>your understanding of technology</strong> concepts and principles to a general audience</p></li>
+<li><p><strong>your ability to communicate your learning</strong> appropriately to experts</p></li>
 </ul>
 <p>Evidence for higher-order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why. For example, you may have
-explained how you did X, Y, and Z, but you continue to explain why you
-did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or highlighting the significant differences
-between two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or highlighting the significant differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul></td>
 <td>4</td>
 <td>__/4</td>
@@ -605,44 +506,21 @@ situation or context.</p></li>
 </tr>
 <tr class="odd">
 <td><strong>Question 3</strong></td>
-<td><p><strong>Question</strong>: How do hackers attack networks?
-Provide examples and document why it is important to understand why
-learners must study how to build and attack networks?</p>
-<p>Show people what you've learnt on TryHackMe. Why is this a relevant
-skill? How can it be deployed?</p>
-<p>Statement responses are used to evaluate your ability to
-<strong>analyse your learning</strong>, identify <strong>how and when
-you synthesised new understanding</strong> on your own, and your ability
-to <strong>reflect upon your work</strong></p>
-<p>Showcases are a tool <strong>you use to highlight your learning to
-different audiences</strong>. Learning how to <strong>reflect on what
-you learnt</strong> during your assessments and
-<strong>identifying</strong> what parts of your work were <strong>high
-quality</strong> and what you could do <strong>to improve</strong> your
-work is an <strong>essential aspect of education</strong>.</p>
-<p>This question will be marked against the following aspects of your
-ability to:</p>
+<td><p><strong>Question</strong>: How do hackers attack networks? Provide examples and document why it is important to understand why learners must study how to build and attack networks?</p>
+<p>Show people what you've learnt on TryHackMe. Why is this a relevant skill? How can it be deployed?</p>
+<p>Statement responses are used to evaluate your ability to <strong>analyse your learning</strong>, identify <strong>how and when you synthesised new understanding</strong> on your own, and your ability to <strong>reflect upon your work</strong></p>
+<p>Showcases are a tool <strong>you use to highlight your learning to different audiences</strong>. Learning how to <strong>reflect on what you learnt</strong> during your assessments and <strong>identifying</strong> what parts of your work were <strong>high quality</strong> and what you could do <strong>to improve</strong> your work is an <strong>essential aspect of education</strong>.</p>
+<p>This question will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>To <strong>summarise your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p>express <strong>your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p><strong>your ability to communicate your learning</strong>
-appropriately to experts</p></li>
+<li><p>To <strong>summarise your understanding of technology</strong> concepts and principles to a general audience</p></li>
+<li><p>express <strong>your understanding of technology</strong> concepts and principles to a general audience</p></li>
+<li><p><strong>your ability to communicate your learning</strong> appropriately to experts</p></li>
 </ul>
 <p>Evidence for higher-order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why. For example, you may have
-explained how you did X, Y, and Z, but you continue to explain why you
-did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or highlighting the significant differences
-between two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or highlighting the significant differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul></td>
 <td>4</td>
 <td>__/4</td>
@@ -652,46 +530,20 @@ situation or context.</p></li>
 </tr>
 <tr class="even">
 <td><strong>Audio Presentation</strong></td>
-<td><p><strong>You have submitted evidence of a presentation</strong>.
-This presentation is <strong>intended to be spoken</strong> but can be
-negotiated. The presentation elevates the poster <strong>by providing
-additional information via extrapolation</strong> of the facts included
-in the poster.</p>
-<p><strong>The presentation is not long</strong>. No more than 5
-minutes. You pitched your <strong>presentation as if it could replace a
-physical showcase</strong>. The production recording itself is not being
-assessed; instead, you will <strong>be evaluated on your ability to
-extrapolate and expand your content</strong> to expand the significant
-points to provide more details briefly.</p>
-<p>Showcases are a tool <strong>you use to highlight your learning to
-different audiences</strong>. Learning how to <strong>reflect on what
-you learnt</strong> during your assessments and
-<strong>identifying</strong> what parts of your work were <strong>high
-quality</strong> and what you could do <strong>to improve</strong> your
-work is an <strong>essential aspect of education</strong>.</p>
-<p>This question will be marked against the following aspects of your
-ability to:</p>
+<td><p><strong>You have submitted evidence of a presentation</strong>. This presentation is <strong>intended to be spoken</strong> but can be negotiated. The presentation elevates the poster <strong>by providing additional information via extrapolation</strong> of the facts included in the poster.</p>
+<p><strong>The presentation is not long</strong>. No more than 5 minutes. You pitched your <strong>presentation as if it could replace a physical showcase</strong>. The production recording itself is not being assessed; instead, you will <strong>be evaluated on your ability to extrapolate and expand your content</strong> to expand the significant points to provide more details briefly.</p>
+<p>Showcases are a tool <strong>you use to highlight your learning to different audiences</strong>. Learning how to <strong>reflect on what you learnt</strong> during your assessments and <strong>identifying</strong> what parts of your work were <strong>high quality</strong> and what you could do <strong>to improve</strong> your work is an <strong>essential aspect of education</strong>.</p>
+<p>This question will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>To <strong>summarise your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p>express <strong>your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p><strong>your ability to communicate your learning</strong>
-appropriately to experts</p></li>
+<li><p>To <strong>summarise your understanding of technology</strong> concepts and principles to a general audience</p></li>
+<li><p>express <strong>your understanding of technology</strong> concepts and principles to a general audience</p></li>
+<li><p><strong>your ability to communicate your learning</strong> appropriately to experts</p></li>
 </ul>
 <p>Evidence for higher-order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why. For example, you may have
-explained how you did X, Y, and Z, but you continue to explain why you
-did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or highlighting the significant differences
-between two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or highlighting the significant differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul></td>
 <td>4</td>
 <td>__/4</td>
@@ -711,10 +563,7 @@ situation or context.</p></li>
 </tr>
 <tr class="even">
 <td><strong>Readability</strong></td>
-<td><strong>Assessment submission is ordered</strong> and has a definite
-pattern to its construction. <strong>The reader is not confused about
-the content in any given section and can easily follow the submission
-flow</strong>. </td>
+<td><strong>Assessment submission is ordered</strong> and has a definite pattern to its construction. <strong>The reader is not confused about the content in any given section and can easily follow the submission flow</strong>. </td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
@@ -723,10 +572,7 @@ flow</strong>. </td>
 </tr>
 <tr class="odd">
 <td><strong>Formatting</strong></td>
-<td><strong>Students have</strong> <strong>followed the formatting
-instructions</strong>, including any provided templates and guides, or
-<strong>created their</strong> legible formatting guide <strong>and
-applied it constantly</strong>.</td>
+<td><strong>Students have</strong> <strong>followed the formatting instructions</strong>, including any provided templates and guides, or <strong>created their</strong> legible formatting guide <strong>and applied it constantly</strong>.</td>
 <td>2</td>
 <td>__/2</td>
 <td>__/2</td>
@@ -755,7 +601,7 @@ T __/46</strong></td>
 ## VET Competencies 
 
 | **Result** | **Vocational competencies assessed via this task** |                                                       | **Aspect of task addressing competency**                               |
-|------|-----------|------------------------|--------------------------------|
+|------------|----------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------|
 |            | BSBOHS201A                                         | Participate in OHS processes                          | Proper use of equipment & evacuation drills                            |
 |            | ICAICT202A                                         | Work and communicate effectively in an IT environment | Researching, creating, printing & submitting of Research Report        |
 |            | ICAICT201A                                         | Use Computer Operating System and Hardware            | Participation in organised IT activity & researching & creating report |
