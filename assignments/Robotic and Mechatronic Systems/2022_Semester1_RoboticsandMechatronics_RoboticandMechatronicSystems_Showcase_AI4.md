@@ -465,7 +465,7 @@ __/2</td>
 </tr>
 <tr class="even">
 <td><strong>Statement 3</strong></td>
-<td><p><strong>Statement</strong>: The previous assessment item asked students to become an expert on one of the wordle game client/player features. Review some of the tutorials students generated and identify what you could have used to enhance your tutorials. This enhancement could be good things you should include in the future or a 'here be dragons' moment.</p>
+<td><p><strong>Statement</strong>: The previous assessment item asked students to become an expert on one feature of a remote control car. Review some of the tutorials students generated and identify what you could have used to enhance your tutorials. This enhancement could be good things you should include in the future or a 'here be dragons' moment.</p>
 <p>Feel free to compare and contrast your work or others. What worked in them and what didn't work.</p>
 <p>Statement responses are used to evaluate your ability to <strong>analyse your learning</strong>, identify <strong>how and when you synthesised new understanding</strong> on your own, and your ability to <strong>reflect upon your work</strong></p>
 <p>Showcases are a tool <strong>you use to highlight your learning to different audiences</strong>. Learning how to <strong>reflect on what you learnt</strong> during your assessments and <strong>identifying</strong> what parts of your work were <strong>high quality</strong> and what you could do <strong>to improve</strong> your work is an <strong>essential aspect of education</strong>.</p>
