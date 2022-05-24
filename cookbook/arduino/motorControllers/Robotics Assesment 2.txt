@@ -1,0 +1,88 @@
+Motor Controllers
+
+How they work
+The motor controllers that we have use use 4 pins to control 2 motors (2 each).
+It uses the E (Enable Pins) and the M (Signal Pins) to control the speed and direction of the motors.
+Using the Table below you can make the motor go forwards or backwards.
+(Image 4)
+
+Applications for Motor controller
+Motor controllers can be used in a wide range of applications.
+They are preferable to connecting the motor straight to a battery as it can be used to switch the direction and speed of the motor.
+They are commonly used in rovers because they allow them to be ran in reverse
+They are also commonly used in robots
+
+Getting Started with a motor controller
+To get started with a motor control replicate the diagram and code below
+If it doesn't work make sure your connections are good
+(Images 1 & 2)
+
+Two motors going in reverse directions
+Very similar to prior code
+Rather than the speed oscillating  like in the last one it is always high (does not have to be).
+Different M values for the different motors depending on direction you want them to spin
+Use chart as reference 
+(Images 3 & 4)
+
+Variable Speed Control using a Joystick.
+A joystick can be used to control the speed of a motor by mapping the location of the joystick to the speed.  
+The circuit shown on the left is an example of how to wire the joystick to the arduino.
+Utilise the map function to control the speed (as seen below)
+Set the maximum value of the Y coordinate to be 255, which is the maximum speed you can set to a motor through an analog pin.
+(Images 5 & 6)
+
+Forwards and backwards at variable speed
+To make a motor go backwards, you make the M pin set to low. 
+Then set the E pin to be attached to the values of the joystick.
+Note that one of the values is 255, this is because that is the maximum speed.
+Also note that when going backwards, the positions must be set to negative values.
+(Images 7 & 8)
+
+Practice Problem 1
+Create a circuit using the components listed 
+Your circuit must make the motor spin
+DC Motor
+H-Bridge
+7.5 V Battery
+Arduino UNO 
+Or Arduino MEGA
+
+Practice Problem 2
+Using the same circuit as before
+Make it spin at 10% of max speed forwards
+Make it spin at 100% of max speed in reverse 
+Make it spin 70% of max speed forwards 
+Make it spin 30% of max speed in reverse
+
+Practice Problem 3
+Add another motor to the circuit 
+Make one motor spin backwards the other forwards 
+Swap the directions 
+See if you can make them spin at different speeds
+
+Practice Problem 4
+Create a new circuit using parts listed
+Remap the joystick so fully forward is full speed and fully backwards is off
+Then try remap the joystick so fully forward is forwards, rest is off and fully backwards is reverse 
+DC Motor
+H-Bridge
+7.5 V Battery
+Arduino UNO or Arduino MEGA
+Joystick
+
+
+Challenge
+Create a circuit with parts listed
+The two motors must spin in opposite directions at all times
+The joystick up and down must control the speed of both motors
+The speeds of the motors must be opposite 
+i.e when A is at max B is off
+The Joystick left and right must invert the direction of the motors
+I.e means if Motor A spins forwards B spins backwards normal it pushed to either side means B spins forwards A spins back
+DC Motor
+H-Bridge
+7.5 V Battery
+Joystick
+DC Motor
+Or Arduino MEGA
+
