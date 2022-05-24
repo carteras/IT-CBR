@@ -3,11 +3,15 @@
 What is this recipe about?
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+  graph TD;
+      Topic-->Topics Covered;
+      Topics Covered-->Prior Knowledge;
+      Prior Knowledge-->Third Party Sources;
+      Third Party Sources-->Introduction;
+      Introduction-->Worked examples;
+      Worked examples-->Practice Questions;
+      Practice Questions-->Challenge Questions;
+      Challenge Questions-->Topic
 ```
 
 **original author:** [someone](https://github.com/someone)
