@@ -201,7 +201,7 @@ Analysis and synthesis of the information will not be assessed through
 these criteria.*
 
 |                      | **0 Points**                                                | **1 Point**                                                                     | **2 Points**                                                                    |
-|---------|-------------------|-----------------------|-----------------------|
+|----------------------|-------------------------------------------------------------|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | **2 Point Criteria** | Not present or able to be assessed as the required criteria | Item is presented and **does meet** expectations for quality, rigour, or detail | Item is presented and **does** meet expectations for quality, rigour, or detail |
 
 **4-Point Criteria - Analysis and Synthesis and Expert Review**
@@ -244,24 +244,12 @@ original and effective idea.*
 <tr class="odd">
 <td><strong>4 Point Criteria</strong></td>
 <td>Not present or able to be assessed as the required criteria</td>
-<td>Item is <strong>presented and explained</strong>. However, it
-<strong>does not show any evidence of higher order thinking</strong>
-such as analysis, evaluation, or synthesis.</td>
-<td>Item is presented and <strong>shows appropriate evidence of higher
-order thinking</strong> such as analysis, evaluation, or synthesis.</td>
-<td><p>Item is presented and <strong>exceeds</strong>
-<strong>expectations</strong> for <strong>evidence of higher order
-thinking</strong> such as analysis, evaluation, or synthesis.</p>
+<td>Item is <strong>presented and explained</strong>. However, it <strong>does not show any evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis.</td>
+<td>Item is presented and <strong>shows appropriate evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis.</td>
+<td><p>Item is presented and <strong>exceeds</strong> <strong>expectations</strong> for <strong>evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis.</p>
 <p><strong>-or-</strong></p>
-<p>Item is presented and <strong>shows appropriate evidence of higher
-order thinking</strong> such as analysis, evaluation, or synthesis and
-<strong>exceeds expectations</strong> for quality, rigour, or
-understanding of the selected mastery.</p></td>
-<td>Item is presented and <strong>exceeds</strong>
-<strong>expectations</strong> for <strong>evidence of higher order
-thinking</strong> such as analysis, evaluation, or synthesis.
-Additionally, this item <strong>exceeds expectations</strong> for
-quality, rigour, or understanding of the selected mastery.</td>
+<p>Item is presented and <strong>shows appropriate evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis and <strong>exceeds expectations</strong> for quality, rigour, or understanding of the selected mastery.</p></td>
+<td>Item is presented and <strong>exceeds</strong> <strong>expectations</strong> for <strong>evidence of higher order thinking</strong> such as analysis, evaluation, or synthesis. Additionally, this item <strong>exceeds expectations</strong> for quality, rigour, or understanding of the selected mastery.</td>
 </tr>
 </tbody>
 </table>
@@ -301,26 +289,12 @@ effective idea.*
 <tr class="odd">
 <td><strong>4 Point Criteria</strong></td>
 <td>Not present or able to be assessed as the required criteria</td>
-<td>Item is <strong>presented</strong> and broadly <strong>solves the
-problem</strong>. However, upon review, it <strong>does not</strong>
-show any evidence of appropriate mastery.</td>
-<td>Item is <strong>presented</strong> and broadly <strong>solves the
-problem</strong>. On review, it <strong>does</strong> show any evidence
-of appropriate mastery.</td>
-<td><p>Item is <strong>presented and solves the specific
-problem</strong>. On review, the evidence shows understanding
-<strong>beyond expected mastery</strong>.</p>
+<td>Item is <strong>presented</strong> and broadly <strong>solves the problem</strong>. However, upon review, it <strong>does not</strong> show any evidence of appropriate mastery.</td>
+<td>Item is <strong>presented</strong> and broadly <strong>solves the problem</strong>. On review, it <strong>does</strong> show any evidence of appropriate mastery.</td>
+<td><p>Item is <strong>presented and solves the specific problem</strong>. On review, the evidence shows understanding <strong>beyond expected mastery</strong>.</p>
 <p>-or-</p>
-<p>Item is <strong>presented</strong> and broadly <strong>solves the
-problem</strong>. On review, it <strong>does</strong> show any evidence
-of appropriate mastery and is done so in a
-<strong>well-constructed</strong> or design method that <strong>clearly
-shows higher levels of understanding</strong>.</p></td>
-<td>Item is <strong>presented and solves the specific problem</strong>.
-On review, the evidence shows understanding <strong>well</strong>
-<strong>beyond expected mastery</strong> and is done so in a
-<strong>well-constructed</strong> or design method that <strong>clearly
-shows higher levels of understanding</strong>..</td>
+<p>Item is <strong>presented</strong> and broadly <strong>solves the problem</strong>. On review, it <strong>does</strong> show any evidence of appropriate mastery and is done so in a <strong>well-constructed</strong> or design method that <strong>clearly shows higher levels of understanding</strong>.</p></td>
+<td>Item is <strong>presented and solves the specific problem</strong>. On review, the evidence shows understanding <strong>well</strong> <strong>beyond expected mastery</strong> and is done so in a <strong>well-constructed</strong> or design method that <strong>clearly shows higher levels of understanding</strong>..</td>
 </tr>
 </tbody>
 </table>
@@ -391,37 +365,21 @@ they are taught and can customise their learning to ben
 <tr class="even">
 <td><p><strong>Tutorial</strong></p>
 <p>(group)</p></td>
-<td><p>You have submitted evidence of completing the required learning
-material. This evidence is submitted in an appropriate format (Markdown)
-unless negotiated for a different format.</p>
-<p>The evidence of learning material appears to be of appropriate level
-for your accreditation level and the topic chosen.</p>
-<p>The evidence appears to have at least 2-4 (group size +1) worked
-examples / 2-4 practice questions / 2-4 challenge and includes
-references to any appropriate required learning material that other
-students may need to know.</p>
+<td><p>You have submitted evidence of completing the required learning material. This evidence is submitted in an appropriate format (Markdown) unless negotiated for a different format.</p>
+<p>The evidence of learning material appears to be of appropriate level for your accreditation level and the topic chosen.</p>
+<p>The evidence appears to have at least 2-4 (group size +1) worked examples / 2-4 practice questions / 2-4 challenge and includes references to any appropriate required learning material that other students may need to know.</p>
 <ul>
 <li><p>Explicit instruction</p></li>
-<li><p>At least 2-4 worked example for each required element (minimum
-group-size + 1)</p></li>
+<li><p>At least 2-4 worked example for each required element (minimum group-size + 1)</p></li>
 <li><p>At least 1 practice question for each worked example</p></li>
-<li><p>At least 1 challenge question which requires most of the practice
-questions</p></li>
-<li><p>(If applicable) A document which includes all your teammates, and
-who submitted your body of work</p></li>
+<li><p>At least 1 challenge question which requires most of the practice questions</p></li>
+<li><p>(If applicable) A document which includes all your teammates, and who submitted your body of work</p></li>
 </ul>
-<p>Evidence for knowledge, comprehension, and application may
-include:</p>
+<p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall and list relevant terms covered in your learning. It may tell a
-story to the reader (the teacher) or state the conditions of your
-learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify key aspects of your learning or explains to the author what
-you've done.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that
-you constructed a complete submission</p></li>
+<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms covered in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
+<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify key aspects of your learning or explains to the author what you've done.</p></li>
+<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>2</p>
@@ -446,32 +404,16 @@ T __/10</td>
 <tr class="odd">
 <td><p><strong>Reflection document</strong></p>
 <p>(individual)</p></td>
-<td><p>You have submitted evidence of your evidence guide. By default,
-your evidence guide responses to each of the three questions selected by
-your teacher. However, these questions can be negotiated or reframed
-with your teacher.<br />
+<td><p>You have submitted evidence of your evidence guide. By default, your evidence guide responses to each of the three questions selected by your teacher. However, these questions can be negotiated or reframed with your teacher.<br />
 <br />
-To achieve a passing grade (2) you must submit a serious attempt to
-response to the question. By default, your submission for the evidence
-guide would be on a Google Slide or PowerPoint document. This document
-has a maximum space allotment of 3 slides per question.<br />
+To achieve a passing grade (2) you must submit a serious attempt to response to the question. By default, your submission for the evidence guide would be on a Google Slide or PowerPoint document. This document has a maximum space allotment of 3 slides per question.<br />
 <br />
-Additional space can be used for introduction, indexes, and summary
-slides. The output can be negotiated with the teacher. Previous
-submissions have allowed for Google Sites, HTML, or Markdown
-documents.</p>
-<p>Evidence for knowledge, comprehension, and application may
-include:</p>
+Additional space can be used for introduction, indexes, and summary slides. The output can be negotiated with the teacher. Previous submissions have allowed for Google Sites, HTML, or Markdown documents.</p>
+<p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall and list relevant terms covered in your learning. It may tell a
-story to the reader (the teacher) or state the conditions of your
-learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify key aspects of your learning or explains to the author what
-you've done.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that
-you constructed a complete submission</p></li>
+<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms covered in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
+<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify key aspects of your learning or explains to the author what you've done.</p></li>
+<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>2</p>
@@ -501,43 +443,20 @@ __/2</td>
 </tr>
 <tr class="odd">
 <td><strong>Question 1</strong></td>
-<td><p><strong>Question</strong>: What was the process you used to
-ensure that you would meet all the required elements for the
-tutorial?</p>
-<p>Evidence guides are a tool <strong>you use to highlight your learning
-to the teacher</strong>. Learning how to reflect on your learning during
-your assessments and identifying what parts of your work were high
-quality and what you could do to improve your work is an essential
-aspect of education.</p>
-<p>You will present your <strong>evidence guide within a PowerPoint
-document</strong>. Your response can be <strong>no more than 3
-slides</strong> <strong>following the style guide</strong> for
-PowerPoint documents.</p>
-<p>This aspect of the assessment evaluates your ability to
-<strong>analyse your learning</strong>, identify <strong>how and when
-you synthesised new understanding</strong> on your own, and your ability
-to <strong>assess your work</strong></p>
-<p>Each of your questions will be marked against the following aspects
-of your ability to:</p>
+<td><p><strong>Question</strong>: What was the process you used to ensure that you would meet all the required elements for the tutorial?</p>
+<p>Evidence guides are a tool <strong>you use to highlight your learning to the teacher</strong>. Learning how to reflect on your learning during your assessments and identifying what parts of your work were high quality and what you could do to improve your work is an essential aspect of education.</p>
+<p>You will present your <strong>evidence guide within a PowerPoint document</strong>. Your response can be <strong>no more than 3 slides</strong> <strong>following the style guide</strong> for PowerPoint documents.</p>
+<p>This aspect of the assessment evaluates your ability to <strong>analyse your learning</strong>, identify <strong>how and when you synthesised new understanding</strong> on your own, and your ability to <strong>assess your work</strong></p>
+<p>Each of your questions will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>express <strong>your understanding of technology</strong>
-concepts and principles</p></li>
-<li><p><strong>your ability to communicate ideas</strong> appropriately
-in the selected medium</p></li>
+<li><p>express <strong>your understanding of technology</strong> concepts and principles</p></li>
+<li><p><strong>your ability to communicate ideas</strong> appropriately in the selected medium</p></li>
 </ul>
 <p>Evidence for higher order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why you did it. For example, you may
-have explained how you did X, Y, and Z, but you continue to explain why
-you did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or a highlighting the major differences between
-two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why you did it. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or a highlighting the major differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul></td>
 <td><p>4</p>
 <p>4</p></td>
@@ -552,43 +471,20 @@ __/4</td>
 </tr>
 <tr class="even">
 <td><strong>Question 2</strong></td>
-<td><p><strong>Question</strong>: How did your existing knowledge and/or
-understanding of Information Technology helped inform your work on the
-tutorial.</p>
-<p>Evidence guides are a tool <strong>you use to highlight your learning
-to the teacher</strong>. Learning how to reflect on your learning during
-your assessments and identifying what parts of your work were high
-quality and what you could do to improve your work is an essential
-aspect of education.</p>
-<p>You will present your <strong>evidence guide within a PowerPoint
-document</strong>. Your response can be <strong>no more than 3
-slides</strong> <strong>following the style guide</strong> for
-PowerPoint documents.</p>
-<p>This aspect of the assessment evaluates your ability to
-<strong>analyse your learning</strong>, identify <strong>how and when
-you synthesised new understanding</strong> on your own, and your ability
-to <strong>assess your work</strong></p>
-<p>Each of your questions will be marked against the following aspects
-of your ability to:</p>
+<td><p><strong>Question</strong>: How did your existing knowledge and/or understanding of Information Technology helped inform your work on the tutorial.</p>
+<p>Evidence guides are a tool <strong>you use to highlight your learning to the teacher</strong>. Learning how to reflect on your learning during your assessments and identifying what parts of your work were high quality and what you could do to improve your work is an essential aspect of education.</p>
+<p>You will present your <strong>evidence guide within a PowerPoint document</strong>. Your response can be <strong>no more than 3 slides</strong> <strong>following the style guide</strong> for PowerPoint documents.</p>
+<p>This aspect of the assessment evaluates your ability to <strong>analyse your learning</strong>, identify <strong>how and when you synthesised new understanding</strong> on your own, and your ability to <strong>assess your work</strong></p>
+<p>Each of your questions will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>express <strong>your understanding of technology</strong>
-concepts and principles</p></li>
-<li><p><strong>your ability to communicate ideas</strong> appropriately
-in the selected medium</p></li>
+<li><p>express <strong>your understanding of technology</strong> concepts and principles</p></li>
+<li><p><strong>your ability to communicate ideas</strong> appropriately in the selected medium</p></li>
 </ul>
 <p>Evidence for higher order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why you did it. For example, you may
-have explained how you did X, Y, and Z, but you continue to explain why
-you did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or a highlighting the major differences between
-two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why you did it. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or a highlighting the major differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul></td>
 <td><p>4</p>
 <p>4</p></td>
@@ -603,43 +499,20 @@ __/4</td>
 </tr>
 <tr class="odd">
 <td><strong>Question 3</strong></td>
-<td><p><strong>Question</strong>: How has your understanding of
-Information Technology changed from the start of this assignment time
-until now?</p>
-<p>Evidence guides are a tool <strong>you use to highlight your learning
-to the teacher</strong>. Learning how to reflect on your learning during
-your assessments and identifying what parts of your work were high
-quality and what you could do to improve your work is an essential
-aspect of education.</p>
-<p>You will present your <strong>evidence guide within a PowerPoint
-document</strong>. Your response can be <strong>no more than 3
-slides</strong> <strong>following the style guide</strong> for
-PowerPoint documents.</p>
-<p>This aspect of the assessment evaluates your ability to
-<strong>analyse your learning</strong>, identify <strong>how and when
-you synthesised new understanding</strong> on your own, and your ability
-to <strong>assess your work</strong></p>
-<p>Each of your questions will be marked against the following aspects
-of your ability to:</p>
+<td><p><strong>Question</strong>: How has your understanding of Information Technology changed from the start of this assignment time until now?</p>
+<p>Evidence guides are a tool <strong>you use to highlight your learning to the teacher</strong>. Learning how to reflect on your learning during your assessments and identifying what parts of your work were high quality and what you could do to improve your work is an essential aspect of education.</p>
+<p>You will present your <strong>evidence guide within a PowerPoint document</strong>. Your response can be <strong>no more than 3 slides</strong> <strong>following the style guide</strong> for PowerPoint documents.</p>
+<p>This aspect of the assessment evaluates your ability to <strong>analyse your learning</strong>, identify <strong>how and when you synthesised new understanding</strong> on your own, and your ability to <strong>assess your work</strong></p>
+<p>Each of your questions will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>express <strong>your understanding of technology</strong>
-concepts and principles</p></li>
-<li><p><strong>your ability to communicate ideas</strong> appropriately
-in the selected medium</p></li>
+<li><p>express <strong>your understanding of technology</strong> concepts and principles</p></li>
+<li><p><strong>your ability to communicate ideas</strong> appropriately in the selected medium</p></li>
 </ul>
 <p>Evidence for higher order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why you did it. For example, you may
-have explained how you did X, Y, and Z, but you continue to explain why
-you did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or a highlighting the major differences between
-two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why you did it. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or a highlighting the major differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul></td>
 <td><p>4</p>
 <p>4</p></td>
@@ -662,10 +535,7 @@ __/4</td>
 </tr>
 <tr class="odd">
 <td><strong>Readability</strong></td>
-<td><strong>Assessment submission is ordered</strong> and has a definite
-pattern to its construction. <strong>The reader is not confused as to
-the content in any given section</strong> and can follow the flow of the
-submission easily. </td>
+<td><strong>Assessment submission is ordered</strong> and has a definite pattern to its construction. <strong>The reader is not confused as to the content in any given section</strong> and can follow the flow of the submission easily. </td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
@@ -674,10 +544,7 @@ submission easily. </td>
 </tr>
 <tr class="even">
 <td><strong>Formatting</strong></td>
-<td><strong>Students have</strong> <strong>followed the formatting
-instructions</strong> including any provided templates and guides
-<strong>or have created their own</strong>, legible formatting guide
-<strong>and applied it constantly</strong>.</td>
+<td><strong>Students have</strong> <strong>followed the formatting instructions</strong> including any provided templates and guides <strong>or have created their own</strong>, legible formatting guide <strong>and applied it constantly</strong>.</td>
 <td>2</td>
 <td>__/2</td>
 <td>__/2</td>
@@ -706,7 +573,7 @@ T __/78</strong></td>
 ## VET Competencies 
 
 | **Result** | **Vocational competencies assessed via this task** |                                                       | **Aspect of task addressing competency**                               |
-|------|-----------|------------------------|--------------------------------|
+|------------|----------------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------|
 |            | BSBOHS201A                                         | Participate in OHS processes                          | Proper use of equipment & evacuation drills                            |
 |            | ICAICT202A                                         | Work and communicate effectively in an IT environment | Researching, creating, printing & submitting of Research Report        |
 |            | ICAICT201A                                         | Use Computer Operating System and Hardware            | Participation in organised IT activity & researching & creating report |
