@@ -42,6 +42,8 @@ This recipe shows you how to construct a simple motor circuit using the DF-MD v1
 
 ## Topics
 
+![Working!](motorcontroller.gif)
+
 ### Introduction
 
 This example expands upon student work and shows how to link the motor controller and the Arduino together as a single circuit
