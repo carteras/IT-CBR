@@ -54,7 +54,7 @@ This example expands upon student work and shows how to link the motor controlle
 
 <!-- Provide some basic worked examples that let people follow your worked examples. If it's a library, don't forget to tell people how to install it -->
 
-![](2022-06-06-09-31-44.png)
+![](2022-06-06-14-06-03.png)
 
 ```cpp
 #define M1 6
