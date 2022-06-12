@@ -2,7 +2,7 @@
 
 This recipe shows you how to construct a simple motor circuit using the DF-MD v1.3 motor controllers we have in the lab
 
-:::mermaid
+```mermaid
   graph TD;
       9v battery-->MD_GND_&_Vs;
       Arduino-->MD_Gnd;
@@ -10,7 +10,7 @@ This recipe shows you how to construct a simple motor circuit using the DF-MD v1
       Arduino_Pin6-->MD_M1;
       Motor --> MD +|-;
       Arduino --> Code;
-:::
+```
 
 **original author:** [carteras](https://github.com/carteras)
 
