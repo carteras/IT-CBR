@@ -4,11 +4,11 @@ This recipe shows you how to construct a simple motor circuit using the DF-MD v1
 
 ```mermaid
   graph TD;
-      9v_battery-->MD_GND_&_Vs;
-      Arduino-->MD_Gnd;
-      Arduino_Pin7-->MD_E1;
-      Arduino_Pin6-->MD_M1;
-      Motor --> MD;
+      9v_battery-->MotorDriver;
+      Arduino-->MotorDriver_Gnd;
+      Arduino_Pin7-->MotorDriver_E1;
+      Arduino_Pin6-->MotorDriver_M1;
+      Motor --> MotorDriver;
       Arduino --> Code;
 ```
 
