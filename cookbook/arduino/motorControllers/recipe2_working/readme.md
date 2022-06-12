@@ -8,7 +8,7 @@ This recipe shows you how to construct a simple motor circuit using the DF-MD v1
       Arduino-->MD_Gnd;
       Arduino_Pin7-->MD_E1;
       Arduino_Pin6-->MD_M1;
-      Motor --> MD +|-;
+      Motor --> MD_+|-;
       Arduino --> Code;
 ```
 
