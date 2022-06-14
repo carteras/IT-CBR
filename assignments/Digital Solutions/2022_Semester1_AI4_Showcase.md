@@ -51,11 +51,9 @@ The default expectation is:
 -   The game follows the rules above
 
 -   The application runs from the command line using argparse, and
-    allows for the following options:
-
-![Text Description automatically generated]("D:\github\IT-CBR\assignments\Digital Solutions\media\image5.png")
-
-{width="6.14669072615923in"
+    allows for the following options:\
+    ![Text Description automatically
+    generated](.//media/image5.png){width="6.14669072615923in"
     height="1.3439370078740158in"}
 
 ### Submissions
@@ -113,7 +111,7 @@ options.
 ##### Section 3: Submission Guidelines 
 
 For this section, students will be expected to provide a submission
-which fulfils all of the formatting and citation requirements listed in
+which fulfills all of the formatting and citation requirements listed in
 this assessment sheet but also that the submission is of a professional
 quality. Be aware, points in this section could be 2- or 4-point items.
 Treat them accordingly.
@@ -187,8 +185,7 @@ Formatting for all typed/written assessments should be as follows:
 <td colspan="6"><p><em>We apply the following style guide to Python
 files. However, in general most programs follow this broad
 layout.</em></p>
-<p><img
-src="D:\github\IT-CBR\assignments\Digital Solutions/media/image1.png"
+<p><img src=".//media/image1.png"
 style="width:5.29744in;height:4.12185in" /></p>
 <p><a href="https://pep8.org/">PEP 8: The Style Guide for Python
 Code</a></p></td>
@@ -199,8 +196,7 @@ Code</a></p></td>
 <td colspan="6"><p><em>We apply the following style guide to C/C++
 files. However, in general most programs follow this broad
 layout.</em></p>
-<p><img
-src="D:\github\IT-CBR\assignments\Digital Solutions/media/image2.png"
+<p><img src=".//media/image2.png"
 style="width:5.10488in;height:3.13585in" /></p>
 <p><em>I accept both K&amp;R and K&amp;R alternative bracing format. As
 long as it is consistent in your file.</em></p>
@@ -214,8 +210,7 @@ Documentation</a></p></td>
 <td colspan="6"><p><em>We apply the following style guide to markdown
 documents. However, in general, most documents follow some variation of
 the following layout:</em></p>
-<p><img
-src="D:\github\IT-CBR\assignments\Digital Solutions/media/image3.png"
+<p><img src=".//media/image3.png"
 style="width:5.29784in;height:3.4225in" /></p>
 <p><a
 href="https://github.com/google/styleguide/blob/gh-pages/docguide/style.md">https://github.com/google/styleguide/blob/gh-pages/docguide/style.md</a></p></td>
@@ -381,7 +376,7 @@ what about it was great, what could be improved.
 Why is this important? Reflective thinkers can go beyond what they are
 taught and can customise their learning to ben
 
-![](D:\github\IT-CBR\assignments\Digital Solutions/media/image4.png)
+![](.//media/image4.png)
 
 ##  
 
