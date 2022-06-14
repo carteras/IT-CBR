@@ -169,7 +169,7 @@ def make_cover_sheet(subject: Subject, subject_address:str, doc:DocxTemplate) ->
         context = build_doc_context(subject_address/assessment, doc)
         if context is None: continue
         print(context)
-        output_name = f"{subject.year}_{''.join(subject.semester.split())}_{''.join(subject.course_name.split())}_{''.join(subject.unit_name.split())}_{subject.assessments[assessment]}_{assessment}"
+        output_name = f"{subject.year}_{''.join(subject.semester.split())}_{assessment}_{subject.assessments[assessment]}"
         subject_output = output_dir / f"{subject.unit_name}"
         subject_output.mkdir(parents=True, exist_ok=True)
         file_out = output_dir/ subject_output / f"{output_name}.docx"

@@ -1,12 +1,12 @@
 # Task
 
-**Task**
+# Task {#task-1 .Title}
 
 You have been tasked to construct an evidence guide of your learning.
-The subject of the evidence guide is defaulted to the construction of a
-podcast on cyber security for other students to consume (see below) \--
-however the subject matter and medium can be negotiated with the teacher
-for individual consideration.
+The subject of the evidence guide is defaulted to the construction of
+learning material for other students to consume (see below) \-- however
+the subject can be negotiated with the teacher for individual interest
+or skills.
 
 The subject of the evidence (the learning material) can be collaborated
 on together in teams of 2 ± 1 but the evidence guide of your learning is
@@ -14,75 +14,73 @@ individual.
 
 An evidence guide is a centrally located document which contains
 evidence of your growing knowledge and understanding of the content
-taught in this course. By default you are required to submit the subject
-matter that you are using to base your evidence on and your evidence
-guide itself.
+taught in this course. By default, you are required to submit the
+subject matter that you are using to base your evidence on and your
+evidence guide itself.
 
 An evidence guide document is, generally, represented on a document that
 consists of short, and sharp, responses to high level questions.
 Historically, this document has been a PowerPoint document but this year
 the focus is on creating Markdown Documents.
 
-**Topics for podcast** (choose one, all continuing content must be
-chosen before we can allow for duplicate choices).
+**Topics for learning material** (choose one, all continuing content
+must be chosen before we can allow for duplicate choices).
 
-1.  Moonlight Maze
+### Continuing students
 
-2.  BlackEnergy/Arrakis02
+-   Motor Controllers
 
-3.  Stuxnet
+-   RF communication
 
-4.  FancyBear
+-   Servo Motors
 
-5.  Industroyer/Crash Override
+-   Esplora Board integration
 
-6.  The Shadow Brokers
+-   DPad / Joystick
 
-7.  EternalBlue
+-   I2C communication between Arduinos
 
-8.  Mimikatz
+-   Flatpack design on OnShape and Using a flat pack design on the laser
+    cutter
 
-9.  NotPetya and its impact on Ukraine
+-   3D design to hold components on OnShape andUsing a 3D design on the
+    3D printer
 
-10. NotPetya and its impact on Maersk
+-   Soldering a small circuit
 
-**Each must podcast include the following at a minimum**
+### New year students may choose from here as well
 
--   An introduction to the topic
+-   Replicating a project from T1 on a physical Arduino (Traffic Light,
 
--   A summary of what the topic is about including placing it in the
-    historic timeline
+-   Centre Detector, Train Crossing
 
--   Information regarding the topic on technology or industry
+-   Sending and Receiving Serial Communications
 
-Additionally, the group must submit an annotated bibliography of their
-work.
+### Each topic of learning must include the following at a minimum
 
--   An annotated Bibliography that represents your research. This should
-    have multiple resources. There is no hard minimum limit but you
-    should have multiple supporting pieces of evidence.
+-   Some sort of explicit instruction on the topic
 
--   A script where major claims are linked to the bibliography
+-   At least 2-4 (group size +1) worked example for any major thought
+    you are trying to express
 
--   An audio or video podcast piece that goes for no less than 5 minutes
-    and no more than 10 minutes
+-   At least 2-4 (group size +1) practice question for each worked
+    example.
 
-**Evidence Guide**
+-   At least 1 challenge question which incorporates the majority the
+    knowledge from above.
 
-Individually, Students must respond to the following questions:
+### **Evidence Guide:**
 
--   Question 1: What was the process you used to ensure that you would
-    meet all of the required elements of the Podcast? What were the
-    elements, how did you know this?
+Students must respond to the following questions:
 
--   Question 2: How did your existing knowledge and/or understanding of
-    this topic within Information Technology help inform your work on
-    this work?
+-   What was the design process that you used ensure that you met all of
+    required elements to produce your learning material?
 
--   Question 3: How has your understanding of this topic within
-    Information Technology changed over the course of this assignment?
+-   How did your understanding of digital solutions inform your choice
+    band/or your learning solution?
 
-Details about how to answer these questions can be found in the rubric.
+-   What is at least one example of how existing knowledge or
+    understanding framed novel learning?
 
 ##### Section 1: Knowledge Comprehension, and Application
 
@@ -178,7 +176,8 @@ Formatting for all typed/written assessments should be as follows:
 <td colspan="6"><p><em>We apply the following style guide to Python
 files. However, in general most programs follow this broad
 layout.</em></p>
-<p><img src="media/image1.png"
+<p><img
+src="D:\github\IT-CBR\assignments\Robotic and Mechatronic Systems/media/image1.png"
 style="width:5.29744in;height:4.12185in" /></p>
 <p><a href="https://pep8.org/">PEP 8: The Style Guide for Python
 Code</a></p></td>
@@ -189,7 +188,8 @@ Code</a></p></td>
 <td colspan="6"><p><em>We apply the following style guide to C/C++
 files. However, in general most programs follow this broad
 layout.</em></p>
-<p><img src="media/image2.png"
+<p><img
+src="D:\github\IT-CBR\assignments\Robotic and Mechatronic Systems/media/image2.png"
 style="width:5.10488in;height:3.13585in" /></p>
 <p><em>I accept both K&amp;R and K&amp;R alternative bracing format. As
 long as it is consistent in your file.</em></p>
@@ -203,7 +203,8 @@ Documentation</a></p></td>
 <td colspan="6"><p><em>We apply the following style guide to markdown
 documents. However, in general, most documents follow some variation of
 the following layout:</em></p>
-<p><img src="media/image3.png"
+<p><img
+src="D:\github\IT-CBR\assignments\Robotic and Mechatronic Systems/media/image3.png"
 style="width:5.29784in;height:3.4225in" /></p>
 <p><a
 href="https://github.com/google/styleguide/blob/gh-pages/docguide/style.md">https://github.com/google/styleguide/blob/gh-pages/docguide/style.md</a></p></td>
@@ -369,7 +370,7 @@ what about it was great, what could be improved.
 Why is this important? Reflective thinkers can go beyond what they are
 taught and can customise their learning to ben
 
-![](media/image4.png)
+![](D:\github\IT-CBR\assignments\Robotic and Mechatronic Systems/media/image4.png)
 
 ##  
 
@@ -407,24 +408,32 @@ taught and can customise their learning to ben
 <td><strong>TOTAL</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>Podcast</strong></p>
+<td><p><strong>Tutorial</strong></p>
 <p>(group)</p></td>
-<td><p>You have submitted evidence of completing required assessment
-material. This evidence is submitted in an appropriate format unless
-negotiated for a different format.</p>
-<p>There is evidence of the following submissions:</p>
+<td><p>You have submitted evidence of completing the required learning
+material. This evidence is submitted in an appropriate format (Markdown)
+unless negotiated for a different format.</p>
+<p>The evidence of learning material appears to be of appropriate level
+for your accreditation level and the topic chosen.</p>
+<p>The evidence appears to have at least 2-4 (group size +1) worked
+examples / 2-4 practice questions / 2-4 challenge and includes
+references to any appropriate required learning material that other
+students may need to know.</p>
 <ul>
-<li><p>An introduction to the topic</p></li>
-<li><p>An inclusion that situates where in the timeline of the first
-cyber war your topic is in (or relative timeline if negotiated a
-separate topic)</p></li>
-<li><p>Detailed information on the selected topic</p></li>
+<li><p>Explicit instruction</p></li>
+<li><p>At least 2-4 worked example for each required element (minimum
+group-size + 1)</p></li>
+<li><p>At least 1 practice question for each worked example</p></li>
+<li><p>At least 1 challenge question which requires most of the practice
+questions</p></li>
+<li><p>(If applicable) A document which includes all your teammates, and
+who submitted your body of work</p></li>
 </ul>
 <p>Evidence for knowledge, comprehension, and application may
 include:</p>
 <ul>
 <li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall, and list relevant terms covered in your learning. It may tell a
+recall and list relevant terms covered in your learning. It may tell a
 story to the reader (the teacher) or state the conditions of your
 learning.</p></li>
 <li><p><strong>Comprehension</strong>: Your evidence highlights that you
@@ -435,17 +444,20 @@ you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>2</p>
+<p>2</p>
 <p>2</p></td>
 <td>__/2<br />
 __/2<br />
+__/2<br />
 __/2</td>
 <td>__/2<br />
+__/2<br />
 __/2<br />
 __/2</td>
 <td><p>A x2</p>
 <p>T x 1</p></td>
-<td>A __/12<br />
-T __/6</td>
+<td>A __/16<br />
+T __/8</td>
 </tr>
 <tr class="odd">
 <td><p><strong>Evidence Guide</strong></p>
@@ -494,8 +506,8 @@ __/2</td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A _ / 18</strong></p>
-<p><strong>T _ / 12</strong></p></td>
+<td><p><strong>A _ / 22</strong></p>
+<p><strong>T _ / 14</strong></p></td>
 </tr>
 <tr class="odd">
 <td><strong>Question 1</strong></td>
@@ -695,8 +707,8 @@ instructions</strong> including any provided templates and guides
 <td></td>
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
-<td><strong>A __/52<br />
-T __/70</strong></td>
+<td><strong>A __/56<br />
+T __/72</strong></td>
 </tr>
 </tbody>
 </table>
