@@ -9,6 +9,8 @@
 - [ ] #TODO create argparse to do specific courses
 - [ ] #TODO create argparse to do specific AI 
 - [X] Fix image import
+- [ ] create separate folders for different assessment items
+- [ ] create media folder for each assessment item
 - [X] create standard file library
 - [X] add comments so I can remember what is happening and for others to follow along
 - [X] refactor assignment_maker main method so it isn't terrible
