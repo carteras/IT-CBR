@@ -12,6 +12,18 @@ This recipe shows you how to construct a simple motor circuit using the DF-MD v1
       Arduino --> Code;
 ```
 
+```mermaid
+   stateDiagram-v2
+    direction LR
+    [*] --> s1
+    s1 --> s2
+    s2 --> if_state
+    if_state --> s3 : if n > 0
+    if_state --> s4 : if n < 0
+    s4 --> [*]
+    s3 --> [*]
+```
+
 **original author:** [carteras](https://github.com/carteras)
 
 <!-- add a new author mark if you updated this -->
