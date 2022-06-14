@@ -15,4 +15,3 @@
 - [X] add comments so I can remember what is happening and for others to follow along
 - [X] refactor assignment_maker main method so it isn't terrible
 - [X] add typing
-
