@@ -3,46 +3,93 @@
 **Task**
 
 You have been tasked with creating a **showcase of your learning**. Your
-showcase will use the focus on a **Tool of Learning**, the the
-prototyping of a remote control car, to learn different aspects of cyber
-security. The default showcase will be an **A2 poster** of your learning
-and **one recorded presentation** for a general audience
+showcase will use the focus on a **Tool of Learning**: the creation of a
+software solution to play and solve wordle. The default showcase will be
+an **A2 poster** of your learning and **one recorded presentation** for
+a general audiences.
 
 # Tool of learning
 
-The focus of this body of work will be the prototyping of a remote
-control car using Arduino microcontrollers and a range of
-sensors/actuators available in the lab. It is intended that this car is
-as working as possible.
+Wordle is a game played by millions of players. It is a guessing game
+where punters guess entire words and are given clues. The rules of
+wordle are simple:
 
-# Tasks for learning and submission
+-   You must guess the word in six goes or less
 
--   Planning document which is focused on the main problems that need to
-    be solved
+-   Every word you enter must be in the word 10,000-word list.
 
--   The creation and delivery of a prototype which attempts to complete
-    the main problems of a remote control car.
+-   A correct letter turns green
 
-**Main problems to be addressed**: user-control \| user-interface \|
-steering \| communication between controller and car \| physical body \|
-integration of these aspects
+-   A correct letter in the wrong place turns yellow
+
+-   An incorrect letter turns grey
+
+-   Letters can be used more than once
+
+-   Answers are never plurals
+
+-   Players can prove how clever they are by sharing their results
+    without giving away the answer.
+
+# Tasks for learning and submissions
+
+### Core learning task
+
+-   Create a program that simulates the selection and display of words
+
+-   Extend that program to make informed guesses to win.
+
+The default expectation is:
+
+-   The solution will be on the command line
+
+-   The game uses its own word list and selects a word by random
+
+-   The game gives appropriate clue like the real client using the Rich
+    client or other modules
+
+-   The game follows the rules above
+
+-   The application runs from the command line using argparse, and
+    allows for the following options:\
+    ![Text Description automatically
+    generated](.//media/image5.png){width="6.14669072615923in"
+    height="1.3439370078740158in"}
+
+### Submissions
+
+-   A planning document that identifies the steps you need to complete
+    to solve the problem.
+
+-   A runnable program
+
+-   A video of the game being played and solved programmatically
+    autonomously at least 10 times in sequence without breaks or
+    editing.
+
+-   A poster presentation of your learning. This poster responds to 3
+    reflective statements (see below) and is designed for general
+    audiences.
+
+-   A presentation that includes your poster and video which is designed
+    for general audiences
 
 # Showcase Responses
 
-Your poster and presentations must respond to three statements and
+Your **poster and presentation must respond to three statements** and
 present different levels of information to describe what it is you
-learnt and how that knowledge can be used in robotics and mechatronics.
+learnt and how that knowledge can be used in cyber security.
 
 The statements will be provided in the rubric below. You must address
 your responses to the three audiences:
 
-1.  Poster -- summarise your learning for general audiences in a
+1.  Poster -- **summarise your learning for general audiences** in a
     condensed writing environment
 
 2.  General audience presentation -- simulates presenting your work and
-    learning to a general audience and allows for some extrapolation
+    learning to a **general audience and allows for some extrapolation**
 
-Your general audience presentation should be **no more than 5 minutes**.
+Your general audience presentation should no longer than **5 minutes**
 
 ##### Section 1: Knowledge Comprehension, and Application
 
@@ -138,8 +185,7 @@ Formatting for all typed/written assessments should be as follows:
 <td colspan="6"><p><em>We apply the following style guide to Python
 files. However, in general most programs follow this broad
 layout.</em></p>
-<p><img
-src="D:\github\IT-CBR\assignments\Robotic and Mechatronic Systems/media/image1.png"
+<p><img src=".//media/image1.png"
 style="width:5.29744in;height:4.12185in" /></p>
 <p><a href="https://pep8.org/">PEP 8: The Style Guide for Python
 Code</a></p></td>
@@ -150,8 +196,7 @@ Code</a></p></td>
 <td colspan="6"><p><em>We apply the following style guide to C/C++
 files. However, in general most programs follow this broad
 layout.</em></p>
-<p><img
-src="D:\github\IT-CBR\assignments\Robotic and Mechatronic Systems/media/image2.png"
+<p><img src=".//media/image2.png"
 style="width:5.10488in;height:3.13585in" /></p>
 <p><em>I accept both K&amp;R and K&amp;R alternative bracing format. As
 long as it is consistent in your file.</em></p>
@@ -165,8 +210,7 @@ Documentation</a></p></td>
 <td colspan="6"><p><em>We apply the following style guide to markdown
 documents. However, in general, most documents follow some variation of
 the following layout:</em></p>
-<p><img
-src="D:\github\IT-CBR\assignments\Robotic and Mechatronic Systems/media/image3.png"
+<p><img src=".//media/image3.png"
 style="width:5.29784in;height:3.4225in" /></p>
 <p><a
 href="https://github.com/google/styleguide/blob/gh-pages/docguide/style.md">https://github.com/google/styleguide/blob/gh-pages/docguide/style.md</a></p></td>
@@ -332,7 +376,7 @@ what about it was great, what could be improved.
 Why is this important? Reflective thinkers can go beyond what they are
 taught and can customise their learning to ben
 
-![](D:\github\IT-CBR\assignments\Robotic and Mechatronic Systems/media/image4.png)
+![](.//media/image4.png)
 
 ##  
 
@@ -370,18 +414,23 @@ taught and can customise their learning to ben
 <td><strong>TOTAL</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>Planning Document</strong></p>
-<p>(group)</p></td>
-<td><p><strong>You have submitted evidence</strong> of completing the
-required learning material.</p>
-<p>This evidence is presented appropriately (<strong>Markdown</strong>)
-unless negotiated for a different format.</p>
-<p>Your planning document <strong>identifies how you intend to solve the
-main problems</strong> of the challenge.</p>
+<td><strong>Wordle</strong></td>
+<td><p>You have <strong>submitted evidence of completing a program that
+hosts and plays wordle</strong>.</p>
+<p>Your evidence consists of <strong>python files and videos of your
+program</strong> <strong>playing</strong> in all required states.</p>
+<p>Your submission seemingly appears to include the following features
+as a minimum:</p>
 <ul>
-<li><p>How will someone control your car?</p></li>
-<li><p>How will your car respond to controls?</p></li>
-<li><p>How do you integrate solutions?</p></li>
+<li><p><strong>Emulates the spirit of the wordle game</strong> by using
+the majority of rules as defined above.</p></li>
+<li><p><strong>Uses argparse</strong> to allow a range of play modes,
+including auto_play, manual_play, and using bespoke word lists for both
+generations of games and auto_play</p></li>
+<li><p>The game uses some enrichment <strong>library (like
+Rich)</strong> to provide additional context for guesses</p></li>
+<li><p>The <strong>game can play autonomously or
+manually</strong></p></li>
 </ul>
 <p>Evidence for knowledge, comprehension, and application may
 include:</p>
@@ -392,71 +441,39 @@ story to the reader (the teacher) or state your learning
 conditions.</p></li>
 <li><p><strong>Comprehension</strong>: Your evidence highlights that you
 can identify key aspects of your learning or explain what you've done to
-the teacher.</p></li>
+the author.</p></li>
 <li><p><strong>Application</strong>: It is clear from your evidence that
 you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>2</p>
+<p>2</p>
 <p>2</p></td>
-<td><p>__/2</p>
-<p>__/2</p>
+<td><p>__/2<br />
+__/2<br />
+__/2</p>
 <p>__/2</p></td>
-<td><p>__/2</p>
-<p>__/2</p>
+<td><p>__/2<br />
+__/2<br />
+__/2</p>
 <p>__/2</p></td>
-<td><p>Ax2</p>
-<p>Tx1</p></td>
-<td><p>A__/12</p>
-<p>T__/ 6</p></td>
+<td><p>A x2</p>
+<p>T x 1</p></td>
+<td>A __/16<br />
+T __/ 8</td>
 </tr>
 <tr class="odd">
-<td><p><strong>Prototype</strong></p>
-<p><strong>(group)</strong></p></td>
-<td><p>You have submitted evidence of your remote control car being
-constructed.</p>
-<p>Your evidence consists of Arduino files and a video of your Arduino
-based car and controller in action (or as much action as we can manage
-).</p>
-<p>Evidence for knowledge, comprehension, and application may
-include:</p>
+<td><strong>Showcase</strong></td>
+<td><p>You have submitted evidence of completing the required assessment
+material. This evidence is presented in an appropriate format unless
+negotiated otherwise.</p>
+<p>There is evidence of the following submissions:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall and list relevant terms covered in your learning. It may tell a
-story to the reader (the teacher) or state your learning
-conditions.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify key aspects of your learning or explain what you've done to
-the teacher.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that
-you constructed a complete submission</p></li>
-</ul></td>
-<td>2</td>
-<td>__/2</td>
-<td>__/2</td>
-<td><p>A x2</p>
-<p>T x1</p></td>
-<td><p>A__/ 4</p>
-<p>T__/ 2</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>Showcase</strong></p>
-<p>(individual)</p></td>
-<td><p>You have submitted evidence of your showcase. By default, your
-showcase responds to each of the three questions highlighted below.
-However, these questions can be negotiated or reframed with your
-teacher.<br />
-<br />
-To achieve a passing grade (2) you must submit a serious attempt to
-respond to each question in each medium. By default, your submission for
-the showcase would be the given poster template, and both
-presentations</p>
-<ul>
-<li><p>Showcase poster</p></li>
-<li><p>General Audience Presentation</p></li>
+<li><p>A poster that answers all three statements for a general
+audience</p></li>
+<li><p>A spoken presentation of the poster for general
+audiences</p></li>
 </ul>
-<p>The output can be negotiated with the teacher. Previous submissions
-have allowed for Google Sites, HTML, or Markdown documents.</p>
 <p>Evidence for knowledge, comprehension, and application may
 include:</p>
 <ul>
@@ -466,7 +483,7 @@ story to the reader (the teacher) or state your learning
 conditions.</p></li>
 <li><p><strong>Comprehension</strong>: Your evidence highlights that you
 can identify critical aspects of your learning or explain what you've
-done to the teacher.</p></li>
+done to the author.</p></li>
 <li><p><strong>Application</strong>: It is clear from your evidence that
 you constructed a complete submission</p></li>
 </ul></td>
@@ -476,26 +493,72 @@ you constructed a complete submission</p></li>
 __/2</td>
 <td>__/2<br />
 __/2</td>
-<td><p>A x2</p>
-<p>T x1</p></td>
-<td><p>A__/ 8</p>
-<p>T__/ 4</p></td>
+<td>-</td>
+<td>__/ 4</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A _ / 24</strong></p>
+<td><p><strong>A _ / 20</strong></p>
 <p><strong>T _ / 12</strong></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Statement 1</strong></td>
-<td><p><strong>Statement</strong>: What was your project? How did it
-work? How did you design your interfaces, control systems, and
-system?</p>
-<p>Learning to build stuff can be fun, but it was educational and why
-could it be essential that learners learn through play?</p>
+<td><p><strong>Statement</strong>: What is wordle, and how does it work?
+How did you create a program that solves wordle? Explain in a way that
+an everyday person can understand.</p>
+<p>Statement responses are used to evaluate your ability to
+<strong>analyse your learning</strong>, identify <strong>how and when
+you synthesised new understanding</strong> on your own, and your ability
+to <strong>reflect upon your work</strong></p>
+<p>Showcases are a tool <strong>you use to highlight your learning to
+different audiences</strong>. Learning how to <strong>reflect on what
+you learnt</strong> during your assessments and
+<strong>identifying</strong> what parts of your work were <strong>high
+quality</strong> and what you could do <strong>to improve</strong> your
+work is an <strong>essential aspect of education</strong>.</p>
+<p>This question will be marked against the following aspects of your
+ability to:</p>
+<ul>
+<li><p>To <strong>summarise your understanding of technology</strong>
+concepts and principles to a general audience</p></li>
+<li><p>express <strong>your understanding of technology</strong>
+concepts and principles to a general audience</p></li>
+<li><p><strong>your ability to communicate your learning</strong>
+appropriately to experts</p></li>
+</ul>
+<p>Evidence for higher-order learning may include:</p>
+<ul>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
+understanding of what you did and why. For example, you may have
+explained how you did X, Y, and Z, but you continue to explain why you
+did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
+something or between multiple things. This judgement may be the value of
+one thing over another or highlighting the significant differences
+between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you
+apply information, strategies, or skills that you have learnt to a new
+situation or context.</p></li>
+</ul></td>
+<td>4</td>
+<td>__/4</td>
+<td>__/4</td>
+<td>-</td>
+<td>__ / 4</td>
+</tr>
+<tr class="even">
+<td><strong>Statement 2</strong></td>
+<td><p><strong>Statement</strong>: What are the challenges of
+incorporating/applying diverse concepts, principles, and theories to
+solve a complex problem?</p>
+<p>Solving problems can be fun, but as our knowledge of programming
+grows, the number of abstractions that we need to incorporate and
+include becomes more complex. Tell us about how you managed this task,
+what went right, what went wrong, and how would you manage this in the
+future? Provide examples.</p>
 <p>Statement responses are used to evaluate your ability to
 <strong>analyse your learning</strong>, identify <strong>how and when
 you synthesised new understanding</strong> on your own, and your ability
@@ -537,63 +600,13 @@ situation or context.</p></li>
 <td>__ / 4</td>
 </tr>
 <tr class="odd">
-<td><strong>Statement 2</strong></td>
-<td><p><strong>Statement</strong>: What are the challenges of
-incorporating/applying a diverse range of concepts, principles, and
-theories to solve a complex problem?</p>
-<p>Learning to build stuff can be fun, but as our knowledge of
-programming and mechatronics grows, the number of abstractions we ned to
-incorporate becomes more complex. Tell us how you managed all of this,
-what went right, what didn't go so well, and how would you manage this
-in the future?</p>
-<p>Statement responses are used to evaluate your ability to
-<strong>analyse your learning</strong>, identify <strong>how and when
-you synthesised new understanding</strong> on your own, and your ability
-to <strong>reflect upon your work</strong></p>
-<p>Showcases are a tool <strong>you use to highlight your learning to
-different audiences</strong>. Learning how to <strong>reflect on what
-you learnt</strong> during your assessments and
-<strong>identifying</strong> what parts of your work were <strong>high
-quality</strong> and what you could do <strong>to improve</strong> your
-work is an <strong>essential aspect of education</strong>.</p>
-<p>This question will be marked against the following aspects of your
-ability to:</p>
-<ul>
-<li><p>To <strong>summarise your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p>express <strong>your understanding of technology</strong>
-concepts and principles to a general audience</p></li>
-<li><p><strong>your ability to communicate your learning</strong>
-appropriately to experts</p></li>
-</ul>
-<p>Evidence for higher-order learning may include:</p>
-<ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why. For example, you may have
-explained how you did X, Y, and Z, but you continue to explain why you
-did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or highlighting the significant differences
-between two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
-</ul></td>
-<td>4</td>
-<td>__/4</td>
-<td>__/4</td>
-<td>-</td>
-<td>__ / 4</td>
-</tr>
-<tr class="even">
 <td><strong>Statement 3</strong></td>
 <td><p><strong>Statement</strong>: The previous assessment item asked
-students to become an expert on one feature of a remote control car.
-Review some of the tutorials students generated and identify what you
-could have used to enhance your tutorials. This enhancement could be
-good things you should include in the future or a 'here be dragons'
-moment.</p>
+students to become an expert on one of the wordle game client/player
+features. Review some of the tutorials students generated and identify
+what you could have used to enhance your tutorials. This enhancement
+could be good things you should include in the future or a 'here be
+dragons' moment.</p>
 <p>Feel free to compare and contrast your work or others. What worked in
 them and what didn't work.</p>
 <p>Statement responses are used to evaluate your ability to
@@ -636,7 +649,7 @@ situation or context.</p></li>
 <td>-</td>
 <td>__ / 4</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Audio Presentation</strong></td>
 <td><p><strong>You have submitted evidence of a presentation</strong>.
 This presentation is <strong>intended to be spoken</strong> but can be
@@ -682,20 +695,17 @@ situation or context.</p></td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
-<td><p>A x1</p>
-<p>T x2</p></td>
-<td><p>A __ / 4</p>
-<p>T __ / 8</p></td>
+<td>-</td>
+<td>__ / 4</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td><strong>Submission Guidelines</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A __/16</strong></p>
-<p><strong>T __/20</strong></p></td>
+<td><strong>__ / 16</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Readability</strong></td>
 <td><strong>Assessment submission is ordered</strong> and has a definite
 pattern to its construction. <strong>The reader is not confused about
@@ -707,33 +717,33 @@ flow</strong>. </td>
 <td>X2</td>
 <td>__ / 8</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Formatting</strong></td>
 <td><strong>Students have</strong> <strong>followed the formatting
-instructions,</strong> including any provided templates and guides, or
-created their own legible formatting guide <strong>and applied it
-constantly</strong>.</td>
+instructions</strong>, including any provided templates and guides, or
+<strong>created their</strong> legible formatting guide <strong>and
+applied it constantly</strong>.</td>
 <td>2</td>
 <td>__/2</td>
 <td>__/2</td>
 <td>-</td>
 <td>__ / 2</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
 <td><strong>__ /10</strong></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td>DAYS LATE ___/7 = ___%</td>
 <td></td>
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
-<td><strong>A __/50<br />
-T __/42</strong></td>
+<td><strong>A __/46<br />
+T __/38</strong></td>
 </tr>
 </tbody>
 </table>
