@@ -8,6 +8,7 @@
 - [ ] #TODO create argprase for clean build
 - [ ] #TODO create argparse to do specific courses
 - [ ] #TODO create argparse to do specific AI 
+- [X] Fix image import
 - [X] create standard file library
 - [X] add comments so I can remember what is happening and for others to follow along
 - [X] refactor assignment_maker main method so it isn't terrible
