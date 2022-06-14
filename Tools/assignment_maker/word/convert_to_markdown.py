@@ -19,7 +19,7 @@ def convert_to_markdown() -> None:
             print(f"FINDING {file}")
             print(f"MAKING: {md_path}.md")
             print("DOING: ",f'pandoc --extract-media "{dir/"media"}" "{file}" -f docx -t markdown-simple_tables-multiline_tables-grid_tables -o "{md_path}.md"')
-            system(f'pandoc --extract-media "{dir}" "{file}" -f docx -t markdown-simple_tables-multiline_tables-grid_tables -o "{md_path}.md"')
+            system(f'pandoc --extract-media "./" "{file}" -f docx -t markdown-simple_tables-multiline_tables-grid_tables -o "{md_path}.md"')
 
 if __name__ == "__main__":
     convert_to_markdown()
