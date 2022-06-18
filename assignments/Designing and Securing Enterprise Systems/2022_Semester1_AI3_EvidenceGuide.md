@@ -1,10 +1,12 @@
 # Task
 
+**Task**
+
 You have been tasked to construct an evidence guide of your learning.
-The subject of the evidence guide is defaulted to the construction of
-learning material for other students to consume (see below) -- however
-the subject can be negotiated with the teacher for individual interest
-or skills.
+The subject of the evidence guide is defaulted to the construction of a
+podcast on cyber security for other students to consume (see below) \--
+however the subject matter and medium can be negotiated with the teacher
+for individual consideration.
 
 The subject of the evidence (the learning material) can be collaborated
 on together in teams of 2 ± 1 but the evidence guide of your learning is
@@ -21,61 +23,66 @@ consists of short, and sharp, responses to high level questions.
 Historically, this document has been a PowerPoint document but this year
 the focus is on creating Markdown Documents.
 
-**Topics for learning** material (choose one, all continuing content
-must be chosen before we can allow for duplicate choices).
+**Topics for podcast** (choose one, all continuing content must be
+chosen before we can allow for duplicate choices).
 
-**Continuing students**
+1.  Moonlight Maze
 
--   argparse: a python module for handling command line input
+2.  BlackEnergy/Arrakis02
 
--   PyFiglet: a python module for converting strings into ASCII Text
+3.  Stuxnet
 
--   rich: a python library for creating rich text and beautiful
-    formatting for command line applications
+4.  FancyBear
 
--   beautiful Soup: a parsing library that allows you to read / analyse
-    / extract data from XML and HTML documents
+5.  Industroyer/Crash Override
 
--   requests: a HTTP library that allows you to access webpages
-    specifically posting to forms.
+6.  The Shadow Brokers
 
--   Objects as reusable namespaces
+7.  EternalBlue
 
--   (optional \| advanced) how to play hangman
+8.  Mimikatz
 
-**New year students may choose from here as well**
+9.  NotPetya and its impact on Ukraine
 
--   Functions in python: how to pass information to, use that
-    information, and return information from a reusable function.
+10. NotPetya and its impact on Maersk
 
--   For loops in python: how to iterate over a range / group of things
+**Each must podcast include the following at a minimum**
 
--   While loops in python: how to iterate while some condition is true
+-   An introduction to the topic
 
-Each **topic of learning must include** the following at a minimum:
+-   A summary of what the topic is about including placing it in the
+    historic timeline
 
--   Some sort of explicit instruction on the topic
+-   Information regarding the topic on technology or industry
 
--   At least 2-4 (group size +1) worked example for any major thought
-    you are trying to express
+Additionally, the group must submit an annotated bibliography of their
+work.
 
--   At least 1 practice question for each worked example.
+-   An annotated Bibliography that represents your research. This should
+    have multiple resources. There is no hard minimum limit but you
+    should have multiple supporting pieces of evidence.
 
--   At least 1 challenge question which incorporates the majority the
-    knowledge from above.
+-   A script where major claims are linked to the bibliography
 
-**Evidence Guide:**
+-   An audio or video podcast piece that goes for no less than 5 minutes
+    and no more than 10 minutes
 
-Students must respond to the following questions:
+**Evidence Guide**
+
+Individually, Students must respond to the following questions:
 
 -   Question 1: What was the process you used to ensure that you would
-    meet all of the required elements of your tutorial?
+    meet all of the required elements of the Podcast? What were the
+    elements, how did you know this?
 
 -   Question 2: How did your existing knowledge and/or understanding of
-    Information Technology helped inform your work on the tutorial.
+    this topic within Information Technology help inform your work on
+    this work?
 
--   Question 3: How has your understanding of Information Technology
-    changed from the start of this assignment time until now?
+-   Question 3: How has your understanding of this topic within
+    Information Technology changed over the course of this assignment?
+
+Details about how to answer these questions can be found in the rubric.
 
 ##### Section 1: Knowledge Comprehension, and Application
 
@@ -171,7 +178,8 @@ Formatting for all typed/written assessments should be as follows:
 <td colspan="6"><p><em>We apply the following style guide to Python
 files. However, in general most programs follow this broad
 layout.</em></p>
-<p><img src=".//media/image1.png"
+<p><img
+src="D:\github\IT-CBR\assignments\Designing and Securing Enterprise Systems/media/image1.png"
 style="width:5.29744in;height:4.12185in" /></p>
 <p><a href="https://pep8.org/">PEP 8: The Style Guide for Python
 Code</a></p></td>
@@ -182,7 +190,8 @@ Code</a></p></td>
 <td colspan="6"><p><em>We apply the following style guide to C/C++
 files. However, in general most programs follow this broad
 layout.</em></p>
-<p><img src=".//media/image2.png"
+<p><img
+src="D:\github\IT-CBR\assignments\Designing and Securing Enterprise Systems/media/image2.png"
 style="width:5.10488in;height:3.13585in" /></p>
 <p><em>I accept both K&amp;R and K&amp;R alternative bracing format. As
 long as it is consistent in your file.</em></p>
@@ -196,7 +205,8 @@ Documentation</a></p></td>
 <td colspan="6"><p><em>We apply the following style guide to markdown
 documents. However, in general, most documents follow some variation of
 the following layout:</em></p>
-<p><img src=".//media/image3.png"
+<p><img
+src="D:\github\IT-CBR\assignments\Designing and Securing Enterprise Systems/media/image3.png"
 style="width:5.29784in;height:3.4225in" /></p>
 <p><a
 href="https://github.com/google/styleguide/blob/gh-pages/docguide/style.md">https://github.com/google/styleguide/blob/gh-pages/docguide/style.md</a></p></td>
@@ -362,7 +372,7 @@ what about it was great, what could be improved.
 Why is this important? Reflective thinkers can go beyond what they are
 taught and can customise their learning to ben
 
-![](.//media/image4.png)
+![](D:\github\IT-CBR\assignments\Designing and Securing Enterprise Systems/media/image4.png)
 
 ##  
 
@@ -400,32 +410,24 @@ taught and can customise their learning to ben
 <td><strong>TOTAL</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>Tutorial</strong></p>
+<td><p><strong>Podcast</strong></p>
 <p>(group)</p></td>
-<td><p>You have submitted evidence of completing the required learning
-material. This evidence is submitted in an appropriate format (Markdown)
-unless negotiated for a different format.</p>
-<p>The evidence of learning material appears to be of appropriate level
-for your accreditation level and the topic chosen.</p>
-<p>The evidence appears to have at least 2-4 (group size +1) worked
-examples / 2-4 practice questions / 2-4 challenge and includes
-references to any appropriate required learning material that other
-students may need to know.</p>
+<td><p>You have submitted evidence of completing required assessment
+material. This evidence is submitted in an appropriate format unless
+negotiated for a different format.</p>
+<p>There is evidence of the following submissions:</p>
 <ul>
-<li><p>Explicit instruction</p></li>
-<li><p>At least 2-4 worked example for each required element (minimum
-group-size + 1)</p></li>
-<li><p>At least 1 practice question for each worked example</p></li>
-<li><p>At least 1 challenge question which requires most of the practice
-questions</p></li>
-<li><p>(If applicable) A document which includes all your teammates, and
-who submitted your body of work</p></li>
+<li><p>An introduction to the topic</p></li>
+<li><p>An inclusion that situates where in the timeline of the first
+cyber war your topic is in (or relative timeline if negotiated a
+separate topic)</p></li>
+<li><p>Detailed information on the selected topic</p></li>
 </ul>
 <p>Evidence for knowledge, comprehension, and application may
 include:</p>
 <ul>
 <li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall and list relevant terms covered in your learning. It may tell a
+recall, and list relevant terms covered in your learning. It may tell a
 story to the reader (the teacher) or state the conditions of your
 learning.</p></li>
 <li><p><strong>Comprehension</strong>: Your evidence highlights that you
@@ -436,26 +438,20 @@ you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>2</p>
-<p>2</p>
-<p>2</p>
 <p>2</p></td>
 <td>__/2<br />
 __/2<br />
-__/2<br />
-__/2<br />
 __/2</td>
 <td>__/2<br />
-__/2<br />
-__/2<br />
 __/2<br />
 __/2</td>
 <td><p>A x2</p>
 <p>T x 1</p></td>
-<td>A __/20<br />
-T __/10</td>
+<td>A __/12<br />
+T __/6</td>
 </tr>
 <tr class="odd">
-<td><p><strong>Reflection document</strong></p>
+<td><p><strong>Evidence Guide</strong></p>
 <p>(individual)</p></td>
 <td><p>You have submitted evidence of your evidence guide. By default,
 your evidence guide responses to each of the three questions selected by
@@ -486,29 +482,23 @@ you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>2</p>
-<p>2</p>
-<p>2</p>
 <p>2</p></td>
 <td>__/2<br />
 __/2<br />
-__/2<br />
-__/2<br />
 __/2</td>
 <td>__/2<br />
 __/2<br />
-__/2<br />
-__/2<br />
 __/2</td>
 <td>-</td>
-<td>__/10</td>
+<td>__/6</td>
 </tr>
 <tr class="even">
 <td></td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A _ / 30</strong></p>
-<p><strong>T _ / 20</strong></p></td>
+<td><p><strong>A _ / 18</strong></p>
+<p><strong>T _ / 12</strong></p></td>
 </tr>
 <tr class="odd">
 <td><strong>Question 1</strong></td>
@@ -708,8 +698,8 @@ instructions</strong> including any provided templates and guides
 <td></td>
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
-<td><strong>A __/64<br />
-T __/78</strong></td>
+<td><strong>A __/52<br />
+T __/70</strong></td>
 </tr>
 </tbody>
 </table>
