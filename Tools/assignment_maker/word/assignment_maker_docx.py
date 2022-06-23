@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 from pathlib import Path
 from docxtpl import DocxTemplate
-from inspect import currentframe, getframeinfo
 from configparser import ConfigParser
+from inspect import currentframe, getframeinfo
 
 filename = getframeinfo(currentframe()).filename
 here_dir = Path(filename).resolve().parent
@@ -141,12 +141,6 @@ def build_doc_context(folder: Path, doc: DocxTemplate) -> dict | None:
     """
     if not folder.is_dir(): return None
     if not any(folder.iterdir()): return None
-    # if file_address.name == "task.docx":
-    #                 task_path = Path(file_address)
-    #                 task = doc.new_subdoc(task_path)
-    #             elif file_address.name == 'rubric.docx':
-    #                 rubric_path = Path(file_address)
-    #                 rubric = doc.new_subdoc(rubric_path)
     task_path = Path(folder/f"task.docx")
     rubric_path = Path(folder/f"rubric.docx")
     task = doc.new_subdoc(task_path)
