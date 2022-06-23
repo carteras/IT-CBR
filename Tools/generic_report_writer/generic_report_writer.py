@@ -41,7 +41,7 @@ reports["d"] = get_generic_descriptor('D')
 reports["e"] = get_generic_descriptor('E')
 reports["v"] = get_generic_descriptor('V')
 
-with open(here/"names") as fd:
+with open(docs/"names") as fd:
     for line in fd.readlines():
         name, grade = line.strip().split(",")
         print(get_report(name, grade.lower()), end="\n\n")
