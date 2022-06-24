@@ -1,11 +1,10 @@
+import pandas as pd
 from pathlib import Path
 from inspect import currentframe, getframeinfo
 
 filename = getframeinfo(currentframe()).filename
 docs = Path.cwd() / '.foo' / 'reports'
 here = Path(filename).resolve().parent
-
-reports = {}
 
 def get_generic_descriptor(grade: str) -> str: 
     '''
@@ -19,9 +18,9 @@ def get_generic_descriptor(grade: str) -> str:
     returns
     : str - a string describing the grade
     '''
-    with open(docs/grade) as fd: return fd.readlines()
+    with open(docs/grade) as fd: return fd.readlines()[0]
 
-def get_report(name: str, grade: str) -> str:
+def get_report(reports: dict, name: str, grade: str) -> str:
     '''
     Generates a generic report based on grade. 
 
@@ -34,14 +33,46 @@ def get_report(name: str, grade: str) -> str:
     '''
     return f"{name}, {reports[grade]}"
 
-reports["a"] = get_generic_descriptor('A')
-reports["b"] = get_generic_descriptor('B')
-reports["c"] = get_generic_descriptor('C')
-reports["d"] = get_generic_descriptor('D')
-reports["e"] = get_generic_descriptor('E')
-reports["v"] = get_generic_descriptor('V')
+def load_descriptors() -> dict:
+    '''
+    Loads the descriptors for each grade into dictionary. 
 
-with open(docs/"names") as fd:
-    for line in fd.readlines():
-        name, grade = line.strip().split(",")
-        print(get_report(name, grade.lower()), end="\n\n")
+    params
+    : none
+
+    returns
+    : a dictionary of generic grade descriptors.
+    '''
+    reports = {}
+    reports["A"] = get_generic_descriptor('A')
+    reports["B"] = get_generic_descriptor('B')
+    reports["C"] = get_generic_descriptor('C')
+    reports["D"] = get_generic_descriptor('D')
+    reports["E"] = get_generic_descriptor('E')
+    reports["V"] = get_generic_descriptor('V')
+    reports["P"] = get_generic_descriptor("P")
+    return reports
+
+def write_reports(course_name: str, results: pd.DataFrame, generic_descriptors: dict) -> None:
+    '''
+    Writes reports for a given course. 
+
+    params
+    : course_name - the string name of the course 
+    : results - a dataframe of results
+    : reports - a dictionary of generic grade descriptors
+    '''
+    with open(docs/f"{course_name.replace(' ', '')}.txt", 'w') as fd:
+        fd.write(f"# {course_name} reports\n\n")
+        for _, row in results[results['COURSE_NAME'] == course_name].iterrows():
+            _, given = row.STUDENT_NAME.strip().split(",")
+            given= given.split(" ")[1]
+            fd.write(f"## {row.STUDENT_NAME} {row.GRADE}\n\n")
+            fd.write(f"{get_report(generic_descriptors, given, row.GRADE)}\n\n")
+
+if __name__ == "__main__": 
+    results = pd.read_excel(docs/"marks.xlsx", converters={'STUDENT_NUMBER': '{:0>7}'.format})
+    generic_descriptors = load_descriptors()
+    course_names = sorted(results.COURSE_NAME.unique())
+    for course_name in course_names: 
+        write_reports(course_name, results, generic_descriptors)
