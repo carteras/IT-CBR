@@ -1,0 +1,33 @@
+year = "2022"
+semester = "2"
+
+[courses]
+    [courses.digital_technology]
+        [courses.digital_technology.properties]
+            years = ["12"]
+            accreditation = ["T", "A"]
+        [courses.digital_technology.assignments]
+            AI1 = "35_portfolio"
+            AI2 = "15_design_proposal"
+            AI3 = "35_evidence_guide"
+            AI4 = "15_innovation_showcase"
+
+    [courses.robotics_and_mechatronics]
+        [courses.robotics_and_mechatronics.properties]
+            years = ["11", "12"]
+            accreditation = ["T", "A"]
+        [courses.robotics_and_mechatronics.assignments]
+            AI1 = "35_portfolio"
+            AI2 = "15_design_proposal"
+            AI3 = "35_evidence_guide"
+            AI4 = "15_innovation_showcase"
+
+[courses.networking_and_security]
+    [courses.networking_and_security.properties]
+        years = ["11", "12"]
+        accreditation = ["T", "A"]
+    [courses.networking_and_security.assignments]
+        AI1 = "35_learning_station"
+        AI2 = "15_continual_learning"
+        AI3 = "35_evidence_guide"
+        AI4 = "15_innovation_showcase"
