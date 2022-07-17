@@ -16,8 +16,7 @@ No hairy lines.
 
 * Draw lines. Long, straight, lines that aren't hairy.
 * In different directions.
-* In different patterns. 
-
+* In different patterns.
 
 ## Topics
 
