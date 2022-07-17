@@ -60,7 +60,7 @@ By default, packet tracer starts in selection mode. It's the symbol on the left 
 
 ![](2022-07-17-11-41-06.png)
 
-Components are found on the bottom of the interface: 
+Components are found on the bottom of the interface:
 
 ![](2022-07-17-11-42-51.png)
 
@@ -68,7 +68,7 @@ To add a component. Click on a router (say the 4331) and plop it onto the enviro
 
 ![](2022-07-17-11-43-42.png)
 
-To plop it on the environment, just left click somewhere. 
+To plop it on the environment, just left click somewhere.
 
 ![](2022-07-17-11-43-52.png)
 
@@ -78,13 +78,13 @@ To remove a component, you need to select the delete icon (or press the del butt
 
 ![](2022-07-17-11-45-49.png)
 
-Now, left click on the component that you want to delete. 
+Now, left click on the component that you want to delete.
 
 ![](2022-07-17-11-46-28.png)
 
 ### Connecting two components
 
-Place the following components to the environment. 
+Place the following components to the environment.
 
 ![](2022-07-17-11-48-27.png)
 
@@ -113,7 +113,7 @@ You should now see that we have a partial connection between the PC and the Swit
 
 What's happening here? 
 
-Well, we are simulating plugging a network cable into a PC and putting it into the switch. We can see a visualisation of this by clicking on the PC. You can see a picture of the PC that we are simulating. 
+Well, we are simulating plugging a network cable into a PC and putting it into the switch. We can see a visualization of this by clicking on the PC. You can see a picture of the PC that we are simulating. 
 
 ![](2022-07-17-11-50-31.png)
 
