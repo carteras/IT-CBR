@@ -41,10 +41,6 @@ Everybody knows how to make a paper airplane, right? What if we wanted to make p
 
 <!-- Provide some basic practice questions that let people follow your worked examples.  -->
 
-## Challenge
-
-<!-- Make up a challenge question which asks people to use all of their knowledge they just learnt (and maybe some prior learning) to solve -->
-
 The goal of the game is for each team to create as many high quality (tested) paper panes that can fly a distance of at least 10m
 
 1. Each iteration lasts 9 minutes
@@ -58,11 +54,15 @@ The goal of the game is for each team to create as many high quality (tested) pa
 5. During the retrospective, teams must come up with one idea of improvement
 6. Repeat
 
-Rules: 
+Rules:
 
 1. Only one player can make one fold on a single plane at a time
 2. The planes must be built within the 3 minute sprint
 3. Only planes that fly the 10m will be counted
 4. 1 person in the team must be the product owner and are responsible for finished products being high quality.
-5. The front of the plane must be blunt to avoid injury 
+5. The front of the plane must be blunt to avoid injury!
 6. The client wants paper airplanes. Not paper balls, etc.
+
+## Challenge Mode Competition
+
+Design a set of rules for your team to fold the most amount of airplanes in 3 minutes. Be warned, some unexpected events might happen to disrupt your team's processes! 
