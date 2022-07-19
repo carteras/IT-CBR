@@ -68,6 +68,8 @@ Before we go into the worked examples. Let's talk about our visual languages.
     IsPositive --> if_state
     if_state --> False: if n < 0
     if_state --> True : if n >= 0
+    True --> [*]
+    False --> [*]
 ```
 
 ## Worked Examples
