@@ -54,6 +54,22 @@ Before we go into the worked examples. Let's talk about our visual languages.
     [*] --> [*]: start and end
 ```
 
+```mermaid
+  stateDiagram
+    direction LR
+    [*] --> SomeAction
+```
+
+```mermaid
+  stateDiagram
+    direction LR
+    state if_state <<choice>>
+    [*] --> IsPositive
+    IsPositive --> if_state
+    if_state --> False: if n < 0
+    if_state --> True : if n >= 0
+```
+
 ## Worked Examples
 
 <!-- Provide some basic worked examples that let people follow your worked examples. If it's a library, don't forget to tell people how to install it -->
