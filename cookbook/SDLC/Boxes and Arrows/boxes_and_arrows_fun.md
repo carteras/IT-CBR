@@ -1,17 +1,13 @@
-# Topic
+# Boxes and arrows
 
-What is this recipe about?
+How do programmers explain complicated logic without (a lot of) handwaving?
 
 ```mermaid
-  graph TD;
-      Topic-->TopicsCovered;
-      TopicsCovered-->PriorKnowledge;
-      PriorKnowledge-->ThirdPartySources;
-      ThirdPartySources-->Introduction;
-      Introduction-->WorkedExamples;
-      WorkedExamples-->PracticeQuestions;
-      PracticeQuestions-->ChallengeQuestions;
-      ChallengeQuestions-->Topic
+  stateDiagram LR;
+    [*] -> [Boxes]
+    [Boxes] -> [Arrows]: Arrows
+    [Arrows] -> [*]
+
 ```
 
 **original author:** [carteras](https://github.com/carteras)
