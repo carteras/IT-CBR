@@ -4,10 +4,9 @@ How do programmers explain complicated logic without (a lot of) handwaving?
 
 ```mermaid
   stateDiagram LR;
-    [*] -> [Boxes]
-    [Boxes] -> [Arrows]: Arrows
-    [Arrows] -> [*]
-
+    [*] --> [Boxes]
+    [Boxes] --> [Arrows]: Arrows
+    [Arrows] --> [*]
 ```
 
 **original author:** [carteras](https://github.com/carteras)
