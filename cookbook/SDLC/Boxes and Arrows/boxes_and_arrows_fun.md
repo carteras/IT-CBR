@@ -1,13 +1,13 @@
 # Boxes and arrows
 
-How do programmers explain complicated logic without (a lot of) handwaving?
+How do programmers explain complicated logic without (a lot of) handwaving? We use visual language to explain our ideas without having to make a lot of code  
 
 ```mermaid
   stateDiagram
     direction LR
-    [*] --> [Boxes]
-    [Boxes] --> [Arrows]: and
-    [Arrows] --> [*]
+    [*] --> Boxes
+    Boxes --> Arrows: and
+    Arrows --> [*]
 ```
 
 **original author:** [carteras](https://github.com/carteras)
@@ -20,31 +20,39 @@ How do programmers explain complicated logic without (a lot of) handwaving?
 
 <!-- why should people expect to be able to do or know after doing this recipe -->
 
-* Question or problem
-* Question or problem
-* Question or problem
+* What are visual | modelling languages? 
+* Why visual | modelling languages are prolific in industries that deal with heavy abstractions?
+* How to design a solution for some prior problems. 
 
 ### Things you'll need to know before you start this
 
 <!-- what should they know before learning it -->
 
-* Prior learning
-* Prior learning
-* Prior learning
-
-### Third party resources
-
-<!-- Are there other locations where they can find this information? -->
-
-* resource
-* resource
-* resource
+* Programming in some language.
 
 ## Topics
 
 ### Introduction
 
 <!-- Introduce the topic, what is it, how does it work, include pictures -->
+
+It's rare for Systems to be built by a team of one. As such, systems often need collaboration and planning. Often different teams who are potentially in different buildings or sometimes countries.
+
+Many of the people involved in Systems do not understand code. Business Analysts, Steering Committees, Technical Writers, Stakeholders.
+
+How do we communicate with people who can't understand code? How do we collaborate with technical experts around the globe? 
+
+We need some sort of language that helps us explain our logic. 
+
+Note: Some of you may have seen year Year 11 classes studying UML. We are not going to do UML in this class. Not that it's bad or it doesn't work, but the focus on this modelling language is to create a paradigm of visual languages rather tan a universal language or a methodology of how to explain ourselves. This allows us to be quick, focused, and change the rules if the context requires us to. 
+
+Before we go into the worked examples. Let's talk about our visual languages. 
+
+```mermaid
+  stateDiagram
+    direction LR
+    [*]: start
+```
 
 ## Worked Examples
 
