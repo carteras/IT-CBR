@@ -51,7 +51,7 @@ Before we go into the worked examples. Let's talk about our visual languages.
 ```mermaid
   stateDiagram
     direction LR
-    [*]: start
+    [*] --> [*]: start and end
 ```
 
 ## Worked Examples
