@@ -58,6 +58,7 @@ Before we go into the worked examples. Let's talk about our visual languages.
   stateDiagram
     direction LR
     [*] --> SomeAction
+    SomeAction --> [*]
 ```
 
 ```mermaid
