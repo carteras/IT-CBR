@@ -64,6 +64,13 @@ Before we go into the worked examples. Let's talk about our visual languages.
 ```mermaid
   stateDiagram
     direction LR
+    [*] --> SomeAction: Expected input
+    SomeAction --> [*]: Expected output
+```
+
+```mermaid
+  stateDiagram
+    direction LR
     state if_state <<choice>>
     [*] --> IsPositive
     IsPositive --> if_state
@@ -72,6 +79,20 @@ Before we go into the worked examples. Let's talk about our visual languages.
     True --> [*]
     False --> [*]
 ```
+
+```mermaid
+  stateDiagram
+    direction LR
+    state loop_state <<choice>>
+    [*] --> ListOfNumbers
+    ListOfNumbers --> isPositive
+    isPositive --> loop_state
+    loop_state --> loop_state: if n < 0
+    loop_state --> True: if n >=0
+    True --> [*]: print positive number
+```
+
+
 
 ## Worked Examples
 
@@ -84,8 +105,13 @@ Let's make a visualisation for printing hello world.
     direction LR
     [*] --> print
     print --> [*]: Hello world
-
 ```
+
+Let's do something more complicated. FizzBuzz
+
+* If a number is divisible by 3 print fizz
+* if a number is divisible by 5 print buzz
+* if a number is divisible by 3 and 5 print fizzbuzz
 
 ## Practice Questions
 
