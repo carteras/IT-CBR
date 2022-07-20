@@ -77,6 +77,16 @@ Before we go into the worked examples. Let's talk about our visual languages.
 
 <!-- Provide some basic worked examples that let people follow your worked examples. If it's a library, don't forget to tell people how to install it -->
 
+Let's make a visualisation for printing hello world.
+
+```mermaid
+  stateDiagram
+    direction LR
+    [*] --> print
+    print --> [*]: Hello world
+
+```
+
 ## Practice Questions
 
 <!-- Provide some basic practice questions that let people follow your worked examples.  -->
