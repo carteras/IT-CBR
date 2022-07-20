@@ -111,7 +111,25 @@ Let's do something more complicated. FizzBuzz
 
 * If a number is divisible by 3 print fizz
 * if a number is divisible by 5 print buzz
-* if a number is divisible by 3 and 5 print fizzbuzz
+* if a number is divisible by 3 and 5 print FizzBuzz
+* otherwise print the number
+
+```mermaid
+  stateDiagram
+    direction LR
+    state fizz_state <<choice>>
+    state buzz_state <<choice>>
+    state fizzbuzz_state <<choice>>
+    [*] --> TestNumber
+    TestNumber --> fizz_state
+    fizz_state --> PrintFizz: if number % 3 == 0
+    fizz_state --> buzz_state: if number % 3 != 0
+    buzz_state --> PrintBuzz: if number % 5 == 0
+    buzz_state --> fizzbuzz_state: if number % 5 != 0
+    fizzbuzz_state --> PrintFizzBuzz: if number % 3 == 0 && number % 5 == 0
+    fizzbuzz_state --> PrintNum
+    
+```
 
 ## Practice Questions
 
