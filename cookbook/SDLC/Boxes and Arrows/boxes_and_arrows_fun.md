@@ -122,15 +122,18 @@ Let's do something more complicated. FizzBuzz
     state fizzbuzz_state <<choice>>
     [*] --> TestNumber
     TestNumber --> fizz_state
+    fizzbuzz_state --> PrintFizzBuzz: if number % 3 == 0 && number % 5 == 0
+    PrintFizzBuzz --> [*]
+    fizzbuzz_state --> fizz_state
     fizz_state --> PrintFizz: if number % 3 == 0
     PrintFizz --> [*]
     fizz_state --> buzz_state: if number % 3 != 0
     buzz_state --> PrintBuzz: if number % 5 == 0
     PrintBuzz --> [*]
-    buzz_state --> fizzbuzz_state: if number % 5 != 0
-    fizzbuzz_state --> PrintFizzBuzz: if number % 3 == 0 && number % 5 == 0
-    PrintFizzBuzz --> [*]
-    fizzbuzz_state --> PrintNum
+    buzz_state --> PrintNumber: if number % 5 != 0
+    PrintNumber --> [*]
+    
+    
     
 ```
 
