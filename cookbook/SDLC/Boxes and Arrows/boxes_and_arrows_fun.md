@@ -132,15 +132,39 @@ Let's do something more complicated. FizzBuzz
     PrintBuzz --> [*]
     buzz_state --> PrintNumber: if number % 5 != 0
     PrintNumber --> [*]
-    
-    
-    
 ```
 
 ## Practice Questions
 
 <!-- Provide some basic practice questions that let people follow your worked examples.  -->
 
+### Creating triangles
+
+Your goal is to produce a program that can construct triangles. The size of the triangle is defined by user input. 
+
+```
+*
+**
+***
+****
+```
+
+Create a visualisation that describes how this is made. Look at old code if you have to.
+
+
+
 ## Challenge
 
 <!-- Make up a challenge question which asks people to use all of their knowledge they just learnt (and maybe some prior learning) to solve -->
+
+### Create boxes and arrows for a simple calculator
+
+Your diagram must allow for the following logic
+
+* Accept input from the user
+* user input will look like this: operator variable variable
+* valid operators are + - / *
+* calculations should be solved
+* iterates endlessly until user types q as the operator (how do we handle that)
+
+After you have created this diagram find a ~~victim~~ volunteer to build code from your specification. Get feedback. 
