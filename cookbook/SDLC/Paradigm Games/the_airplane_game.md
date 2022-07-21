@@ -48,7 +48,7 @@ The goal of the game is for each team to create as many high quality (tested) pa
    2. 5 minutes for competition building
    3. 5 minutes for retrospective
 2. After the first planning iteration each team must give an estimate of how many planes they are going to build, test, and fly, before the sprint starts. Document this on the whiteboard
-3. Build as many paper airplanes as you can in the 3 minute sprint
+3. Build as many paper airplanes as you can in the 5 minute sprint
 4. Take score by subtracting the file count of plans that actually flew the distance from the planes that were not tested or completed. 
    1. Example: Team A said that they will complete 4 planes, 7 planes flue the distance but 5 more were works in progress that hadn't completed being built. Subtract the WIP so the actual result is 7-5 = 2
 5. During the retrospective, teams must come up with one idea of improvement
