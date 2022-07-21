@@ -127,12 +127,12 @@ Let's do something more complicated. FizzBuzz
     fizzbuzz_state --> TestFizz: if number % 3 != 0 && number % 5 != 0
     PrintFizzBuzz --> [*]
     TestFizz --> fizz_state
-    fizz_state --> PrintFizz 
-    fizz_state --> TestBuzz
+    fizz_state --> PrintFizz: if number % 3 == 0
+    fizz_state --> TestBuzz: if number % 3 != 0
     PrintFizz --> [*]
     TestBuzz --> buzz_state
-    buzz_state --> PrintBuzz
-    buzz_state --> PrintNumber
+    buzz_state --> PrintBuzz: if number % 5 == 0
+    buzz_state --> PrintNumber: if number % 5 != 0
     PrintBuzz --> [*]
     PrintNumber --> [*]
 ```
