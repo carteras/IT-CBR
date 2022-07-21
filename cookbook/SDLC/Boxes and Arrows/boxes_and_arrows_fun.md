@@ -136,12 +136,7 @@ Let's do something more complicated. FizzBuzz
     PrintBuzz --> [*]
     PrintNumber --> [*]
 ```
-```
-    fizzbuzz_state --> PrintFizzBuzz: if number % 3 == 0 && number % 5 == 0
-    fizzbuzz_state --> PrintFizz: if number % 3 != 0 && number % 5 != 0
-    PrintFizz --> PrintFizz: if number % 3 == 0
-    PrintFizz --> buzz_state: if number % 3 != 0
-```
+
 
 ## Practice Questions
 
