@@ -122,6 +122,7 @@ Let's do something more complicated. FizzBuzz
     state fizzbuzz_state <<choice>>
     [*] --> TestNumber
     TestNumber --> PrintFizzBuzz
+    PrintFizzBuzz --> fizzbuzz_state
 ```
 ```
     fizzbuzz_state --> PrintFizzBuzz: if number % 3 == 0 && number % 5 == 0
