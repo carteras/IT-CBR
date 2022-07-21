@@ -122,6 +122,8 @@ Let's do something more complicated. FizzBuzz
     state fizzbuzz_state <<choice>>
     [*] --> TestNumber
     TestNumber --> PrintFizzBuzz
+```
+```
     fizzbuzz_state --> PrintFizzBuzz: if number % 3 == 0 && number % 5 == 0
     fizzbuzz_state --> PrintFizz: if number % 3 != 0 && number % 5 != 0
     PrintFizz --> PrintFizz: if number % 3 == 0
