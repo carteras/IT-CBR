@@ -123,6 +123,10 @@ Let's do something more complicated. FizzBuzz
     [*] --> TestNumber
     TestNumber --> PrintFizzBuzz
     PrintFizzBuzz --> fizzbuzz_state
+    fizzbuzz_state --> PrintFizzBuzz: if number % 3 == 0 && number % 5 == 0
+    fizzbuzz_state --> PrintFizz: if number % 3 != 0 && number % 5 != 0
+    PrintFizz --> fizz_state
+    fizz_state --> PrintFizz: 
 ```
 ```
     fizzbuzz_state --> PrintFizzBuzz: if number % 3 == 0 && number % 5 == 0
