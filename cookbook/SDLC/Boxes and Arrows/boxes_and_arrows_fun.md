@@ -186,3 +186,34 @@ Your diagram must allow for the following logic
 * iterates endlessly until user types q as the operator (how do we handle that)
 
 After you have created this diagram find a ~~victim~~ volunteer to build code from your specification. Get feedback. 
+
+example code: 
+
+```cpp
+int mySubtract(int a, int b){
+  return a - b;
+}
+
+int main(void){
+  char op;
+  int a;
+  int b;
+  printf("calc: ");
+  scanf("%c %d %d", &op, &a, &b);
+  if (op == '-'){
+    printf("%d", mySubtract(a, b));
+  }
+}
+```
+
+```python
+
+def my_subtract(a, b):
+  return a - b
+
+op, a, b = input("calc ").split(" ")
+a = int(a)
+b = int(b)
+if op == '-': 
+  print(my_subtract(a, b))
+```
