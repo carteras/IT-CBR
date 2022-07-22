@@ -116,7 +116,7 @@ Let's do something more complicated. FizzBuzz
 
 ```mermaid
   stateDiagram
-    directionLR
+    direction LR
       state list_finished <<choice>>
       [*] --> IterateList
       IterateList --> list_finished
