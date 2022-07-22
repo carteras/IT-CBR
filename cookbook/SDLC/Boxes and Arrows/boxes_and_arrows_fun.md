@@ -68,6 +68,8 @@ Before we go into the worked examples. Let's talk about our visual languages.
     SomeAction --> [*]: Expected output
 ```
 
+![](2022-07-22-11-36-30.png)
+
 ```mermaid
   stateDiagram
     direction LR
@@ -80,17 +82,7 @@ Before we go into the worked examples. Let's talk about our visual languages.
     False --> [*]
 ```
 
-```mermaid
-  stateDiagram
-    direction LR
-    state loop_state <<choice>>
-    [*] --> ListOfNumbers
-    ListOfNumbers --> isPositive
-    isPositive --> loop_state
-    loop_state --> loop_state: if n < 0
-    loop_state --> True: if n >=0
-    True --> [*]: print positive number
-```
+![](2022-07-22-11-35-18.png)
 
 
 
@@ -114,44 +106,55 @@ Let's do something more complicated. FizzBuzz
 * if a number is divisible by 3 and 5 print FizzBuzz
 * otherwise print the number
 
-```mermaid
-  stateDiagram
-    direction LR
-      state list_finished <<choice>>
-      [*] --> IterateList
-      IterateList --> list_finished
-      list_finished --> TestDivisibleConditions: False
-      TestDivisibleConditions --> IterateList  
-      list_finished --> [*]: True
-```
+![](2022-07-22-11-20-24.png)
 
-```mermaid
-  stateDiagram
-    direction LR
-    state fizz_state <<choice>>
-    state buzz_state <<choice>>
-    state fizzbuzz_state <<choice>>
-    [*] --> TestNumber
-    TestNumber --> TestFizzBuzz
-    TestFizzBuzz --> fizzbuzz_state
-    fizzbuzz_state --> PrintFizzBuzz: if number % 3 == 0 && number % 5 == 0
-    fizzbuzz_state --> TestFizz: if number % 3 != 0 && number % 5 != 0
-    PrintFizzBuzz --> [*]
-    TestFizz --> fizz_state
-    fizz_state --> PrintFizz: if number % 3 == 0
-    fizz_state --> TestBuzz: if number % 3 != 0
-    PrintFizz --> [*]
-    TestBuzz --> buzz_state
-    buzz_state --> PrintBuzz: if number % 5 == 0
-    buzz_state --> PrintNumber: if number % 5 != 0
-    PrintBuzz --> [*]
-    PrintNumber --> [*]
-```
+Let's break that up a bit: 
+
+![](2022-07-22-11-23-13.png)
+
+
+Let's look at the pop number from list: 
+
+![](2022-07-22-11-33-31.png)
+
+How does that work in the big picture? 
+
+![](2022-07-22-11-33-55.png)
 
 
 ## Practice Questions
 
 <!-- Provide some basic practice questions that let people follow your worked examples.  -->
+
+### subtract two numbers 
+
+Produce a diagram for a function that takes two variables a and b and returns a - b
+
+### print hello name
+
+Your goal is to produce a diagram for the following code block: 
+
+```python
+
+def print_name(name_in):
+  print(f"Hello {name}")
+
+user_input = input("What is your name? ")
+print_name(user_input)
+```
+
+```cpp
+void printName(char * name){
+  printf("Hello, %s.\n", name);
+}
+
+int main(void){
+  char name[10];
+  printf("What is your name? ");
+  scanf("%s", name);
+  printName(name);
+}
+```
 
 ### Creating triangles
 
