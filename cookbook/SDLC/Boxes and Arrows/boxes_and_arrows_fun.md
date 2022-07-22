@@ -116,6 +116,17 @@ Let's do something more complicated. FizzBuzz
 
 ```mermaid
   stateDiagram
+    directionLR
+      state list_finished <<choice>>
+      [*] --> IterateList
+      IterateList --> list_finished
+      list_finished --> [*]: True
+      list_finished --> TestDivisibleConditions: False
+      TestDivisibleConditions --> IterateList    
+```
+
+```mermaid
+  stateDiagram
     direction LR
     state fizz_state <<choice>>
     state buzz_state <<choice>>
