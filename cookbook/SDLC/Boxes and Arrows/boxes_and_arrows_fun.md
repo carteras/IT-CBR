@@ -120,9 +120,9 @@ Let's do something more complicated. FizzBuzz
       state list_finished <<choice>>
       [*] --> IterateList
       IterateList --> list_finished
-      list_finished --> [*]: True
       list_finished --> TestDivisibleConditions: False
-      TestDivisibleConditions --> IterateList    
+      TestDivisibleConditions --> IterateList  
+      list_finished --> [*]: True
 ```
 
 ```mermaid
