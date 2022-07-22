@@ -169,7 +169,15 @@ Your goal is to produce a program that can construct triangles. The size of the 
 
 Create a visualisation that describes how this is made. Look at old code if you have to.
 
+```python
+user_input = input("Hey how big is our triangle? ")
+user_input = int(user_input)
 
+for count in range(user_input+1):
+    for i in range(count):
+        print("*", end="")
+    print("")
+```
 
 ## Challenge
 
