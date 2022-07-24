@@ -43,12 +43,12 @@ Everybody knows how to make a paper airplane, right? What if we wanted to make p
 
 The goal of the game is for each team to create as many high quality (tested) paper panes that can fly a distance of at least 10m
 
-1. Each iteration lasts 9 minutes
-   1. 3 minutes for planning
-   2. 3 minutes for competition building
-   3. 3 minutes for retrospective
+1. Each iteration lasts 15 minutes
+   1. 5 minutes for planning
+   2. 5 minutes for competition building
+   3. 5 minutes for retrospective
 2. After the first planning iteration each team must give an estimate of how many planes they are going to build, test, and fly, before the sprint starts. Document this on the whiteboard
-3. Build as many paper airplanes as you can in the 3 minute sprint
+3. Build as many paper airplanes as you can in the 5 minute sprint
 4. Take score by subtracting the file count of plans that actually flew the distance from the planes that were not tested or completed. 
    1. Example: Team A said that they will complete 4 planes, 7 planes flue the distance but 5 more were works in progress that hadn't completed being built. Subtract the WIP so the actual result is 7-5 = 2
 5. During the retrospective, teams must come up with one idea of improvement
@@ -57,7 +57,7 @@ The goal of the game is for each team to create as many high quality (tested) pa
 Rules:
 
 1. Only one player can make one fold on a single plane at a time
-2. The planes must be built within the 3 minute sprint
+2. The planes must be built within the 5 minute sprint
 3. Only planes that fly the 10m will be counted
 4. 1 person in the team must be the product owner and are responsible for finished products being high quality.
 5. The front of the plane must be blunt to avoid injury!
@@ -65,4 +65,4 @@ Rules:
 
 ## Challenge Mode Competition
 
-Design a set of rules for your team to fold the most amount of airplanes in 3 minutes. Be warned, some unexpected events might happen to disrupt your team's processes! 
+Design a set of rules for your team to fold the most amount of airplanes in 5 minutes. Be warned, some unexpected events might happen to disrupt your team's processes! 

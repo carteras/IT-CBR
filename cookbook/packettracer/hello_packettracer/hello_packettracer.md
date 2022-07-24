@@ -180,3 +180,10 @@ Challenge, create the following network to the following specifications
 ![](2022-07-17-12-05-25.png)
 
 When you're done, flag me so we can check it. 
+
+Make sure you: 
+
+* Save the file
+* Upload it to your google drive (somewhere safe for future reference)
+* delete the save from the local computer
+* sign out of packet tracer.

@@ -81,21 +81,21 @@ In your heads come up with a design that you think could work.
 
 Task 1: Design challenge with words
 
-Using only words, write down your design solution so that someone else could could build it without any support from you. You have 2 minutes.
+Using only words, write down your design solution so that someone else could could build it without any support from you. You have 5 minutes.
 
 Task 2: Design challenge with sketches
 
-Using a combination of shapes (dot, line, angle, arc, spiral, loops, square, rectangle, triangle, circle, cloud, etc). Describe your design solution so that someone else could build it without any support from you. You have two minutes. 
+Using a combination of shapes (dot, line, angle, arc, spiral, loops, square, rectangle, triangle, circle, cloud, etc). Describe your design solution so that someone else could build it without any support from you. You have 5 minutes. 
 
 ![](2022-07-17-14-14-38.png)
 
 Task 3: Design challenge with sketches and words
 
-Using a combination shapes (dot, line, angle, arc, spiral, loops, square, rectangle, triangle, circle, cloud, etc) and words. Describe your design solution so that someone else could build it without any support from you. You have two minutes.
+Using a combination shapes (dot, line, angle, arc, spiral, loops, square, rectangle, triangle, circle, cloud, etc) and words. Describe your design solution so that someone else could build it without any support from you. You have 5 minutes.
 
 Task 4: Storyboard
 
-Split a page into 6 elements (3x2). In each panel describe different parts of your solution. You may use a combination of shapes and words to describe your solution. You have 2 minutes
+Split a page into 6 elements (3x2). In each panel describe different parts of your solution. You may use a combination of shapes and words to describe your solution. You have 5 minutes
 
 Constraint: NO HAIRY LINES!
 
