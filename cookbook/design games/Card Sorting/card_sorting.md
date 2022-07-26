@@ -50,22 +50,21 @@ Traditionally Card Sorting is a research method where stakeholders and user part
 
 <!-- Provide some basic practice questions that let people follow your worked examples.  -->
 
-┌───────────────────────────────────────────────────────────────────────────────┐
-│                                                                               │
-│                                                                               │
-│                                                                               │
-│                                                                               │
-│              One big idea per slide:                                          │
-│                                                                               │
-│               * do it across the page so you can write a longer sentence      │
-│                                                                               │
-│               * don't worry about too much detail                             │
-│                                                                               │
-│               * or getting it wrong                                           │
-│                                                                               │
-│                                                                               │
-│                                                                               │
-└───────────────────────────────────────────────────────────────────────────────┘
+```
+┌───────────────────────────────────────────────────┐
+│                                                   │
+│                                                   │
+│                                                   │
+│          * One big idea per card:                 │
+│           * write across the long side            │
+│             so you can write more                 │
+│           * don't worry about too much detail     │
+│           * or doing something wrong              │
+│                                                   │
+│                                                   │
+│                                                   │
+└───────────────────────────────────────────────────┘
+```
 
 **Individually:**
 
