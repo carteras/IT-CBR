@@ -1,0 +1,83 @@
+#! /bin/bash
+
+# https://www.youtube.com/watch?v=LaJ1yl6NckI
+# https://www.arcolinuxd.com/5-the-actual-installation-of-arch-linux-phase-1-bios/
+echo "admin account?"
+read ADMIN_ACCOUNT
+echo "hostname"
+read hostname
+
+#curl --proto '=https' --tlsv1.2 -sSf https://raw.github.com/whatever | sh
+timedatectl set-ntp true
+timedatectl status
+cfdisk
+# set 1g to EFI /dev/sda1
+# set rest to /dev/sda2 linux file system
+
+mkfs.ext4 /dev/sda2
+mkfs.fat -F32 /dev/sda1
+
+mount /dev/sda2 /mnt
+mkdir /mnt/efi
+mount /dev/sda1 /mnt/efi
+
+nano /etc/pacman.d/mirrorlist
+# change the mirror list to http://mirror.aarnet.edu.au/pub/archlinux/$repo/os/$arch
+nano /etc/pacman.conf 
+# add ILoveCandy
+# enable Color
+pacman -Sy archlinux-keyring
+pacstrap /mnt base base-devel linux linux-firmware xorg-server sddm plasma-desktop arduino git python3 dotnet-runtime dotnet-sdk networkmanager dhcpcd sudo kde-applications firefox terminator vim nano
+genfstab -U /mnt >> /mnt/etc/fstab
+arch-chroot /mnt
+#check to see if I have to edit pacman.conf again
+ls 
+ln -sf /usr/share/zoneinfo/Australia/Canberra /etc/localtime
+hwclock --systohc
+nano /etc/locale.gen
+nano /etc/hostname
+nano /etc/hosts
+# 127.0.0.1     localhost
+# ::1           localhost
+# 127.0.1.1     foobar.localdomain foobar
+nano /etc/locale.conf
+#(add `LANG=en_AU.UTF-8`)
+locale-gen
+#echo <serial number of the PC> > /etc/hostname
+systemctl enable NetworkManager
+systemctl enable dhcpcd
+systemctl enable sddm
+useradd -G wheel -m <admin account>
+passwd <admin account>
+# visudo
+#(uncomment line 85)
+EDITOR=nano visudo
+# uncomment wheel ALL=(ALL:ALL) ALL
+
+
+cd /opt
+git clone https://aur.archlinux.org/yay.git
+cd yay/
+
+nano /etc/makepkg.conf
+#(set `MAKEFLAGS="-j2"` to `MAKEFLAGS="-j12"`)
+chown -R <admin account> .
+sudo -u foo makepkg -sci
+sudo -u foo yay -S hfsprogs
+
+pacman -Syu grub efibootmgr
+grub-install --target=x86_64-efi --efi-directory=/efi/ --bootloader-id=grub
+grub-mkconfig -o /boot/grub/grub.cfg
+exit
+umount -R /mnt
+reboot
+
+
+
+
+
+
+
+
+
+
