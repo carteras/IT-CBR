@@ -100,27 +100,16 @@ At the minimum:
 <tr class="even">
 <td><p><strong>Project Descriptions</strong></p>
 <p>(individual)</p></td>
-<td><p>You have provided <strong>evidence of producing project
-descriptions</strong>. The project descriptions appear to be <strong>a
-serious attempt</strong> and look like they meet the overall goals of
-<strong>rigour and suitability</strong>.</p>
+<td><p>You have provided <strong>evidence of producing project descriptions</strong>. The project descriptions appear to be <strong>a serious attempt</strong> and look like they meet the overall goals of <strong>rigour and suitability</strong>.</p>
 <ul>
 <li><p>A high-level description of the project</p></li>
-<li><p>A description of who will use your product and how it will be
-used or why your system exists and how it works.</p></li>
+<li><p>A description of who will use your product and how it will be used or why your system exists and how it works.</p></li>
 </ul>
-<p>Evidence for knowledge, comprehension, and application may
-include:</p>
+<p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall and list relevant terms in your learning. It may tell a story to
-the reader (the teacher) or state the conditions of your
-learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify critical aspects of your learning or explain what you've
-done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that
-you constructed a complete submission</p></li>
+<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
+<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
+<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
 <p>2</p></td>
@@ -134,33 +123,20 @@ you constructed a complete submission</p></li>
 <tr class="odd">
 <td><p><strong>Lightweight Prototyping | Modelling</strong></p>
 <p>(individual)</p></td>
-<td><p>You have submitted relevant <strong>lightweight prototypes and/or
-models</strong> of your system or solution.</p>
-<p>Your prototypes/models <strong>appear to describe</strong> how your
-solution will be put together, how it will be used, and as a high-level
-overview of the system.</p>
+<td><p>You have submitted relevant <strong>lightweight prototypes and/or models</strong> of your system or solution.</p>
+<p>Your prototypes/models <strong>appear to describe</strong> how your solution will be put together, how it will be used, and as a high-level overview of the system.</p>
 <ul>
-<li><p>Modelling/prototyping of how your system will be put
-together</p></li>
+<li><p>Modelling/prototyping of how your system will be put together</p></li>
 <li><p>Modelling/prototype of how your system will be used</p></li>
-<li><p>Modelling/prototyping which provides a high-level overview of
-your system</p></li>
+<li><p>Modelling/prototyping which provides a high-level overview of your system</p></li>
 </ul>
-<p>Evidence for knowledge, comprehension, and application may
-include:</p>
+<p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall and list relevant terms in your learning. It may tell a story to
-the reader (the teacher) or state the conditions of your
-learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify critical aspects of your learning or explain what you've
-done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that
-you constructed a complete submission</p></li>
+<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
+<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
+<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul>
-<p>Note: the assessor may use their discretion to source other evidence
-from this assessment to judge the activity if required.</p></td>
+<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
 <td><p>2</p>
 <p>2</p>
 <p>2</p></td>
@@ -178,32 +154,19 @@ T __/ 6</td>
 <tr class="even">
 <td><p><strong>Story Cards</strong></p>
 <p>(individual)</p></td>
-<td><p>You have submitted <strong>evidence of story cards</strong>. The
-story cards appear to <strong>describe the abstracted parts of your
-project</strong> from a management point of view and <strong>highlights
-such things as the minimal viable product</strong>.</p>
+<td><p>You have submitted <strong>evidence of story cards</strong>. The story cards appear to <strong>describe the abstracted parts of your project</strong> from a management point of view and <strong>highlights such things as the minimal viable product</strong>.</p>
 <ul>
-<li><p>Project Story Cards which provide a high-level overview of your
-system</p></li>
-<li><p>Project Story Cards of how your system will be put
-together</p></li>
+<li><p>Project Story Cards which provide a high-level overview of your system</p></li>
+<li><p>Project Story Cards of how your system will be put together</p></li>
 <li><p>Project Story Cards of how your system will be used</p></li>
 </ul>
-<p>Evidence for knowledge, comprehension, and application may
-include:</p>
+<p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you
-recall and list relevant terms in your learning. It may tell a story to
-the reader (the teacher) or state the conditions of your
-learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you
-can identify critical aspects of your learning or explain what you've
-done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that
-you constructed a complete submission</p></li>
+<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
+<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
+<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul>
-<p>Note: the assessor may use their discretion to source other evidence
-from this assessment to judge the activity if required.</p></td>
+<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
 <td><p>2</p>
 <p>2</p>
 <p>2</p></td>
@@ -229,35 +192,20 @@ T __/ 6</td>
 <tr class="even">
 <td><p><strong>Written Specification</strong></p>
 <p><strong>Communication</strong></p></td>
-<td><p>The evidence that you have submitted highlights your ability to
-communicate with technical experts to describe who the product is for or
-how it interacts with the broader system.</p>
-<p>The written descriptions highlight your understanding of the initial
-stages of our design processes and the initial requirements.</p>
-<p>Each of your questions will be marked against the following aspects
-of your ability to:</p>
+<td><p>The evidence that you have submitted highlights your ability to communicate with technical experts to describe who the product is for or how it interacts with the broader system.</p>
+<p>The written descriptions highlight your understanding of the initial stages of our design processes and the initial requirements.</p>
+<p>Each of your questions will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>your understanding of technology concepts and principles and how
-it relates to projects</p></li>
-<li><p>your ability to communicate ideas appropriately in the selected
-medium</p></li>
+<li><p>your understanding of technology concepts and principles and how it relates to projects</p></li>
+<li><p>your ability to communicate ideas appropriately in the selected medium</p></li>
 </ul>
 <p>Evidence for higher-order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why. For example, you may have
-explained how you did X, Y, and Z, but you continue to explain why you
-did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or highlighting the significant differences
-between two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or highlighting the significant differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul>
-<p>Note: the assessor may use their discretion to source other evidence
-from this assessment to judge the activity if required.</p></td>
+<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
 <td><p>4</p>
 <p>4</p></td>
 <td>__/4<br />
@@ -269,36 +217,20 @@ __/4</td>
 </tr>
 <tr class="odd">
 <td><strong>Visual Specification Documentation</strong></td>
-<td><p>The evidence of the lightweight prototyping that you submitted
-highlights your ability to communicate your system(s) visually. They
-describe how the product is intended to be used, a high level of visual
-explanation.</p>
-<p>The visual specification highlights your understanding of explaining
-your descriptions visually.</p>
-<p>Each of your questions will be marked against the following aspects
-of your ability to:</p>
+<td><p>The evidence of the lightweight prototyping that you submitted highlights your ability to communicate your system(s) visually. They describe how the product is intended to be used, a high level of visual explanation.</p>
+<p>The visual specification highlights your understanding of explaining your descriptions visually.</p>
+<p>Each of your questions will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>your understanding of technology concepts and principles in
-related to projects</p></li>
-<li><p>your ability to communicate ideas appropriately in the selected
-medium</p></li>
+<li><p>your understanding of technology concepts and principles in related to projects</p></li>
+<li><p>your ability to communicate ideas appropriately in the selected medium</p></li>
 </ul>
 <p>Evidence for higher-order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why. For example, you may have
-explained how you did X, Y, and Z, but you continue to explain why you
-did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or highlighting the significant differences
-between two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or highlighting the significant differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul>
-<p>Note: the assessor may use their discretion to source other evidence
-from this assessment to judge the activity if required.</p></td>
+<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
 <td><p>4</p>
 <p>4</p></td>
 <td>__/4<br />
@@ -309,39 +241,21 @@ __/4</td>
 <td>__/ 8</td>
 </tr>
 <tr class="even">
-<td><strong>Incorporation of written and visual communication strategies
-into initial Project Management</strong></td>
-<td><p>The evidence of the Project Collaboration Cards highlights your
-ability to incorporate your written and visual communication of your
-system into the suitability of your initial project management
-processes.</p>
-<p>Your Project Collaboration Cards highlight the different abstracted
-tasks that need to be completed and the must | should | could have of
-each task.</p>
-<p>Each of your questions will be marked against the following aspects
-of your ability to:</p>
+<td><strong>Incorporation of written and visual communication strategies into initial Project Management</strong></td>
+<td><p>The evidence of the Project Collaboration Cards highlights your ability to incorporate your written and visual communication of your system into the suitability of your initial project management processes.</p>
+<p>Your Project Collaboration Cards highlight the different abstracted tasks that need to be completed and the must | should | could have of each task.</p>
+<p>Each of your questions will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>your understanding of technology concepts and principles for
-projects</p></li>
-<li><p>your ability to communicate ideas appropriately in the selected
-medium</p></li>
+<li><p>your understanding of technology concepts and principles for projects</p></li>
+<li><p>your ability to communicate ideas appropriately in the selected medium</p></li>
 </ul>
 <p>Evidence for higher-order learning may include:</p>
 <ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned
-understanding of what you did and why. For example, you may have
-explained how you did X, Y, and Z, but you continue to explain why you
-did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of
-something or between multiple things. This judgement may be the value of
-one thing over another or highlighting the significant differences
-between two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you
-apply information, strategies, or skills that you have learnt to a new
-situation or context.</p></li>
+<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
+<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or highlighting the significant differences between two things.</p></li>
+<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
 </ul>
-<p>Note: the assessor may use their discretion to source other evidence
-from this assessment to judge the activity if required.</p></td>
+<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
 <td><p>4</p>
 <p>4</p></td>
 <td>__/4<br />
@@ -363,10 +277,7 @@ __/4</td>
 </tr>
 <tr class="even">
 <td><strong>Quality of Submission</strong></td>
-<td><strong>Assessment submission is ordered</strong> and has a definite
-pattern to its construction. <strong>The reader is not confused about
-the content in any given section and can follow the submission
-flow</strong> easily. </td>
+<td><strong>Assessment submission is ordered</strong> and has a definite pattern to its construction. <strong>The reader is not confused about the content in any given section and can follow the submission flow</strong> easily. </td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
@@ -375,10 +286,7 @@ flow</strong> easily. </td>
 </tr>
 <tr class="odd">
 <td><strong>Formatting</strong></td>
-<td><strong>Students have</strong> <strong>followed the formatting
-instructions,</strong> including any provided templates and guides
-<strong>or have created their own</strong> legible formatting guide
-<strong>and applied it constantly</strong>.</td>
+<td><strong>Students have</strong> <strong>followed the formatting instructions,</strong> including any provided templates and guides <strong>or have created their own</strong> legible formatting guide <strong>and applied it constantly</strong>.</td>
 <td>2</td>
 <td>__/2</td>
 <td>__/2</td>
@@ -497,41 +405,23 @@ Formatting for all typed/written assessments should be as follows:
 <tbody>
 <tr class="odd">
 <td><strong>Python</strong></td>
-<td colspan="6"><p><em>We apply the following style guide to Python
-files. However, in general, most programs follow this overall
-layout.</em></p>
-<p><img
-src="D:\github\IT-CBR\assignments\Structured Project/media/image1.png"
-style="width:5.29744in;height:4.12185in" /></p>
-<p><a href="https://pep8.org/">PEP 8: The Style Guide for Python
-Code</a></p></td>
+<td colspan="6"><p><em>We apply the following style guide to Python files. However, in general, most programs follow this overall layout.</em></p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image1.png" style="width:5.29167in;height:4.11736in" /></p>
+<p><a href="https://pep8.org/">PEP 8: The Style Guide for Python Code</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Arduino</strong></p>
 <p><strong>C/C++</strong></p></td>
-<td colspan="6"><p><em>We apply the following style guide to C/C++
-files. However, in general most programs follow this broad
-layout.</em></p>
-<p><img
-src="D:\github\IT-CBR\assignments\Structured Project/media/image2.png"
-style="width:5.10488in;height:3.13585in" /></p>
-<p><em>I accept both K&amp;R and K&amp;R alternative bracing format. As
-long as it is consistent in your file.</em></p>
-<p><a
-href="https://docs.arduino.cc/learn/contributions/arduino-library-style-guide">Arduino
-Style Guide for Creating Libraries | Arduino Documentation | Arduino
-Documentation</a></p></td>
+<td colspan="6"><p><em>We apply the following style guide to C/C++ files. However, in general most programs follow this broad layout.</em></p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image2.png" style="width:5.10488in;height:3.13585in" /></p>
+<p><em>I accept both K&amp;R and K&amp;R alternative bracing format. As long as it is consistent in your file.</em></p>
+<p><a href="https://docs.arduino.cc/learn/contributions/arduino-library-style-guide">Arduino Style Guide for Creating Libraries | Arduino Documentation | Arduino Documentation</a></p></td>
 </tr>
 <tr class="odd">
 <td><strong>Markdown</strong></td>
-<td colspan="6"><p><em>We apply the following style guide to markdown
-documents. However, in general, most documents follow some variation of
-the following layout:</em></p>
-<p><img
-src="D:\github\IT-CBR\assignments\Structured Project/media/image3.png"
-style="width:5.29784in;height:3.4225in" /></p>
-<p><a
-href="https://github.com/google/styleguide/blob/gh-pages/docguide/style.md">https://github.com/google/styleguide/blob/gh-pages/docguide/style.md</a></p></td>
+<td colspan="6"><p><em>We apply the following style guide to markdown documents. However, in general, most documents follow some variation of the following layout:</em></p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image3.png" style="width:5.29167in;height:3.41851in" /></p>
+<p><a href="https://github.com/google/styleguide/blob/gh-pages/docguide/style.md">https://github.com/google/styleguide/blob/gh-pages/docguide/style.md</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -550,7 +440,7 @@ Analysis and synthesis of the information will not be assessed through
 these criteria.
 
 |                        | ***0 Points***                                                            | ***1 Point***                                                                          | ***2 Points***                                                                    |
-|---------|------------------|-----------------------|----------------------|
+|------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | ***2 Point Criteria*** | ***Not present** or **not able to be assessed** as the required criteria* | *Item is presented but **does not meet expectations** for quality, rigour, or detail.* | *Item is presented and **does meet expectations** for quality, rigour, or detail* |
 
 ##### 4-Point Criteria - Analysis and Synthesis and Expert Review
@@ -592,27 +482,13 @@ original and compelling solution.
 <tbody>
 <tr class="odd">
 <td><em><strong>4 Point Criteria</strong></em></td>
-<td><em><strong>Not present</strong> or <strong>not able to be
-assessed</strong> as the required criteria</em></td>
-<td><em>Evidence is presented and explained. However, it <strong>does
-not show appropriate evidence of higher-order thinking</strong> such as
-analysis, evaluation, or synthesis.</em></td>
-<td><em>Evidence is presented and <strong>shows appropriate evidence of
-higher-order thinking</strong> such as analysis, evaluation, or
-synthesis.</em></td>
-<td><p><em>Evidence is presented and <strong>exceeds expectations for
-evidence of higher-order thinking</strong> such as analysis, evaluation,
-or synthesis.</em></p>
+<td><em><strong>Not present</strong> or <strong>not able to be assessed</strong> as the required criteria</em></td>
+<td><em>Evidence is presented and explained. However, it <strong>does not show appropriate evidence of higher-order thinking</strong> such as analysis, evaluation, or synthesis.</em></td>
+<td><em>Evidence is presented and <strong>shows appropriate evidence of higher-order thinking</strong> such as analysis, evaluation, or synthesis.</em></td>
+<td><p><em>Evidence is presented and <strong>exceeds expectations for evidence of higher-order thinking</strong> such as analysis, evaluation, or synthesis.</em></p>
 <p><em><strong>-or-</strong></em></p>
-<p><em>Item is presented and shows appropriate evidence of higher-order
-thinking such as analysis, evaluation, or synthesis and <strong>exceeds
-expectations for quality or rigour</strong> of understanding of the
-selected mastery.</em></p></td>
-<td><em>Evidence is presented and <strong>exceeds expectations for
-evidence of higher-order thinking</strong> such as analysis, evaluation,
-or synthesis. <strong>Additionally, this item exceeds expectations for
-quality or rigour</strong> of understanding of the selected
-mastery.</em></td>
+<p><em>Item is presented and shows appropriate evidence of higher-order thinking such as analysis, evaluation, or synthesis and <strong>exceeds expectations for quality or rigour</strong> of understanding of the selected mastery.</em></p></td>
+<td><em>Evidence is presented and <strong>exceeds expectations for evidence of higher-order thinking</strong> such as analysis, evaluation, or synthesis. <strong>Additionally, this item exceeds expectations for quality or rigour</strong> of understanding of the selected mastery.</em></td>
 </tr>
 </tbody>
 </table>
@@ -651,26 +527,13 @@ solution.
 <tbody>
 <tr class="odd">
 <td><em><strong>4 Point Criteria</strong></em></td>
-<td><em><strong>Not present</strong> or <strong>not able to be
-assessed</strong> as the required criteria</em></td>
-<td><em>Evidence is presented and broadly solves the problem.
-However<strong>, the evidence does not show appropriate mastery</strong>
-upon review.</em></td>
-<td><em>Evidence is presented and broadly solves the problem. On review,
-it <strong>does show appropriate evidence</strong> of mastery.</em></td>
-<td><p><em>Evidence is presented and solves the specific problem. On
-review, the evidence <strong>shows understanding beyond expected
-mastery</strong>.</em></p>
+<td><em><strong>Not present</strong> or <strong>not able to be assessed</strong> as the required criteria</em></td>
+<td><em>Evidence is presented and broadly solves the problem. However<strong>, the evidence does not show appropriate mastery</strong> upon review.</em></td>
+<td><em>Evidence is presented and broadly solves the problem. On review, it <strong>does show appropriate evidence</strong> of mastery.</em></td>
+<td><p><em>Evidence is presented and solves the specific problem. On review, the evidence <strong>shows understanding beyond expected mastery</strong>.</em></p>
 <p><em><strong>-or-</strong></em></p>
-<p><em>Item is presented and broadly solves the problem. On review, it
-does show appropriate evidence of mastery and is <strong>done so in a
-well-constructed or design method</strong> that clearly shows higher
-levels of understanding<strong>.</strong></em></p></td>
-<td><em>Evidence is presented and solves the specific problem. On
-review, <strong>the evidence shows understanding well beyond expected
-mastery</strong> and is <strong>done so in a well-constructed or
-designed method</strong> that clearly indicates higher levels of
-understanding.</em></td>
+<p><em>Item is presented and broadly solves the problem. On review, it does show appropriate evidence of mastery and is <strong>done so in a well-constructed or design method</strong> that clearly shows higher levels of understanding<strong>.</strong></em></p></td>
+<td><em>Evidence is presented and solves the specific problem. On review, <strong>the evidence shows understanding well beyond expected mastery</strong> and is <strong>done so in a well-constructed or designed method</strong> that clearly indicates higher levels of understanding.</em></td>
 </tr>
 </tbody>
 </table>
@@ -695,6 +558,6 @@ about it was great, and what could be improved.
 Why is this important? Reflective thinkers can go beyond what they are
 taught and can customise their learning to ben
 
-![](D:\github\IT-CBR\assignments\Structured Project/media/image4.png)
+![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image4.png)
 
 ##  
