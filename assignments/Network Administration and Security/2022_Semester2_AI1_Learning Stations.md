@@ -1,66 +1,89 @@
-You have been tasked to construct a proposal/specification for a
-project. The topic of your proposal is up to you (although a default is
-provided below).
+You have been tasked with constructing Learning Stations on the basic
+operating system commands for the Linux platform. The shape of your
+Learning Stations is solving a number of problems on Bandit at
+OverTheWire (OTW).
 
-## Your proposal/specification must include at the minimum: 
+## Your learning station must include at the minimum: 
 
--   A high-level description of your project
+-   Evidence that you have solved up to bandit 10 for year 11 students
+    and 15 for year 12 students who've done the previous 10 before
 
--   A report intended audience and use
+-   Material for learning stations that covers at least 5 from the
+    following commands:
 
--   You must include sketches if your project is interactable in digital
-    or physical space.
+    -   file
 
-    -   Sketches will imply how a product will look like when it is
-        finished
+    -   find
 
-    -   How it is used
+    -   du
 
-    -   How it is put together (if applicable)
+    -   grep
 
--   Lightweight process diagramming (boxes and arrows) of how the
-    critical parts of your project will work
+    -   sort
 
--   Project Story Cards of your project
+    -   uniq
 
--   Story Cards should be quoted for Must \| Should \| Could have
+    -   strings
 
--   You do not have to quote time to complete or complexity
+    -   base64
 
-## Project Proposal
+-   Note, you are not writing man articles on the commands. Rather you
+    are teaching someone how to solve a bandit problem that may require
+    multiple commands.
 
-You can choose to build any project. However, you are greatly restricted
-on time and resources. Resources may be able to be acquired, but due to
-covid/global shortages/etc., this is not dependable. Time is limited, as
-semester finishes early, and we have 3 hours 40 minutes each week.
+## Learning Stations
 
-Your project must be a small series of mechatronic systems. Each system
-includes sensors, actuators, physical models, and have some sort of
-intended interaction. In addition, the system's intended interaction
-must be driven by decoupled serial events. These serial events will come
-from a third party service (raspberry pis). This process will be
-provided as a library.
+What is a learning station? In education Learning Stations are points of
+interest in a classroom that provides learners the opportunity to step
+through a problem, teaching them to identify the different steps and
+highlighting how to solve them.
 
-![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image5.png){width="6.268055555555556in"
-height="3.329861111111111in"}
+Our version of Learning Stations will consists of [markdown
+documents](https://www.markdownguide.org/cheat-sheet/). Markdown
+Documents are similar to web pages but come with a very lightweight
+formatting guide. Check the cheat sheet above or the style guide below
+for more information.
 
-The default example for this project is constructing a part of the Cyber
-Range City (Arduino City). An example of a feature of Arduino City might
-be a draw bridge that opens when a "boat" gets too close and closes the
-road for safety purposes.
+Use the template markdown provided with this assignment to help frame
+your work. Also, look at the cookbook articles on our GitHub for
+examples of how things have been broken down.
 
-![A screenshot of a computer Description automatically generated with
-medium
-confidence](C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image6.png){width="6.268055555555556in"
-height="1.0680555555555555in"}
+In essence, you must provide a
 
-![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image7.png){width="6.268055555555556in"
-height="1.2430555555555556in"}
+-   Introduction to the problem being solved
 
-![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image8.png){width="6.268055555555556in"
-height="1.1479166666666667in"}
+-   An explanation of the solution
 
-etc
+-   An explanation of the different commands and how they work
+
+-   (extension) An analysis/evaluation/comparison of different commands
+    that may also solve the problem.
+
+# OverTheWire
+
+OverTheWire (OTW) is a CTF lite training tool to help people new to
+Linux Administration to learn basic and useful tools.
+
+<https://overthewire.org/wargames/bandit/bandit0.html>
+
+Each level sets the goals required for completing the level including
+some valuable commands.
+
+![Text Description automatically
+generated](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image5.png){width="6.268055555555556in"
+height="3.9791666666666665in"}
+
+You will see that they suggest commands that you may need to solve this
+level. In this case, it is ssh. How can we use this?
+
+Open terminator and in the prompt type man ssh
+
+If you can't use man for some reason, you could search for it on google:
+
+<https://linux.die.net/man/1/ssh>
+
+Learning how to read man files is an important skill. However, don't be
+afraid to supplement your knowledge by abusing google.
 
 ## Submission Guide
 
@@ -116,12 +139,19 @@ At the minimum:
 <td><strong>TOTAL</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>Project Descriptions</strong></p>
-<p>(individual)</p></td>
-<td><p>You have provided <strong>evidence of producing project descriptions</strong>. The project descriptions appear to be <strong>a serious attempt</strong> and look like they meet the overall goals of <strong>rigour and suitability</strong>.</p>
+<td><strong>Bandit Levels</strong></td>
+<td><p>You have provided <strong>appropriate evidence of completing Bandit levels</strong> on OverTheWire.</p>
+<p>Students doing Networking for the first time:</p>
 <ul>
-<li><p>A high-level description of the project</p></li>
-<li><p>A description of who will use your product and how it will be used or why your system exists and how it works.</p></li>
+<li><p>Bandit 0</p></li>
+<li><p>Bandit 1 – 5</p></li>
+<li><p>Bandit 6 – 10</p></li>
+</ul>
+<p>Students doing Networking for the second time:</p>
+<ul>
+<li><p>Bandit 0 – 5</p></li>
+<li><p>Bandit 6 – 10</p></li>
+<li><p>Bandit 11 - 15</p></li>
 </ul>
 <p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
@@ -130,19 +160,23 @@ At the minimum:
 <li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul></td>
 <td><p>2</p>
+<p>2</p>
 <p>2</p></td>
 <td><p>__/2</p>
+<p>__/2</p>
 <p>__/2</p></td>
 <td><p>__/2</p>
+<p>__/2</p>
 <p>__/2</p></td>
-<td>-</td>
-<td>__/ 4</td>
+<td><p>A x2</p>
+<p>T x 1</p></td>
+<td><p>__/ 6</p>
+<p>__/12</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Lightweight Prototyping | Modelling</strong></p>
+<td><p><strong>Learning Stations</strong></p>
 <p>(individual)</p></td>
-<td><p>You have submitted relevant <strong>lightweight prototypes and/or models</strong> of your system or solution.</p>
-<p>Your prototypes/models <strong>appear to describe</strong> how your solution will be put together, how it will be used, and as a high-level overview of the system.</p>
+<td><p>You have <strong>submitted 3 learning stations</strong> in <strong>markdown format</strong>. Your learning stations <strong>appear to adequately explain how to solve the problems</strong> using known tools and techniques.</p>
 <ul>
 <li><p>Modelling/prototyping of how your system will be put together</p></li>
 <li><p>Modelling/prototype of how your system will be used</p></li>
@@ -154,6 +188,7 @@ At the minimum:
 <li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
 <li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul>
+<p>e</p>
 <p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
 <td><p>2</p>
 <p>2</p>
@@ -170,34 +205,21 @@ At the minimum:
 T __/ 6</td>
 </tr>
 <tr class="even">
-<td><p><strong>Story Cards</strong></p>
-<p>(individual)</p></td>
-<td><p>You have submitted <strong>evidence of story cards</strong>. The story cards appear to <strong>describe the abstracted parts of your project</strong> from a management point of view and <strong>highlights such things as the minimal viable product</strong>.</p>
-<ul>
-<li><p>Project Story Cards which provide a high level overview of your system</p></li>
-<li><p>Project Story Cards of how your system will be put together</p></li>
-<li><p>Project Story Cards of how your system will be used</p></li>
-</ul>
+<td><strong>OS commands</strong></td>
+<td><p>You have submitted evidence that you address at least 5 Linux commands in the problems that you have solved.</p>
 <p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
 <li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
 <li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul>
-<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
-<td><p>2</p>
-<p>2</p>
-<p>2</p></td>
-<td><p>__/2</p>
-<p>__/2</p>
-<p>__/2</p></td>
-<td><p>__/2</p>
-<p>__/2</p>
-<p>__/2</p></td>
+<p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></td>
+<td>2</td>
+<td>__/ 2</td>
+<td>__/ 2</td>
 <td><p>A x2</p>
 <p>T x1</p></td>
-<td>A __/ 12<br />
-T __/ 6</td>
+<td><p>__/4</p>
+<p>__/2</p></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -205,13 +227,13 @@ T __/ 6</td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
 <td><p><strong>A _ / 28</strong></p>
-<p><strong>T _ / 22</strong></p></td>
+<p><strong>T _ / 24</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Written Specification</strong></p>
-<p><strong>Communication</strong></p></td>
-<td><p>The evidence that you have submitted highlights your ability to communicate with technical experts to describe who the product is for or how it interacts with the broader system.</p>
-<p>The written descriptions highlight your understanding of the initial stages of our design processes and the initial requirements.</p>
+<td><strong>Learning Station A</strong></td>
+<td><p>You have submitted evidence of learning station on a Bandit problem on OverTheWire.</p>
+<p>The evidence highlights your ability to communicate and explain to people with a growing understanding of technology.</p>
+<p>The written material highlights your understanding of the underlying technology.</p>
 <p>Each of your questions will be marked against the following aspects of your ability to:</p>
 <ul>
 <li><p>your understanding of technology concepts and principles and how it relates to projects</p></li>
@@ -234,12 +256,13 @@ __/4</td>
 <td>__/ 8</td>
 </tr>
 <tr class="odd">
-<td><strong>Visual Specification Documentation</strong></td>
-<td><p>The evidence of the lightweight prototyping that you submitted highlights your ability to communicate your system(s) visually. They describe how the product is intended to be used, a high level of visual explanation.</p>
-<p>The visual specification highlights your understanding of explaining your descriptions visually.</p>
+<td><strong>Learning Station B</strong></td>
+<td><p>You have submitted evidence of learning station on a Bandit problem on OverTheWire.</p>
+<p>The evidence highlights your ability to communicate and explain to people with a growing understanding of technology.</p>
+<p>The written material highlights your understanding of the underlying technology.</p>
 <p>Each of your questions will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>your understanding of technology concepts and principles in related to projects</p></li>
+<li><p>your understanding of technology concepts and principles and how it relates to projects</p></li>
 <li><p>your ability to communicate ideas appropriately in the selected medium</p></li>
 </ul>
 <p>Evidence for higher-order learning may include:</p>
@@ -259,12 +282,13 @@ __/4</td>
 <td>__/ 8</td>
 </tr>
 <tr class="even">
-<td><strong>Incorporation of written and visual communication strategies into initial Project Management</strong></td>
-<td><p>The evidence of the Project Collaboration Cards highlights your ability to incorporate your written and visual communication of your system into the suitability of your initial project management processes.</p>
-<p>Your Project Collaboration Cards highlight the different abstracted tasks that need to be completed and the must | should | could have of each task.</p>
+<td><strong>Learning Station C</strong></td>
+<td><p>You have submitted evidence of learning station on a Bandit problem on OverTheWire.</p>
+<p>The evidence highlights your ability to communicate and explain to people with a growing understanding of technology.</p>
+<p>The written material highlights your understanding of the underlying technology.</p>
 <p>Each of your questions will be marked against the following aspects of your ability to:</p>
 <ul>
-<li><p>your understanding of technology concepts and principles for projects</p></li>
+<li><p>your understanding of technology concepts and principles and how it relates to projects</p></li>
 <li><p>your ability to communicate ideas appropriately in the selected medium</p></li>
 </ul>
 <p>Evidence for higher-order learning may include:</p>
@@ -280,18 +304,15 @@ __/4</td>
 __/4</td>
 <td>__/4<br />
 __/4</td>
-<td><p>A x1</p>
-<p>T x 2</p></td>
-<td><p>A __/ 8</p>
-<p>T __/16</p></td>
+<td>-</td>
+<td>__/ 8</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><strong>Submission Guidelines</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A __/24</strong></p>
-<p><strong>T __/48</strong></p></td>
+<td><strong>__/24</strong></td>
 </tr>
 <tr class="even">
 <td><strong>Quality of Submission</strong></td>
@@ -299,8 +320,8 @@ __/4</td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
-<td>x2</td>
-<td>__ / 8</td>
+<td>X1</td>
+<td>__ / 4</td>
 </tr>
 <tr class="odd">
 <td><strong>Formatting</strong></td>
@@ -316,7 +337,7 @@ __/4</td>
 <td></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><strong>__ /10</strong></td>
+<td><strong>__ /6</strong></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -424,21 +445,21 @@ Formatting for all typed/written assessments should be as follows:
 <tr class="odd">
 <td><strong>Python</strong></td>
 <td colspan="6"><p><em>We apply the following style guide to Python files. However, in general, most programs follow this overall layout.</em></p>
-<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image1.png" style="width:5.29167in;height:4.11736in" /></p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image1.png" style="width:5.29167in;height:4.11736in" /></p>
 <p><a href="https://pep8.org/">PEP 8: The Style Guide for Python Code</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Arduino</strong></p>
 <p><strong>C/C++</strong></p></td>
 <td colspan="6"><p><em>We apply the following style guide to C/C++ files. However, in general most programs follow this broad layout.</em></p>
-<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image2.png" style="width:5.10488in;height:3.13585in" /></p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image2.png" style="width:5.10488in;height:3.13585in" /></p>
 <p><em>I accept both K&amp;R and K&amp;R alternative bracing format. As long as it is consistent in your file.</em></p>
 <p><a href="https://docs.arduino.cc/learn/contributions/arduino-library-style-guide">Arduino Style Guide for Creating Libraries | Arduino Documentation | Arduino Documentation</a></p></td>
 </tr>
 <tr class="odd">
 <td><strong>Markdown</strong></td>
 <td colspan="6"><p><em>We apply the following style guide to markdown documents. However, in general, most documents follow some variation of the following layout:</em></p>
-<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image3.png" style="width:5.29167in;height:3.41851in" /></p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image3.png" style="width:5.29167in;height:3.41851in" /></p>
 <p><a href="https://github.com/google/styleguide/blob/gh-pages/docguide/style.md">https://github.com/google/styleguide/blob/gh-pages/docguide/style.md</a></p></td>
 </tr>
 </tbody>
@@ -576,6 +597,6 @@ about it was great, and what could be improved.
 Why is this important? Reflective thinkers can go beyond what they are
 taught and can customise their learning to ben
 
-![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image4.png)
+![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image4.png)
 
 ##  
