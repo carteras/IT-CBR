@@ -2,6 +2,8 @@
 
 # https://www.youtube.com/watch?v=LaJ1yl6NckI
 # https://www.arcolinuxd.com/5-the-actual-installation-of-arch-linux-phase-1-bios/
+#https://wiki.archlinux.org/title/VirtualBox/Install_Arch_Linux_as_a_guest#Set_optimal_framebuffer_resolution
+https://wiki.archlinux.org/title/kernel_mode_setting#Forcing_modes_and_EDID
 echo "admin account?"
 read ADMIN_ACCOUNT
 echo "hostname"
