@@ -6,13 +6,13 @@ Learning Stations solves a challenging problem on Bandit at OverTheWire
 ## Your learning station must include at the minimum: 
 
 -   Evidence you solved up to bandit10 for year 11 students and 15 for
-    year 12 students who've done the previous 10 before. Note: if you
+    year 12 students who\'ve done the previous 10 before. Note: if you
     have done more than 15 last year, do five more than where you were
     at.
 
 -   Material for learning stations that covers more than one of the
-    following commands (you'll likely need to do an exercise from bandit
-    6+):
+    following commands (you\'ll likely need to do an exercise from
+    bandit 6+):
 
     -   file
 
@@ -65,15 +65,98 @@ In essence, you must provide a
 -   An explanation of the different commands and how they work
 
 -   (extension) An analysis/evaluation/comparison of different commands
-    that may also solve the problem.
+    may also solve the problem.
 
 -   Feel free to add other material that you feel is essential to your
     learning station
 
+### Learning Stations vs Cookbooks Recipes
+
+In my classes, I create many Recipes for students to follow. Learning
+Stations are similar to recipes. However, a recipe is intended to be
+supported by lectures/direct teacher support. They can also focus on
+people with deep technical literacy learning a new skill.
+
+An example of a technical recipe can be seen here:
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><h2 id="configuring-the-router-via-tftp">Configuring the router via TFTP</h2>
+<h3 id="problem">Problem:</h3>
+<p>You want to load configuration commands via TFTP.</p>
+<h3 id="solution">Solution:</h3>
+<p>You can use the copy TFTP: command to configure the router via the Trivial File Transfer Protocol (TFTP)</p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image5.png" style="width:5.83333in;height:2.275in" alt="Text Description automatically generated" /></p>
+<h3 id="discussion">Discussion:</h3>
+<p>Generally, most people configure their routers using telnet/ssh and the configured terminal command. However, people tend to resort to cutting and pasting a large set of commands for significant configuration changes. While this method works, it is inefficient and slow, particularly if you have to configure many routers. </p>
+<p>Using TFTP to download a large set of configuration commands, the router doesn't need to echo each character to your screen, reducing the overhead and increasing the interaction speed. </p>
+<p>In this example, the router is configured by downloading a file called NEWCONFIG from a server at 192.168.10.1 using the Trivial File Transfer Protocol (TFTP). The router will copy the entire file by TFTP before entering the commands into the running configuration. </p>
+<p>Using TFTP is helpful because sometimes, some commands in the middle of a configuration could disrupt your access to the router, but the rest of the commands might fix the problem. If you tried to enter them manually using telnet/ssh and configure the terminal, you could lock yourself out of the router. A typical example of this problem happens when you replace an active access list. When you enter the first line, the router puts an implicit deny-all at the end, which can break your session. Using TFTP avoids this problem.</p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+You can see how the author of this recipe broke their response into
+multiple chunks.
+
+### Explanation:
+
+![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image6.png){width="4.382268153980752in"
+height="3.0597222222222222in"}
+
+*Explanation of the problem and the solution*
+
+In the example above, the author explains the problem and the solution.
+In both cases, it is very superficial and intended to draw a reader\'s
+attention to a specific problem.
+
+### Analysis: 
+
+![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image7.png){width="4.3737007874015745in"
+height="1.212386264216973in"}
+
+*An analysis of the problem and solution*
+
+Next, the author details the underlying problem (copy and pasting) that
+needs to be addressed. This form of analysis highlights to the reader
+why they should consider the alternative presented in this recipe.
+
+### Evaluation:
+
+![Text Description automatically
+generated](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image8.png){width="4.154162292213473in"
+height="1.488888888888889in"}
+
+*Explanation and evaluation*
+
+Finally, the author goes through and explains the solution and then
+evaluates the default solution against the new solution.
+
+## The difference between recipes and learning stations
+
+Notice how the recipe above has many assumptions? We assume that the
+reader knows that TFTP exists, that they understand terminology like
+active access lists, what deny-all is, or even what sessions are. These
+elements were controlled (more or less) by being in a structured
+classroom environment: lectures, worksheets, prior experience, and
+scaffolded learning supplement recipes.
+
+Learning Stations, however, make fewer assumptions. They assume that the
+reader knows very little about what they are doing or why they need to
+do it. In your case, you will need to spend more time explaining what
+different commands are, why the reader cares about them, and potentially
+identify how the reader can identify that problem in the future.
+
 # OverTheWire
 
 OverTheWire (OTW) is a CTF lite training tool to help people new to
-Linux Administration to learn basic and useful tools.
+Linux Administration to learn essential and valuable tools.
 
 <https://overthewire.org/wargames/bandit/bandit0.html>
 
@@ -81,19 +164,20 @@ Each level sets the goals required for completing the level including
 some valuable commands.
 
 ![Text Description automatically
-generated](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image5.png){width="6.268055555555556in"
+generated](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image9.png){width="6.268055555555556in"
 height="3.9791666666666665in"}
 
-You will see that they suggest commands that you may need to solve this
+You will see that they suggest commands you may need to solve this
 level. In this case, it is ssh. How can we use this?
 
-Open terminator and in the prompt type man ssh
+Open terminator, and in the prompt, type man ssh
 
-If you can't use man for some reason, you could search for it on google:
+If you can\'t use man for some reason, you could search for it on
+google:
 
 <https://linux.die.net/man/1/ssh>
 
-Learning how to read man files is an important skill. However, don't be
+Learning how to read man files is an important skill. However, don\'t be
 afraid to supplement your knowledge by abusing google.
 
 ## Submission Guide
@@ -102,7 +186,7 @@ afraid to supplement your knowledge by abusing google.
 
 At the minimum:
 
--   A visual representation of all of the levels you've solved.
+-   A visual representation of all of the levels you\'ve solved.
 
 ### Learning Station
 
