@@ -1,7 +1,8 @@
 from dataclasses import dataclass
-from pathlib import Path
-from docxtpl import DocxTemplate
+
 from configparser import ConfigParser
+from docxtpl import DocxTemplate
+from pathlib import Path
 from inspect import currentframe, getframeinfo
 
 filename = getframeinfo(currentframe()).filename
