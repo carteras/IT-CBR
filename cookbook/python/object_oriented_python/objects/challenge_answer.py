@@ -1,45 +1,65 @@
-from random import randint
 
-class DogPark:
-    pass
 
-class Dog:
-    def __init__(self, name):
-        self.name = name
-        self.desire_to_go_home = 1
+class Car:
+    def __init__(self, driver, number):
+        from random import uniform, randint
+        self.driver = driver
+        self.number = number
+        self.acceleration = uniform(0.5, 1.5)
+        self.max_speed = randint(5, 10)
+        self.speed = 0
+        self.total_distance = 0
 
-    def barking(self):
-        pass
+    def tick(self, obstacle=False):
+        if obstacle:
+            self.speed -= self.speed/2
+        elif self.speed < self.max_speed:
+            potential_speed = self.speed + self.acceleration
+            self.speed += self.acceleration if potential_speed < self.max_speed else self.max_speed-self.speed
+        self.total_distance += self.speed
+        return self.total_distance
 
-    def sniffing(self, dog_park):
-        pass
+    def draw(self):
+        return self.number
 
-    def playing(self, dog_park):
-        pass
+class RaceTrack:
+    def __init__(self, racers = 10, distance = 1000):
+        import names
+        self.cars = []
+        for i in range(racers):
+            self.cars.append(Car(names.get_full_name(), i))
+        self.distance = distance
+        self.racing = True
+        self.track = []
+        self.ticks = 0
+    
+    def tick(self):
+        from random import randint
+        from math import floor
+        self.ticks += 1
+        obstacle = True if randint(1, 100) == 1 else False
+        for car in self.cars:
+            car_distance = floor(car.tick(obstacle))
+            if car_distance >= self.distance:
+                print(f"{car.driver} in number {car.number} crossed the line to win!")
+                return True
+            else: print(f"{car.driver} in number {car.number} has traveled {car.total_distance}")
+        return f"Round: {self.ticks}"
+            
+race_track = RaceTrack()
 
-    def running(self):
-        pass
+while (foo := race_track.tick()) != True:
+    print(foo)
 
-    def whine(self):
-        pass
+# for i in range(100000): 
+#     if race_track.tick(): break
+    
 
-    def go_home(self, dog_park):
-        pass
 
-    def check(self, dog_park):
-        leaving = False
-        if dog_park.dogs_left_in_park <= 0:
-            self.desire_to_go_home += 1
 
-        rnd = randint(1, 20)
-        if rnd < self.desire_to_go_home:
-            self.go_home(dog_park)
-        rnd = randint(1, 20)
-        if rnd < 5:
-            self.sniffing(dog_park)
-        elif rnd < 10:
-            self.playing(dog_park)
-        elif rnd < 15:
-            self.running()
-        elif rnd < 20:
-            self.barking()
+# c = Car("bob", 88)
+# for i in range(100):
+#     if i == 50: print(i, c.tick(True), c.draw(), c.speed, c.max_speed)
+#     else: print(i, c.tick(), c.draw(), c.speed, c.max_speed)
+    
+    

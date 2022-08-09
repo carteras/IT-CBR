@@ -277,17 +277,21 @@ for cat in cats:
 
 You are challenged to make two classes: A racetrack and racecar
 
-race cars 
+### race cars 
 
 * Have a driver (name)
 * have a car number
-* Have an acceleration between 0.5 and 1
-* have a maximum speed between 10 and 11
+* Have an acceleration between 0.5 and 1.5
+* have a maximum speed between 5 and 10
+* cars can not accelerate beyond their maximum speed
 * Each tick, cars accelerate until they reach their max speed
 
-A racetrack 
+### A racetrack 
 
-* Can have 100 cars on the track
-* Is 1,000 units long
+* Can have 10 cars on the track
+* Is 1000 units long
 * each tick prints the current position of all cars by units 
+* each tick, the race track has a 1 in 100 chance of causing an obstacle which makes a car slow down to 50%
 * the game keeps playing until someone wins
+* report who came first
+* stop the race
