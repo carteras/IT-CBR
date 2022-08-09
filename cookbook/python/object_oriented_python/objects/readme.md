@@ -131,12 +131,14 @@ int main(){
 }
 ```
 
-
-At some point, Computer Scientists started to feel constrained with this form of `functional programming`. Sometimes animals had shared functionality other times they didn't, more importantly, sometimes the verbs (the functions) needed to have the same name for different things. Something needed to change. 
+At some point, Computer Scientists started to feel constrained with this form of `functional programming`. Sometimes animals had shared functionality other times they didn't, more importantly, sometimes the verbs (the functions) needed to have the same name for different things. Something needed to change.
 
 ### What is a class?
 
-A class is a data type that incorporates both attributes and functionality together. 
+A class is a data type that incorporates both attributes and functionality together.
+
+
+Let's start with making a simple structure that does something when we call it. 
 
 ```python
 class Cat:
@@ -152,6 +154,8 @@ class Cat:
 c = Cat()
 ```
 
+Let's modify it so the Cat understands it's state. 
+
 ```python
 class Cat:
     def __init__(self, name):
@@ -160,6 +164,8 @@ class Cat:
 
 c = Cat("Kaylee")
 ```
+
+Cats like to make noises. Let's add that. 
 
 ```python
 class Cat:
@@ -173,18 +179,27 @@ c = Cat("Kaylee", "mew")
 
 ### How can you use classes to reduce the complexity of your code?
 
+Now, it's all well in good that we can make Kaylee mew, but she only does it when we initialise the object. Didn't we bind functionality and attributes?
+
 ```python
 class Cat:
     def __init__(self, name, sound):
-        self.name = name
-        self.sound = sound
+      self.name = name
+      self.sound = sound
 
     def make_sound(self):
-        return f"{self.name} goes {self.sound}!"
+      '''
+      We can make a function in a class. Or more commonly known as a method. 
+
+      Methods accept the internal state (self)
+      '''
+      return f"{self.name} goes {self.sound}!"
 
 c = Cat("Kaylee", "mew")
 print(c.make_sound())
 ```
+
+We aren't limited to the number of methods we can implement. 
 
 ```python
 class Cat:
@@ -209,8 +224,10 @@ c.hungry = True
 print(c.check_hunger())
 ```
 
+Why is this all cool? Let's make a lot of cats
+
 ```python
-import names
+import names # pip install names
 from random import choice, randint
 
 class Cat:
@@ -249,13 +266,15 @@ while True:
 
 <!-- Provide some basic worked examples that let people follow your worked examples. If it's a library, don't forget to tell people how to install it -->
 
+Cats also have sexes, classifications and ages
+
 ```python
 class Cat:
   pass
 
 cats = []
-c1 = Cat("Kaylee", 12, 'calico', 'tortoiseshell', 'f')
-c2 = Cat("Sylvester", 11, 'jerk', 'black', 'm')
+c1 = Cat("Kaylee", 14, 'calico', 'tortoiseshell', 'f', 'mew')
+c2 = Cat("Sylvester", 13, 'jerk', 'black and white tuxedo', 'm', 'SONG OF MY PEOPLE!")
 cats.append(c1)
 cats.append(c2)
 
