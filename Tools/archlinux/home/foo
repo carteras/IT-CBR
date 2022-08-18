@@ -1,5 +1,5 @@
 #! /bin/bash
-
+#https://www.youtube.com/watch?v=FudOL0-B9Hs
 # https://www.youtube.com/watch?v=LaJ1yl6NckI
 # https://www.arcolinuxd.com/5-the-actual-installation-of-arch-linux-phase-1-bios/
 #https://wiki.archlinux.org/title/VirtualBox/Install_Arch_Linux_as_a_guest#Set_optimal_framebuffer_resolution
@@ -17,11 +17,11 @@ cfdisk
 # set rest to /dev/sda2 linux file system
 
 mkfs.ext4 /dev/sda2
-mkfs.fat -F32 /dev/sda1
+mkswap /dev/sda1
+swapon /dev/sda1
+#mkfs.fat -F32 /dev/sda1
 
 mount /dev/sda2 /mnt
-mkdir /mnt/efi
-mount /dev/sda1 /mnt/efi
 
 nano /etc/pacman.d/mirrorlist
 # change the mirror list to http://mirror.aarnet.edu.au/pub/archlinux/$repo/os/$arch
