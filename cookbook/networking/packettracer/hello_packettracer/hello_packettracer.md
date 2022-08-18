@@ -36,17 +36,7 @@ Packet Tracer is a networking simulation tool which allows you to set up, config
 
 <!-- Provide some basic worked examples that let people follow your worked examples. If it's a library, don't forget to tell people how to install it -->
 
-### Signing into Packet Tracer
-
-You will need to sign up with either network academy or skills for all. My account is with network academy, but IIRC, we had problems with this last semester. If this doesn't work try Skills for All. (I don't have the login details for SFA so you will have to use your imagination). Remember to use your school gmail and provide as few details as possible.
-
-![](2022-07-17-11-36-10.png)
-
-Note: Do not flag the "Keep me logged in for 3 months" unless you are doing it on your personal computer.
-
-![](2022-07-17-11-36-26.png)
-
-Add in whatever details you used to sign up for SFA or NA
+Opening up Packet Tracer
 
 ![](2022-07-17-11-37-14.png)
 
