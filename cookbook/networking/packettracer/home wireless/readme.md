@@ -56,9 +56,9 @@ We're going to use the WRT300N router. In most home networks, this would probabl
 
 ![](2022-08-19-11-17-33.png)
 
-Let's connect it to the network. We use a straight through copper connection. This screenshot here still has the link to the Switch initialising.
+Let's connect it to the network. Make sure you use a crossover cable. Note: at some point I made a mistake in previous versions of this document. So if you see a straight through connection, remember to make sure you are using a cross over here. 
 
-![](2022-08-19-11-18-16.png)
+![](2022-08-19-13-01-37.png)
 
 Click on the Router and click config. Make sure that it is set up to be `192.168.0.1` with a subnet of `255.255.255.0`. 
 
