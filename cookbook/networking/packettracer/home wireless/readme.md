@@ -16,7 +16,7 @@ This recipe will help configure a home network that allows for wireless and fixe
 * In everyday terms, what does a router do?
 * What does DHCP mean?
 * In every day terms, how does DHCP work?
-* How to build the folling network ![](2022-08-19-10-58-45.png)
+* How to build the following network ![Finished Network](2022-08-19-10-58-45.png)
 
 ### Things you'll need to know before you start this
 
