@@ -31,7 +31,7 @@ def wrap_in_logs(x: float) -> NumberWithLogs:
         logs = []
     )
 
-def runWithLogs(input: NumberWithLogs, transform: callable) -> NumberWithLogs:
+def runWithLogs(input: int | float | NumberWithLogs, transform: callable) -> NumberWithLogs:
     match input:
         case int(input) | float(input): input = wrap_in_logs(input)
     return transform(input)
