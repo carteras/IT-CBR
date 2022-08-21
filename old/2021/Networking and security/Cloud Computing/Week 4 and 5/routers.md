@@ -189,11 +189,11 @@ Final view
 
 ### What's next? 
 
-Create a "recipe" for a cookbook to help solve the various concepts that we've encountered today. At the very least, you should create "recipes" for the following problems: 
+Create your own "recipe" for a cookbook to help solve the various concepts that we've encountered today. At the very least, you should create "recipes" for the following problems: 
 
-* The different Modes 
-* How to see the status of all IP interfaces 
-* How to turn on and off a interface 
+* The different Modes
+* How to see the status of all IP interfaces
+* How to turn on and off a interface
 * How to set the IP and sub net of an interface
 * How to set the hostname of an interface
 * How to configure SSH
@@ -213,7 +213,7 @@ BENEFITS OF BUILDING YOUR OWN COOKBOOK
 * It is quicker than looking up documentation or looking for a Stack Overflow answer.
 * Explore new topics
 
-What can I use to make my cookbook? 
+What can I use to make my cookbook?
 
 I recommend Notepad and use Markdown notation
 
