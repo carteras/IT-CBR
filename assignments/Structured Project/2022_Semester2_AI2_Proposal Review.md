@@ -39,10 +39,14 @@ it might have been.
 
 ### Project planning improvements
 
-Lastly, you must submit at least three improvements to your design
-proposals. These improvements must highlight why you have chosen to make
-them. These highlights must come from your self-reflection, peer-review,
-or ideally, both.
+Lastly, you must submit improvements to your design proposals. These
+improvements must highlight why you have chosen to make them. These
+highlights must come from your self-reflection, peer-review, or ideally,
+both.
+
+In the rare case that you can\'t find any improvements from your cohort,
+you may negotiate to extend your project design to include more detailed
+design under discussion with your teacher.
 
 ## Rubric
 
@@ -96,7 +100,8 @@ or ideally, both.
 <td><p>__/2</p>
 <p>__/2</p>
 <p>__/2</p></td>
-<td>-</td>
+<td><p>A 2x</p>
+<p>T 1x</p></td>
 <td>__/ 6</td>
 </tr>
 <tr class="odd">
@@ -129,24 +134,19 @@ or ideally, both.
 <li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
 </ul>
 <p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
-<td><p>2</p>
-<p>2</p>
-<p>2</p></td>
-<td><p>__/2</p>
-<p>__/2</p>
-<p>__/2</p></td>
-<td><p>__/2</p>
-<p>__/2</p>
-<p>__/2</p></td>
+<td>2</td>
+<td>__/2</td>
+<td>__/2</td>
 <td>-</td>
-<td>__/ 6</td>
+<td>__/ 2</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
-<td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><strong>__ / 14</strong></td>
+<td colspan="2"><strong>SUBTOTAL</strong></td>
+<td><strong>A __ / 16<br />
+T __/ 10</strong></td>
 </tr>
 <tr class="even">
 <td><strong>Evaluation of solutions that address problems or challenges</strong></td>
@@ -168,36 +168,34 @@ or ideally, both.
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
-<td><p>A x1</p>
-<p>T x3</p></td>
+<td><p>A 1x</p>
+<p>T 2x</p></td>
 <td><p>__ / 4</p>
-<p>__ / 12</p></td>
+<p>__ / 8</p></td>
 </tr>
 <tr class="even">
 <td><strong>The application of analysis and evaluation to create improvements in work</strong></td>
 <td><p>Your evidence will be assessed for examples of <strong>applying your understanding and knowledge gained from reflection and peer reviews</strong>, and your ability to draw on information creates opportunities to <strong>improve your problem-solving and defining techniques</strong>.</p>
-<p>In this context, you are being <strong>assessed o your ability to synthesise new learning</strong> from different areas. Synthesis is something you probably do subconsciously but it means that you <strong>draw upon one or more sources and infer relationships</strong> among those sources in new and meaningful ways.</p>
+<p>In this context, you are being <strong>assessed o your ability to synthesise new learning</strong> from different areas. You probably do synthesis subconsciously, but it means that you <strong>draw upon one or more sources and infer relationships</strong> among those sources in new and meaningful ways.</p>
 <p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image5.png" style="width:3.37547in;height:2.68788in" /></p>
 <p>Primarily, you will be <strong>assessed from your project (re)-submissions</strong>, each of which will <strong>highlight where this idea came from and why you think it improves your project</strong>.</p>
 <p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
-<td><p>A x1</p>
-<p>T x2</p></td>
-<td><p>__ / 4</p>
-<p>__ / 8</p></td>
+<td>-</td>
+<td>__ / 4</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><strong>Submission Guidelines</strong></td>
 <td colspan="2"></td>
-<td colspan="2"><strong>SUB TOTAL</strong></td>
+<td colspan="2"><strong>SUBTOTAL</strong></td>
 <td><p><strong>A __/12</strong></p>
-<p><strong>T __/24</strong></p></td>
+<p><strong>T __/16</strong></p></td>
 </tr>
 <tr class="even">
-<td><strong>Submitability</strong></td>
+<td><strong>Suitability</strong></td>
 <td><strong>Assessment submission is ordered</strong> and has a definite pattern to its construction. <strong>The reader is not confused about the content in any given section and can follow the submission flow</strong> easily. </td>
 <td>4</td>
 <td>__/4</td>
@@ -207,7 +205,7 @@ or ideally, both.
 </tr>
 <tr class="odd">
 <td><strong>Formatting</strong></td>
-<td><strong>Students have</strong> <strong>followed the formatting instructions,</strong> including any provided templates and guides <strong>or have created their own</strong> legible formatting guide <strong>and applied it constantly</strong>.</td>
+<td><strong>Students have</strong> <strong>followed the formatting instructions,</strong> including any provided templates and guides <strong>or have created a</strong> legible formatting guide <strong>and applied it constantly</strong>.</td>
 <td>2</td>
 <td>__/2</td>
 <td>__/2</td>
@@ -218,7 +216,7 @@ or ideally, both.
 <td></td>
 <td></td>
 <td colspan="2"></td>
-<td colspan="2"><strong>SUB TOTAL</strong></td>
+<td colspan="2"><strong>SUBTOTAL</strong></td>
 <td><strong>__ /6</strong></td>
 </tr>
 <tr class="odd">
@@ -228,7 +226,7 @@ or ideally, both.
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
 <td><strong>A __/32<br />
-T __/44</strong></td>
+T __/34</strong></td>
 </tr>
 </tbody>
 </table>
