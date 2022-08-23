@@ -4,6 +4,8 @@
 
 ### What is DNS? 
 
+* https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/
+
 ### Technical Purpose
 
 The objective of this lab is to configure a DNS entry on a generic server and then test it from a host device. 
