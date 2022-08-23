@@ -45,7 +45,7 @@ Router Configuration
 * ip address [ip] [subnet] - sets an IP address
 * no shut - turns on interface
 
-### Lab1 - SSH between two switches
+### Lab1 - SSH between two routers
 
 Put two routers onto the deck. It shouldn't matter which kind of routers you pick but I chose 1941
 

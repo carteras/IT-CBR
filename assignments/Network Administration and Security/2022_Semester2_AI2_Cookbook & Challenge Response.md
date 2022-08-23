@@ -1,52 +1,82 @@
 **Task**
 
-You have been tasked to complete various activities: a series of peer
-reviews, a self-reflection, and improvements to your lightweight design
-proposal.
+You are tasked with the creation of a Cookbook and the completion of
+networking challenges.
 
-.**Each must include the following at a minimum**
+**Each submission must include the following at a minimum**
 
--   Review three peer reviews
+-   A cookbook containing three recipes.
 
--   Complete a reflection on your submission based on your peer reviews
+-   Each recipe follows the following process:
 
--   Submit at least three improvements to your Lightweight Design
-    Proposal.
+    -   Problem being solved
 
-**The Thing**
+    -   How does solving this problem help?
 
-One of the most critical things in Industry is the ability to reflect on
-the work given and use those reflections to improve our work. However,
-this process is complicated due to the limited time on task and the
-closed curtain styles of education.
+    -   Explanation of procedure to solve the problem
 
-# Tool of learning
+    -   Analysis \| Evaluation \| Compare \| Contrast \| "Story."
 
-### Peer review
+-   Challenge Response.
 
-You will be required to select three students\' work to review. I highly
-recommend that you select three bodies of work that you feel would
-benefit your learning. You will receive lightweight marking sheets to
-help guide your review process.
+# Tools of Learning
 
-### Self-reflection
+### Cookbook
 
-You will use the information from the reviews to inform an analysis of
-your work. You may identify things that you feel will improve your
-project by adding them. You may also find items you now see in a
-different context suggest that something isn\'t as good as you thought
-it might have been.
+A cookbook is a collection of recipes that are often themed. In
+Information Technology, cookbooks are prolific and are themed around
+current problems that you might face in some domain.
 
-### Project planning improvements
+<https://www.librarything.com/nseries/7655/OReilly-Cookbook-series>
 
-Lastly, you must submit improvements to your design proposals. These
-improvements must highlight why you have chosen to make them. These
-highlights must come from your self-reflection, peer-review, or ideally,
-both.
+### Recipes (technical)
 
-In the rare case that you can\'t find any improvements from your cohort,
-you may negotiate to extend your project design to include more detailed
-design under discussion with your teacher.
+Technical recipes are similar to recipes you find on a food blog except
+in reverse. The story about why you might want to make Nanna's secret
+apple pie ice cream comes first in a food blog. It helps set the scene
+for why people care.
+
+In Technical recipes, people don't need to be convinced that they need
+help; that's why they are reading your recipe. They need to understand
+why your solution is the best approach.
+
+#### An example of a technical recipe: 
+
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><h2 id="configuring-the-router-via-tftp">Configuring the router via TFTP</h2>
+<h5 id="problem">Problem:</h5>
+<p>You want to load configuration commands via TFTP.</p>
+<h5 id="solution">Solution:</h5>
+<p>You can use copy tftp: command to configure the router via the Trivial Fire Transfer Protocol (TFTP)</p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image5.png" style="width:5.83194in;height:2.26875in" /></p>
+<h5 id="discussion">Discussion:</h5>
+<p>Generally, most people configure their routers by using telnet/ssh and the configure terminal command. However, for large configuration changes people tend to resort to cutting and pasting a large set of commands. While this method works, it is inefficient and slow, particularly if you have to configure a large number of routers. </p>
+<p>Using TFTP to download a large set of configuration commands, the router doesn’t need to echo each character to your screen, which reduces the overhead and increase the speed of the interaction. </p>
+<p>In this example, the router is configured by downloading a file called NEWCONFIG from a server at 192.168.10.1 by using the Trivial File Transfer Protocol (TFTP). The router will copy the entire file by TFTP before entering the commands into the running configuration. </p>
+<p>This is useful because sometimes some commands in the middle of a configuration could disrupt your access to the router, but the rest of the commands might fix the problem. If you tried to enter them manually using telnet/ssh and configure terminal, you could simply lock yourself out of the router. A typical example of this problem happens when you replace an active access-list. When you enter the first line the router puts an implicit deny all at the end which can break your session. Using TFTP avoids this problem.</p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+### Challenge Response
+
+Lastly, you must submit the response to the Networking Challenge issued
+as a part of your Labs. This challenge-response will require the
+subnetting calculations and Network Configuration for the following
+Network
+
+![Diagram, schematic Description automatically
+generated](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image6.png){width="6.268055555555556in"
+height="3.7930555555555556in"}
+
+NOTE: This network is incomplete and will be updated early this week.
 
 ## Rubric
 
@@ -82,9 +112,9 @@ design under discussion with your teacher.
 <td><strong>TOTAL</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>Proposal Reviews</strong></p>
+<td><p><strong>Cookbook</strong></p>
 <p>(individual)</p></td>
-<td><p>You have shown <strong>evidence of reviewing three student project proposals</strong>. This evidence makes clear that <strong>your reviews are a serious attempt</strong> to operate in the spirit of the assignment. You have likely selected three proposals that <strong>will benefit your development</strong>, and the reviews seem to be <strong>articulated and thought out</strong>.</p>
+<td><p>You have submitted evidence of completing a cookbook which contains three recipies. Each recipe makes clear that you have made a serious attempt to complete the assignment within the spirit that it is offered. Your three selected recipies make clear that they are likely to be useful for you and show examples of analysis/evaluation/comparison/contrasting.</p>
 <p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
 <li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
@@ -100,22 +130,14 @@ design under discussion with your teacher.
 <td><p>__/2</p>
 <p>__/2</p>
 <p>__/2</p></td>
-<td><p>A 2x</p>
-<p>T 1x</p></td>
+<td>-</td>
 <td>__/ 6</td>
 </tr>
 <tr class="odd">
-<td><p><strong>Self-reflection on own proposal</strong></p>
+<td><p><strong>Subnet Tables</strong></p>
 <p>(individual)</p></td>
-<td><p>You have shown evidence of taking the completed reviews and applying this knowledge to your work.</p>
-<p>It is clear that this evidence parallels and/or commonalities between the review and your work.</p>
-<p>Evidence for knowledge, comprehension, and application may include:</p>
-<ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
-</ul>
-<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
+<td><p>You have submitted evidence of calculting the subnetting requirements of your two business networks.</p>
+<p>The evidence supplied shows that you have submitted work in good faith to the spirit of the assignment and makes clear that calculations are produced to likely be correct.</p></td>
 <td>2</td>
 <td>__/2</td>
 <td>__/2</td>
@@ -123,10 +145,15 @@ design under discussion with your teacher.
 <td>__/ 2</td>
 </tr>
 <tr class="even">
-<td><p><strong>Design (re)-submissions</strong></p>
+<td><p><strong>Challenge Response</strong></p>
 <p>(individual)</p></td>
-<td><p>You have submitted <strong>evidence of improved submissions</strong> to your proposal. These submissions <strong>may be re-submissions or be entirely new</strong>.</p>
-<p>It appears that (re)-submissions are <strong>suitable improvements on your work</strong>, and you have provided evidence of <strong>why/how you have selected these works</strong> for submission <strong>from your reflection and/or reviews</strong>.</p>
+<td><p>You have submitted evidence of completing your challenge response. Your challenge response shows evidence of design challenge:</p>
+<ul>
+<li><p>Two business networks each connected via switch networks with a local DHCP and DNS server that allocate IP addresses.</p></li>
+<li><p>Subnetted with each subnet connected via serial.</p></li>
+<li><p>Connected to the internet and can reach services</p></li>
+</ul>
+<p>You have supplied evidence that each of these domains work appropriately in a test environment. This includes pinging relative services and demonstration of reaching services such as web access to facebook.com and cisco.com</p>
 <p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
 <li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
@@ -144,15 +171,12 @@ design under discussion with your teacher.
 <td></td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
-<td colspan="2"><strong>SUBTOTAL</strong></td>
-<td><strong>A __ / 16<br />
-T __/ 10</strong></td>
+<td colspan="2"><strong>SUB TOTAL</strong></td>
+<td><strong>__ / 14</strong></td>
 </tr>
 <tr class="even">
-<td><strong>Evaluation of solutions that address problems or challenges</strong></td>
-<td><p>Your evidence will be assessed for your ability to <strong>evaluate different techniques</strong>. Primarily this evaluation will be taken from your <strong>peer reviews</strong>.</p>
-<p>Evaluation is a process that examines a body of work. This process determines and assesses the work's merit, worth, and significance. The primary purposes of evaluation are to <strong>gain an insight into prior or existing knowledge</strong>, <strong>enable reflection</strong>, and assist in <strong>identifying future improvements</strong>.</p>
-<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
+<td><strong>Cookbook recipies</strong></td>
+<td>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
@@ -160,42 +184,24 @@ T __/ 10</strong></td>
 <td>__ / 4</td>
 </tr>
 <tr class="odd">
-<td><strong>Analysis of given data and information to improve solutions or complex problems</strong></td>
-<td><p>Your evidence will be assessed for your ability to <strong>analyse your peer reviews and draw conclusions on what could improve your proposals</strong>. Primarily this analysis will be taken from your <strong>self-reflection</strong>.</p>
-<p>In this context, analytical reflection is an exercise of <strong>articulating your thoughts with honesty</strong> and <strong>from an observant perspective</strong>.</p>
-<p>You will be <strong>required to write critically</strong>. Critical writing requires you to view a topic <strong>from various angles, evaluate evidence, present a clear conclusion, and reflect on the limitations of your argument</strong>. They often answer questions like "what?", "how?", "why?", and "so what?"</p>
-<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
-<td>4</td>
-<td>__/4</td>
-<td>__/4</td>
-<td><p>A 1x</p>
-<p>T 2x</p></td>
-<td><p>__ / 4</p>
-<p>__ / 8</p></td>
-</tr>
-<tr class="even">
-<td><strong>The application of analysis and evaluation to create improvements in work</strong></td>
-<td><p>Your evidence will be assessed for examples of <strong>applying your understanding and knowledge gained from reflection and peer reviews</strong>, and your ability to draw on information creates opportunities to <strong>improve your problem-solving and defining techniques</strong>.</p>
-<p>In this context, you are being <strong>assessed o your ability to synthesise new learning</strong> from different areas. You probably do synthesis subconsciously, but it means that you <strong>draw upon one or more sources and infer relationships</strong> among those sources in new and meaningful ways.</p>
-<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image5.png" style="width:3.37547in;height:2.68788in" /></p>
-<p>Primarily, you will be <strong>assessed from your project (re)-submissions</strong>, each of which will <strong>highlight where this idea came from and why you think it improves your project</strong>.</p>
-<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
+<td><strong>Challenge Response</strong></td>
+<td>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
 <td>-</td>
 <td>__ / 4</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td><strong>Submission Guidelines</strong></td>
 <td colspan="2"></td>
-<td colspan="2"><strong>SUBTOTAL</strong></td>
+<td colspan="2"><strong>SUB TOTAL</strong></td>
 <td><p><strong>A __/12</strong></p>
-<p><strong>T __/16</strong></p></td>
+<p><strong>T __/24</strong></p></td>
 </tr>
-<tr class="even">
-<td><strong>Suitability</strong></td>
+<tr class="odd">
+<td><strong>Submitability</strong></td>
 <td><strong>Assessment submission is ordered</strong> and has a definite pattern to its construction. <strong>The reader is not confused about the content in any given section and can follow the submission flow</strong> easily. </td>
 <td>4</td>
 <td>__/4</td>
@@ -203,30 +209,30 @@ T __/ 10</strong></td>
 <td>-</td>
 <td>__ / 4</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Formatting</strong></td>
-<td><strong>Students have</strong> <strong>followed the formatting instructions,</strong> including any provided templates and guides <strong>or have created a</strong> legible formatting guide <strong>and applied it constantly</strong>.</td>
+<td><strong>Students have</strong> <strong>followed the formatting instructions,</strong> including any provided templates and guides <strong>or have created their own</strong> legible formatting guide <strong>and applied it constantly</strong>.</td>
 <td>2</td>
 <td>__/2</td>
 <td>__/2</td>
 <td>-</td>
 <td>__ / 2</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td></td>
 <td colspan="2"></td>
-<td colspan="2"><strong>SUBTOTAL</strong></td>
+<td colspan="2"><strong>SUB TOTAL</strong></td>
 <td><strong>__ /6</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td>DAYS LATE ___/7 = ___%</td>
 <td></td>
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
 <td><strong>A __/32<br />
-T __/34</strong></td>
+T __/44</strong></td>
 </tr>
 </tbody>
 </table>
@@ -325,21 +331,21 @@ Formatting for all typed/written assessments should be as follows:
 <tr class="odd">
 <td><strong>Python</strong></td>
 <td colspan="6"><p><em>We apply the following style guide to Python files. However, in general, most programs follow this overall layout.</em></p>
-<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image1.png" style="width:5.29167in;height:4.11736in" /></p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image1.png" style="width:5.29167in;height:4.11736in" /></p>
 <p><a href="https://pep8.org/">PEP 8: The Style Guide for Python Code</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Arduino</strong></p>
 <p><strong>C/C++</strong></p></td>
 <td colspan="6"><p><em>We apply the following style guide to C/C++ files. However, in general most programs follow this broad layout.</em></p>
-<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image2.png" style="width:5.10488in;height:3.13585in" /></p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image2.png" style="width:5.10488in;height:3.13585in" /></p>
 <p><em>I accept both K&amp;R and K&amp;R alternative bracing format. As long as it is consistent in your file.</em></p>
 <p><a href="https://docs.arduino.cc/learn/contributions/arduino-library-style-guide">Arduino Style Guide for Creating Libraries | Arduino Documentation | Arduino Documentation</a></p></td>
 </tr>
 <tr class="odd">
 <td><strong>Markdown</strong></td>
 <td colspan="6"><p><em>We apply the following style guide to markdown documents. However, in general, most documents follow some variation of the following layout:</em></p>
-<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image3.png" style="width:5.29167in;height:3.41851in" /></p>
+<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image3.png" style="width:5.29167in;height:3.41851in" /></p>
 <p><a href="https://github.com/google/styleguide/blob/gh-pages/docguide/style.md">https://github.com/google/styleguide/blob/gh-pages/docguide/style.md</a></p></td>
 </tr>
 </tbody>
@@ -477,6 +483,6 @@ about it was great, and what could be improved.
 Why is this important? Reflective thinkers can go beyond what they are
 taught and can customise their learning to ben
 
-![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Structured Project/media/image4.png)
+![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image4.png)
 
 ##  
