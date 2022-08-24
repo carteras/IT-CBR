@@ -8,15 +8,15 @@ provided below).
 
 -   A report intended audience and use
 
--   You must include sketches if your project is interactable in digital
-    or physical space.
+-   You must include sketches if your project/challenges are
+    interactable in digital or physical space.
 
-    -   Sketches will imply how a product will look like when it is
-        finished
+    -   Sketches will imply how a product be framed or look like when it
+        is released
 
-    -   How it is used
+    -   How it is expected to be solved
 
-    -   How it is put together (if applicable)
+    -   How it interlinks with your whole system.
 
 -   Lightweight process diagramming (boxes and arrows) of how the
     critical parts of your project will work
@@ -34,33 +34,15 @@ on time and resources. Resources may be able to be acquired, but due to
 covid/global shortages/etc., this is not dependable. Time is limited, as
 semester finishes early, and we have 3 hours 40 minutes each week.
 
-Your project must be a small series of mechatronic systems. Each system
-includes sensors, actuators, physical models, and have some sort of
-intended interaction. In addition, the system's intended interaction
-must be driven by decoupled serial events. These serial events will come
-from a third party service (raspberry pis). This process will be
-provided as a library.
+The default project is to construct an alternative reality game (ARG)
+combined with a capture the flag (CTF) to make something between an ARG
+and a scavenger hunt. Your project must contain multiple challenges that
+require programming to solve but can also allow for puzzles or riddles
+that don't. Eventually your ARG/CTF/Scavenger-hunt will be deployed on
+CTFd (cbrc.ctfd).
 
-![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image5.png){width="6.268055555555556in"
-height="3.329861111111111in"}
-
-The default example for this project is constructing a part of the Cyber
-Range City (Arduino City). An example of a feature of Arduino City might
-be a draw bridge that opens when a "boat" gets too close and closes the
-road for safety purposes.
-
-![A screenshot of a computer Description automatically generated with
-medium
-confidence](C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image6.png){width="6.268055555555556in"
-height="1.0680555555555555in"}
-
-![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image7.png){width="6.268055555555556in"
-height="1.2430555555555556in"}
-
-![](C:\Users\carte\Desktop\github\IT-CBR\assignments\Applied Robotics/media/image8.png){width="6.268055555555556in"
-height="1.1479166666666667in"}
-
-etc
+You may negotiate a deviation from the default with your classroom
+teacher.
 
 ## Submission Guide
 
@@ -174,7 +156,7 @@ T __/ 6</td>
 <p>(individual)</p></td>
 <td><p>You have submitted <strong>evidence of story cards</strong>. The story cards appear to <strong>describe the abstracted parts of your project</strong> from a management point of view and <strong>highlights such things as the minimal viable product</strong>.</p>
 <ul>
-<li><p>Project Story Cards which provide a high level overview of your system</p></li>
+<li><p>Project Story Cards which provide a high-level overview of your system</p></li>
 <li><p>Project Story Cards of how your system will be put together</p></li>
 <li><p>Project Story Cards of how your system will be used</p></li>
 </ul>
@@ -204,8 +186,8 @@ T __/ 6</td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A _ / 28</strong></p>
-<p><strong>T _ / 22</strong></p></td>
+<td><p><strong>A _ / 24</strong></p>
+<p><strong>T _ / 16</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Written Specification</strong></p>
@@ -291,7 +273,7 @@ __/4</td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
 <td><p><strong>A __/24</strong></p>
-<p><strong>T __/48</strong></p></td>
+<p><strong>T __/32</strong></p></td>
 </tr>
 <tr class="even">
 <td><strong>Quality of Submission</strong></td>
@@ -299,8 +281,8 @@ __/4</td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
-<td>x2</td>
-<td>__ / 8</td>
+<td>-</td>
+<td>__ / 4</td>
 </tr>
 <tr class="odd">
 <td><strong>Formatting</strong></td>
@@ -316,7 +298,7 @@ __/4</td>
 <td></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><strong>__ /10</strong></td>
+<td><strong>__ /6</strong></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -324,8 +306,8 @@ __/4</td>
 <td></td>
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
-<td><strong>A __/XX<br />
-T __/XX</strong></td>
+<td><strong>A __/58<br />
+T __/46</strong></td>
 </tr>
 </tbody>
 </table>

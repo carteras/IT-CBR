@@ -186,8 +186,8 @@ T __/ 6</td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A _ / 28</strong></p>
-<p><strong>T _ / 22</strong></p></td>
+<td><p><strong>A _ / 24</strong></p>
+<p><strong>T _ / 16</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Written Specification</strong></p>
@@ -273,7 +273,7 @@ __/4</td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
 <td><p><strong>A __/24</strong></p>
-<p><strong>T __/48</strong></p></td>
+<p><strong>T __/32</strong></p></td>
 </tr>
 <tr class="even">
 <td><strong>Quality of Submission</strong></td>
@@ -281,8 +281,8 @@ __/4</td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
-<td>x2</td>
-<td>__ / 8</td>
+<td>-</td>
+<td>__ / 4</td>
 </tr>
 <tr class="odd">
 <td><strong>Formatting</strong></td>
@@ -298,7 +298,7 @@ __/4</td>
 <td></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><strong>__ /10</strong></td>
+<td><strong>__ /6</strong></td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -306,8 +306,8 @@ __/4</td>
 <td></td>
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
-<td><strong>A __/XX<br />
-T __/XX</strong></td>
+<td><strong>A __/58<br />
+T __/46</strong></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,3 @@
-**Task**
-
 You have been tasked to complete various activities: a series of peer
 reviews, a self-reflection, and improvements to your lightweight design
 proposal.
