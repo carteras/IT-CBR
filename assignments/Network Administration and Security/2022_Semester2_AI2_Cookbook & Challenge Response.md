@@ -1,82 +1,149 @@
 **Task**
 
-You are tasked with the creation of a Cookbook and the completion of
-networking challenges.
+You are tasked with designing, implementing, and documenting a solution
+(in packet tracer) and responding to major unit goals.
+
+NOTE: the intention of this assessment isn\'t for all students to submit
+a complete network solution for all requirements. It is, in effect,
+allowing for extension and differentiation.
 
 **Each submission must include the following at a minimum**
 
--   A cookbook containing three recipes.
+-   A packet tracer file
 
--   Each recipe follows the following process:
+-   Evidence that your network design completes the testable
+    requirements.
 
-    -   Problem being solved
-
-    -   How does solving this problem help?
-
-    -   Explanation of procedure to solve the problem
-
-    -   Analysis \| Evaluation \| Compare \| Contrast \| "Story."
-
--   Challenge Response.
+-   Evidence of meeting the overall unit goals.
 
 # Tools of Learning
 
-### Cookbook
+### Network Design
 
-A cookbook is a collection of recipes that are often themed. In
-Information Technology, cookbooks are prolific and are themed around
-current problems that you might face in some domain.
+In response to the interest in Cyber Security, Canberra College plans to
+build two dedicated cybersecurity classrooms.
 
-<https://www.librarything.com/nseries/7655/OReilly-Cookbook-series>
+![Diagram Description automatically
+generated](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image5.png){width="6.268055555555556in"
+height="3.9229166666666666in"}
 
-### Recipes (technical)
+Partial classroom diagram
 
-Technical recipes are similar to recipes you find on a food blog except
-in reverse. The story about why you might want to make Nanna's secret
-apple pie ice cream comes first in a food blog. It helps set the scene
-for why people care.
+Additionally, you must factor in the SSICT Server Cabinet/Racks
 
-In Technical recipes, people don't need to be convinced that they need
-help; that's why they are reading your recipe. They need to understand
-why your solution is the best approach.
+![Graphical user interface, application Description automatically
+generated](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image6.png){width="1.8711165791776028in"
+height="1.9479166666666667in"}
 
-#### An example of a technical recipe: 
+The use case scenario is to create a network solution where students
+(and teachers)
 
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><h2 id="configuring-the-router-via-tftp">Configuring the router via TFTP</h2>
-<h5 id="problem">Problem:</h5>
-<p>You want to load configuration commands via TFTP.</p>
-<h5 id="solution">Solution:</h5>
-<p>You can use copy tftp: command to configure the router via the Trivial Fire Transfer Protocol (TFTP)</p>
-<p><img src="C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image5.png" style="width:5.83194in;height:2.26875in" /></p>
-<h5 id="discussion">Discussion:</h5>
-<p>Generally, most people configure their routers by using telnet/ssh and the configure terminal command. However, for large configuration changes people tend to resort to cutting and pasting a large set of commands. While this method works, it is inefficient and slow, particularly if you have to configure a large number of routers. </p>
-<p>Using TFTP to download a large set of configuration commands, the router doesn’t need to echo each character to your screen, which reduces the overhead and increase the speed of the interaction. </p>
-<p>In this example, the router is configured by downloading a file called NEWCONFIG from a server at 192.168.10.1 by using the Trivial File Transfer Protocol (TFTP). The router will copy the entire file by TFTP before entering the commands into the running configuration. </p>
-<p>This is useful because sometimes some commands in the middle of a configuration could disrupt your access to the router, but the rest of the commands might fix the problem. If you tried to enter them manually using telnet/ssh and configure terminal, you could simply lock yourself out of the router. A typical example of this problem happens when you replace an active access-list. When you enter the first line the router puts an implicit deny all at the end which can break your session. Using TFTP avoids this problem.</p></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+Your ideal network solution should have:
 
-### Challenge Response
+-   Two sets of Lab Computers that have access to
 
-Lastly, you must submit the response to the Networking Challenge issued
-as a part of your Labs. This challenge-response will require the
-subnetting calculations and Network Configuration for the following
-Network
+    -   External Internet by SSICT via Wireless or Ethernet
 
-![Diagram, schematic Description automatically
-generated](C:\Users\carte\Desktop\github\IT-CBR\assignments\Network Administration and Security/media/image6.png){width="6.268055555555556in"
-height="3.7930555555555556in"}
+    -   The internal Cyber Range
 
-NOTE: This network is incomplete and will be updated early this week.
+-   BOYD (student laptops) have access to
+
+    -   External Internet by SSICT via wireless
+
+    -   Internal Cyber Range via wireless
+
+-   Teacher devices
+
+    -   External Internet by SSICT via wireless
+
+    -   Internal Cyber Range via wireless
+
+-   Restrictions
+
+    -   The Cyber range has no access to external networks
+
+    -   Lab, Teacher, and BOYD must be on a different network and should
+        be isolated from each other.
+
+    -   Considerations for reliability, growth, etc.
+
+-   The Cyber-range is an intranet and has the following properties
+
+    -   We can use any IT address on the 10.1.0.0/16 subnet. However,
+        you must allow for as much expansion as possible.
+
+    -   Provides DNS for internal domains for the cyber range
+
+    -   Provides DHCP for all devices connecting to the intranet
+
+-   Test requirements:
+
+    -   Demonstrate connectivity between:
+
+        -   A LAB PC
+
+            -   Can access the external gateway
+
+            -   Can access bushranger.playground.cbrc
+
+        -   A BOYD Laptop
+
+            -   Can access the external gateway
+
+            -   Can access bushranger.playground.cbrc
+
+        -   A Teacher Laptop
+
+            -   Can access the external gateway
+
+            -   Can access bushranger.playground.cbrc
+
+NOTE: PCs on packet tracer can only have one network device. You\'ll
+need to use a server if you want multiple network devices (Network
+Interface Cards) on the same computer.
+
+You will be assessed on:
+
+-   Evidence of technical understanding
+
+-   Depth of solution provided
+
+-   Effectiveness/efficiency of network design
+
+Your packet tracer solution must include labels/notes describing each
+subnet, including:
+
+-   Subnet range
+
+-   Gateway
+
+-   DNS
+
+-   DHCP
+
+-   DHCP range and size
+
+### Technical evidence
+
+One of the requirements of a Network Engineer is to produce
+documentation that describes what it is they did, how they did it, and
+how it can be replicated. In addition, you are required to analyse what
+you did and provide, where applicable, an evaluation of why your
+approach was better than others.
+
+You are not required to create evidence for all elements in your
+solution. Instead, you must create evidence that responds to the
+following unit goals.
+
+-   Justify your design process and how it relates to the network
+    solution\'s design and configuration regarding handling the
+    intranet\'s significant features (lab1, lab2, BOYD, and Teacher
+    Laptops) and access to cyber range (DNS, DHCP,
+    bushranger.playground.cbrc).
+
+-   Evaluate different strategies or approaches in creating the most
+    effective and secure network between our intranet, SSICT intranet,
+    and the Internet.
 
 ## Rubric
 
@@ -112,70 +179,104 @@ NOTE: This network is incomplete and will be updated early this week.
 <td><strong>TOTAL</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>Cookbook</strong></p>
+<td><p><strong>Network Design</strong></p>
 <p>(individual)</p></td>
-<td><p>You have submitted evidence of completing a cookbook which contains three recipies. Each recipe makes clear that you have made a serious attempt to complete the assignment within the spirit that it is offered. Your three selected recipies make clear that they are likely to be useful for you and show examples of analysis/evaluation/comparison/contrasting.</p>
-<p>Evidence for knowledge, comprehension, and application may include:</p>
+<td><p>You have submitted your packet tracer solution for the Network Design assignment.</p>
+<p>A serious attempt requires that you have a network that appears to work and is fully documented in packet tracer, including:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
+<li><p>Subnet</p></li>
+<li><p>Gateway address</p></li>
+<li><p>DNS address (if applicable)</p></li>
+<li><p>DHCP address (if applicable)</p></li>
+<li><p>DNS address (if applicable)</p></li>
+<li><p>DNS range (if applicable)</p></li>
+</ul></td>
+<td>2</td>
+<td>__/2</td>
+<td>__/2</td>
+<td><p>A 2x</p>
+<p>T 1x</p></td>
+<td><p>__/ 4</p>
+<p>__/ 2</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>Evidence for Network Tests</strong></p>
+<p>(individual)</p></td>
+<td><p>You have submitted evidence of completing the use case of the Network.</p>
+<p>The evidence supplied shows that you have submitted work in good faith to the spirit of the assignment and makes clear that any solutions produced are likely to be correct.</p>
+<ul>
+<li><p>Lab PCs can ping</p>
+<ul>
+<li><p>The external gateway</p></li>
+<li><p>Bushranger.playground.cbrc</p></li>
+</ul></li>
+<li><p>BOYDs can ping</p>
+<ul>
+<li><p>The external gateway</p></li>
+<li><p>Bushranger.playground.cbrc</p></li>
+</ul></li>
+<li><p>Teacher Laptops can ping</p>
+<ul>
+<li><p>The external gateway</p></li>
+<li><p>Bushranger.playground.cbrc</p></li>
+</ul></li>
 </ul></td>
 <td><p>2</p>
+<p>2</p>
+<p>2</p>
+<p>2</p>
 <p>2</p>
 <p>2</p></td>
 <td><p>__/2</p>
 <p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
 <p>__/2</p></td>
 <td><p>__/2</p>
 <p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
 <p>__/2</p></td>
 <td>-</td>
-<td>__/ 6</td>
-</tr>
-<tr class="odd">
-<td><p><strong>Subnet Tables</strong></p>
-<p>(individual)</p></td>
-<td><p>You have submitted evidence of calculting the subnetting requirements of your two business networks.</p>
-<p>The evidence supplied shows that you have submitted work in good faith to the spirit of the assignment and makes clear that calculations are produced to likely be correct.</p></td>
-<td>2</td>
-<td>__/2</td>
-<td>__/2</td>
-<td>-</td>
-<td>__/ 2</td>
+<td><p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p>
+<p>__/2</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Challenge Response</strong></p>
+<td><p><strong>Technical Evidence</strong></p>
 <p>(individual)</p></td>
-<td><p>You have submitted evidence of completing your challenge response. Your challenge response shows evidence of design challenge:</p>
-<ul>
-<li><p>Two business networks each connected via switch networks with a local DHCP and DNS server that allocate IP addresses.</p></li>
-<li><p>Subnetted with each subnet connected via serial.</p></li>
-<li><p>Connected to the internet and can reach services</p></li>
-</ul>
-<p>You have supplied evidence that each of these domains work appropriately in a test environment. This includes pinging relative services and demonstration of reaching services such as web access to facebook.com and cisco.com</p>
+<td><p>You have submitted evidence of completing your technical evidence. Your evidence appears to be done in good faith and seems to be substantive.</p>
 <p>Evidence for knowledge, comprehension, and application may include:</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
+<li><p>Justification of design process</p></li>
+<li><p>Evaluate different strategies in effectiveness and security.</p></li>
 </ul>
 <p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
-<td>2</td>
-<td>__/2</td>
-<td>__/2</td>
+<td><p>2</p>
+<p>2</p></td>
+<td><p>__/2</p>
+<p>__/2</p></td>
+<td><p>__/2</p>
+<p>__/2</p></td>
 <td>-</td>
-<td>__/ 2</td>
+<td><p>__/2</p>
+<p>__/2</p></td>
 </tr>
 <tr class="odd">
 <td></td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
-<td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><strong>__ / 14</strong></td>
+<td colspan="2"><strong>SUBTOTAL</strong></td>
+<td><p><strong>A__/20</strong></p>
+<p><strong>T__/ 18</strong></p></td>
 </tr>
 <tr class="even">
-<td><strong>Cookbook recipies</strong></td>
+<td><strong>Network Solution: Evidence of Technical Understanding</strong></td>
 <td>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</td>
 <td>4</td>
 <td>__/4</td>
@@ -184,7 +285,7 @@ NOTE: This network is incomplete and will be updated early this week.
 <td>__ / 4</td>
 </tr>
 <tr class="odd">
-<td><strong>Challenge Response</strong></td>
+<td><strong>Network Solution: Effectiveness / Efficiency of Network Design</strong></td>
 <td>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</td>
 <td>4</td>
 <td>__/4</td>
@@ -193,14 +294,45 @@ NOTE: This network is incomplete and will be updated early this week.
 <td>__ / 4</td>
 </tr>
 <tr class="even">
+<td><strong>Network Solution: Depth of Solution Provided</strong></td>
+<td></td>
+<td>4</td>
+<td>__/4</td>
+<td>__/4</td>
+<td>-</td>
+<td>__ / 4</td>
+</tr>
+<tr class="odd">
+<td><strong>Justification of Design Process</strong></td>
+<td></td>
+<td>4</td>
+<td>__/4</td>
+<td>__/4</td>
+<td><p>A 1x</p>
+<p>T 2x</p></td>
+<td><p>A __ / 4</p>
+<p>T __ / 8</p></td>
+</tr>
+<tr class="even">
+<td><strong>Evaluation of Strategies</strong></td>
+<td></td>
+<td>4</td>
+<td>__/4</td>
+<td>__/4</td>
+<td><p>A 1x</p>
+<p>T 2x</p></td>
+<td><p>A __ / 4</p>
+<p>T __ / 8</p></td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><strong>Submission Guidelines</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
-<td><p><strong>A __/12</strong></p>
-<p><strong>T __/24</strong></p></td>
+<td><p><strong>A __/20</strong></p>
+<p><strong>T __/28</strong></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Submitability</strong></td>
 <td><strong>Assessment submission is ordered</strong> and has a definite pattern to its construction. <strong>The reader is not confused about the content in any given section and can follow the submission flow</strong> easily. </td>
 <td>4</td>
@@ -209,7 +341,7 @@ NOTE: This network is incomplete and will be updated early this week.
 <td>-</td>
 <td>__ / 4</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Formatting</strong></td>
 <td><strong>Students have</strong> <strong>followed the formatting instructions,</strong> including any provided templates and guides <strong>or have created their own</strong> legible formatting guide <strong>and applied it constantly</strong>.</td>
 <td>2</td>
@@ -218,14 +350,14 @@ NOTE: This network is incomplete and will be updated early this week.
 <td>-</td>
 <td>__ / 2</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUB TOTAL</strong></td>
 <td><strong>__ /6</strong></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td>DAYS LATE ___/7 = ___%</td>
 <td></td>
