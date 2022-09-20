@@ -10,6 +10,10 @@ cmap = ListedColormap(["#FF0000", "#00FF00", "#0000FF"])
 
 iris = datasets.load_iris()
 
+
+
+print(iris.data)
+print(iris.target)
 print(iris.target_names)
 
 X, y = iris.data, iris.target
