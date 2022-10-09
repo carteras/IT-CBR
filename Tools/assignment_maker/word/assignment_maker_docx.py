@@ -54,8 +54,8 @@ def config_subject(config_location: str) -> Subject:
     accredited = config.get("ACCREDITATION", 'Accredited')
     tertiary = config.get("ACCREDITATION", 'Tertiary')
     assessments = {}
-    assessments['AI1'] = config.get("ASSESSMENT_ITEMS", 'AI1')
-    assessments['AI2'] = config.get("ASSESSMENT_ITEMS", 'AI2')
+    # assessments['AI1'] = config.get("ASSESSMENT_ITEMS", 'AI1')
+    # assessments['AI2'] = config.get("ASSESSMENT_ITEMS", 'AI2')
     assessments['AI3'] = config.get("ASSESSMENT_ITEMS", 'AI3')
     # assessments['AI4'] = config.get("ASSESSMENT_ITEMS", 'AI4')
     years = []
