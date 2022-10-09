@@ -57,7 +57,7 @@ def config_subject(config_location: str) -> Subject:
     assessments['AI1'] = config.get("ASSESSMENT_ITEMS", 'AI1')
     assessments['AI2'] = config.get("ASSESSMENT_ITEMS", 'AI2')
     assessments['AI3'] = config.get("ASSESSMENT_ITEMS", 'AI3')
-    assessments['AI4'] = config.get("ASSESSMENT_ITEMS", 'AI4')
+    # assessments['AI4'] = config.get("ASSESSMENT_ITEMS", 'AI4')
     years = []
     accreditation = []
     if year11: years.append(11) 
