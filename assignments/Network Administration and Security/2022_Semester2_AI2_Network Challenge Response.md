@@ -40,19 +40,19 @@ The use case scenario is to create a network solution where students
 
 Your ideal network solution should have:
 
--   Two sets of Lab Computers that have access to
+-   Two sets of Lab Computers that should have access to
 
     -   External Internet by SSICT via Wireless or Ethernet
 
     -   The internal Cyber Range
 
--   BOYD (student laptops) have access to
+-   BOYD (student laptops) should have access to
 
     -   External Internet by SSICT via wireless
 
     -   Internal Cyber Range via wireless
 
--   Teacher devices
+-   Teacher devices should have
 
     -   External Internet by SSICT via wireless
 
@@ -60,21 +60,21 @@ Your ideal network solution should have:
 
 -   Restrictions
 
-    -   The Cyber range has no access to external networks
+    -   The Cyber range should have no access to external networks
 
-    -   Lab, Teacher, and BOYD must be on a different network and should
-        be isolated from each other.
+    -   Lab, Teacher, and BOYD should be on a different network and
+        should be isolated from each other.
 
     -   Considerations for reliability, growth, etc.
 
 -   The Cyber-range is an intranet and has the following properties
 
     -   We can use any IT address on the 10.1.0.0/16 subnet. However,
-        you must allow for as much expansion as possible.
+        you should allow for as much expansion as possible.
 
-    -   Provides DNS for internal domains for the cyber range
+    -   Should provide DNS for internal domains for the cyber range
 
-    -   Provides DHCP for all devices connecting to the intranet
+    -   Should provide DHCP for all devices connecting to the intranet
 
 -   Test requirements:
 
@@ -276,8 +276,10 @@ following unit goals.
 <p><strong>T__/ 18</strong></p></td>
 </tr>
 <tr class="even">
-<td><strong>Network Solution: Evidence of Technical Understanding</strong></td>
-<td>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</td>
+<td><strong>Network Solution: Evidence of Core Technical Understanding</strong></td>
+<td><p>The evidence of your Network Solution shows evidence of your technical understanding.</p>
+<p>Technical Understanding highlights your understanding of core networking principals such configuring computers, switches, routers, and etc.</p>
+<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
@@ -286,7 +288,9 @@ following unit goals.
 </tr>
 <tr class="odd">
 <td><strong>Network Solution: Effectiveness / Efficiency of Network Design</strong></td>
-<td>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</td>
+<td><p>The evidence of your Network solution shows evidence of deliverable design choices related to effectiveness and effeciency.</p>
+<p>Effectiveness and effeciency is your un</p>
+<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>

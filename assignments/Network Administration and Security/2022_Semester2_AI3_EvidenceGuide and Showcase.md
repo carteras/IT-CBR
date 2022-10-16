@@ -342,15 +342,10 @@ T __/40</strong></td>
 <td><strong>TOTAL</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>Knowledge Item</strong></p>
+<td><p><strong>Innovation Showcase Poster Question 1</strong></p>
 <p>(individual |group)</p></td>
 <td><p>Task description</p>
-<p>Evidence for knowledge, comprehension, and application may include:</p>
-<ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
-</ul></td>
+<p>Evidence for knowledge, comprehension, and application may include:</p></td>
 <td>2</td>
 <td>__/2</td>
 <td>__/2</td>
@@ -360,21 +355,49 @@ T __/40</strong></td>
 T __/ XX</td>
 </tr>
 <tr class="odd">
-<td><p><strong>Knowledge Item</strong></p>
-<p>(individual |group)</p></td>
-<td><p>Task description</p>
-<p>Evidence for knowledge, comprehension, and application may include:</p>
-<ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
-</ul>
-<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
-<td>2</td>
-<td>__/2</td>
-<td>__/2</td>
-<td>-</td>
-<td>__/X</td>
+<td><strong>Innovation Showcase Poster Questions 2 - 4</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Innovation Showcase</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td></td>
