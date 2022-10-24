@@ -286,19 +286,19 @@ T __/40</strong></td>
 </tbody>
 </table>
 
-## Task 2: Innovation Showcase 
+1.  ## Task 2: Innovation Task 2: Innovation Showcase 
 
-## Rubric
+    ## Rubric
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 41%" />
+<col style="width: 15%" />
+<col style="width: 39%" />
 <col style="width: 7%" />
 <col style="width: 10%" />
 <col style="width: 7%" />
 <col style="width: 7%" />
-<col style="width: 12%" />
+<col style="width: 11%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -322,95 +322,110 @@ T __/40</strong></td>
 <td><strong>TOTAL</strong></td>
 </tr>
 <tr class="even">
-<td><p><strong>Knowledge Item</strong></p>
-<p>(individual |group)</p></td>
-<td><p>Task description</p>
-<p>Evidence for knowledge, comprehension, and application may include:</p>
+<td><p><strong>Innovation Showcase Poster</strong></p>
+<p>(individual)</p></td>
+<td><p>You have supplied the required evidence for the poster component of your Innovation Showcase.</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
+<li><p>You have submitted physical posters which comply with the style guide.</p></li>
+<li><p>The posters respond to four questions, two of which are unique.</p></li>
+<li><p>The physical submission appears to be presented in a language suitable for non-technical users.</p></li>
 </ul></td>
-<td>2</td>
-<td>__/2</td>
-<td>__/2</td>
-<td><p>A x2</p>
-<p>T x1</p></td>
-<td>A __/ XX<br />
-T __/ XX</td>
+<td><p>2</p>
+<p>2</p>
+<p>2</p></td>
+<td><p>__/2</p>
+<p>__/2</p>
+<p>__/2</p></td>
+<td><p>__/2</p>
+<p>__/2</p>
+<p>__/2</p></td>
+<td>-</td>
+<td>__ / 6</td>
 </tr>
 <tr class="odd">
-<td><p><strong>Knowledge Item</strong></p>
-<p>(individual |group)</p></td>
-<td><p>Task description</p>
-<p>Evidence for knowledge, comprehension, and application may include:</p>
+<td><p><strong>Innovation Showcase Presentation</strong></p>
+<p>(individual)</p></td>
+<td><p>You have supplied the required evidence for your presentation component for your Innovation Showcase.</p>
 <ul>
-<li><p><strong>Knowledge</strong>: Your evidence highlights that you recall and list relevant terms in your learning. It may tell a story to the reader (the teacher) or state the conditions of your learning.</p></li>
-<li><p><strong>Comprehension</strong>: Your evidence highlights that you can identify critical aspects of your learning or explain what you've done to the author.</p></li>
-<li><p><strong>Application</strong>: It is clear from your evidence that you constructed a complete submission</p></li>
-</ul>
-<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
-<td>2</td>
-<td>__/2</td>
-<td>__/2</td>
-<td>-</td>
-<td>__/X</td>
+<li><p>You have submitted digital recordings of your response to each question.</p></li>
+<li><p>The questions respond to the four questions, two of which are unique.</p></li>
+<li><p>The digital presentation appears to be presented in a language suitable for non-technical users.</p></li>
+</ul></td>
+<td><p>2</p>
+<p>2</p>
+<p>2</p></td>
+<td><p>__/2</p>
+<p>__/2</p>
+<p>__/2</p></td>
+<td><p>__/2</p>
+<p>__/2</p>
+<p>__/2</p></td>
+<td><p>A x2</p>
+<p>T x1</p></td>
+<td>A __/12<br />
+T __/ 6</td>
 </tr>
 <tr class="even">
 <td></td>
 <td><strong>Analysis, Synthesis &amp; Evaluation</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUBTOTAL</strong></td>
-<td><p><strong>A _ / 30</strong></p>
-<p><strong>T _ / 20</strong></p></td>
+<td><p><strong>A _ / 18</strong></p>
+<p><strong>T _ / 12</strong></p></td>
 </tr>
 <tr class="odd">
-<td><strong>Mastery Activity</strong></td>
-<td><p><strong>Statement | Evidence</strong>: Description of what you are after.</p>
-<p>Details</p>
-<p>Justification</p>
-<p>What you are assessing</p>
-<p>Each of your questions will be marked against the following aspects of your ability to:</p>
-<ul>
-<li><p>express your understanding of technology concepts and principles</p></li>
-<li><p>your ability to communicate ideas appropriately in the selected medium</p></li>
-</ul>
-<p>Evidence for higher-order learning may include:</p>
-<ul>
-<li><p><strong>Analysis</strong>: Your evidence shows a reasoned understanding of what you did and why. For example, you may have explained how you did X, Y, and Z, but you continue to explain why you did them the way you did.</p></li>
-<li><p><strong>Evaluative</strong>: your evidence makes a judgement of something or between multiple things. This judgement may be the value of one thing over another or highlighting the significant differences between two things.</p></li>
-<li><p><strong>Transferal</strong>: your evidence highlights when you apply information, strategies, or skills that you have learnt to a new situation or context.</p></li>
-</ul>
-<p>Note: the assessor may use their discretion to source other evidence from this assessment to judge the activity if required.</p></td>
-<td><p>4</p>
-<p>4</p></td>
-<td>__/4<br />
-__/4</td>
-<td>__/4<br />
-__/4</td>
-<td><p>A x1</p>
-<p>T x 2</p></td>
-<td><p>A __/ 8</p>
-<p>T __/16</p></td>
+<td><strong>What did you do this term, and what did you learn by doing it?</strong></td>
+<td>Your Showcase (poster + presentation) <strong>communicates</strong> your work <strong>coherently</strong> using <strong>appropriate evidence</strong> and requires <strong>low</strong> <strong>technical literacy</strong>. The evidence highlights your <strong>project details</strong> appropriately and shows evidence of using <strong>proper techniques and approaches</strong>.</td>
+<td>4</td>
+<td>__/4</td>
+<td>__/4</td>
+<td>-</td>
+<td>__ / 4</td>
 </tr>
 <tr class="even">
+<td><strong>How has your learning impacted your understanding of Project Development</strong></td>
+<td>Your Showcase (poster + presentation) <strong>communicates your evaluation</strong> of your learning in <strong>contrast to what you understand</strong> of the industry. This evidence is <strong>presented coherently</strong> and uses <strong>appropriate evidence</strong> <strong>and little technical language</strong>.</td>
+<td>4</td>
+<td>__/4</td>
+<td>__/4</td>
+<td>-</td>
+<td>__ / 4</td>
+</tr>
+<tr class="odd">
+<td><strong>Student Selected Question 3</strong></td>
+<td>The Showcase (poster + presentation) addresses <strong>a third student-selected question</strong> from the range provided. This evidence is <strong>presented coherently</strong> and uses <strong>appropriate evidence and language</strong> to frame it.</td>
+<td>4</td>
+<td>__/4</td>
+<td>__/4</td>
+<td>-</td>
+<td>__ / 4</td>
+</tr>
+<tr class="even">
+<td><strong>Student Selected Question 4</strong></td>
+<td>The Showcase (poster + presentation) addresses <strong>a fourth student-selected question</strong> from the range provided. This evidence is <strong>presented coherently</strong> and uses <strong>appropriate evidence and language</strong> to frame it.</td>
+<td>4</td>
+<td>__/4</td>
+<td>__/4</td>
+<td>-</td>
+<td>__ / 4</td>
+</tr>
+<tr class="odd">
 <td></td>
 <td><strong>Submission Guidelines</strong></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUBTOTAL</strong></td>
-<td><p><strong>A __/24</strong></p>
-<p><strong>T __/48</strong></p></td>
+<td><strong>__/16</strong></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>Suitability</strong></td>
 <td><strong>Assessment submission is ordered</strong> and has a definite pattern to its construction. <strong>The reader is not confused about the content in any given section and can follow the submission flow</strong> easily. </td>
 <td>4</td>
 <td>__/4</td>
 <td>__/4</td>
-<td>x2</td>
-<td>__ / 8</td>
+<td>-</td>
+<td>__ / 4</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Formatting</strong></td>
 <td><strong>Students have</strong> <strong>followed the formatting instructions,</strong> including any provided templates and guides <strong>or have created their own</strong> legible formatting guide <strong>and applied it constantly</strong>.</td>
 <td>2</td>
@@ -419,24 +434,26 @@ __/4</td>
 <td>-</td>
 <td>__ / 2</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td></td>
 <td></td>
 <td colspan="2"></td>
 <td colspan="2"><strong>SUBTOTAL</strong></td>
-<td><strong>__ /10</strong></td>
+<td><strong>__ /6</strong></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td></td>
 <td>DAYS LATE ___/7 = ___%</td>
 <td></td>
 <td></td>
 <td colspan="2"><strong>FINAL</strong></td>
-<td><strong>A __/XX<br />
-T __/XX</strong></td>
+<td><strong>A __/40<br />
+T __/34</strong></td>
 </tr>
 </tbody>
 </table>
+
+## 
 
 ## Rubric sections
 
