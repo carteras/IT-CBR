@@ -1,3 +1,4 @@
+import numpy as np
 from collections.abc import Callable
 
 class MaybeMonad:
@@ -15,7 +16,7 @@ class MaybeMonad:
         except:
             return MaybeMonad(None, contains_value=None)
 
-import numpy as np
+
 
 value = 100
 m1 = MaybeMonad(value)
