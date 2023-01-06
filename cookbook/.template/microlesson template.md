@@ -31,7 +31,7 @@ Previous | Next
 
 ...
 
-## Fuff About Find Out (FAFO)
+## Fluff About Find Out (FAFO)
 
 ### Inquiry Question 1
 
@@ -43,3 +43,4 @@ Previous | Next
 
 ### Question 1
 
+Foo.
