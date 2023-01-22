@@ -81,18 +81,28 @@ def write_classlist_csv(class_list: dict[str, list[Student]], write_location: Pa
             for student in class_list[my_class]:
                 fp.write(f"{my_class}, {student.student_name}, {student.student_id}\n")
 
+def load_to_drive(src, dest):
+    print(type(src), type(dest))
+    dest.write_text(src.read_text())
+    
+    # location_to_copy.write_text(data_to_copy.read_text())
+
+
 if __name__ == "__main__":
+    from datetime import datetime
     from inspect import currentframe, getframeinfo
     filename = getframeinfo(currentframe()).filename
     here = Path(filename).resolve().parent
     data_location = Path.cwd().parent / ".data"
-    file_name = 'class_lists.pdf'
+    file_name = f'class_lists.pdf'
+    output_file_name = data_location/"class_list.csv"
     class_list = read_classlist_pdf(data_location/file_name)
 
     class_list.remove('Class\nRoll Class\nTeacher\nRoom\nNo Students\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n')
 
     my_classes = propogate_my_classes(class_list)
-    write_classlist_csv(my_classes, data_location/"class_list.csv")
+    write_classlist_csv(my_classes, output_file_name)
+    load_to_drive(output_file_name, Path(f"G:\My Drive\cbrc\data\class_list.csv"))
 
 
 
