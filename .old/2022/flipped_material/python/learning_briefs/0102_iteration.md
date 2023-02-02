@@ -13,7 +13,7 @@
 
 ## Example Problems
 
-*Example problems are best if you code them up yourself and store them. Don't just copy and paste, code them in and make them work. If you are really smart about it, you'll remake them slightly differently to really establish your learning.*
+*Example problems work best if you code them up yourself and store them. Don't just copy and paste, code them in and make them work. If you are really smart about it, you'll remake them slightly differently to really establish your learning.*
 
 ### Problem: We want to keep doing something until some condition is met
 
