@@ -5,7 +5,9 @@
 *By the end of this module you should be able to answer the following:*
 
 
-## Examples
+## Commands | Code
+
+*It is important to practice commands | code and challenge our brain in new ways. Do all of the problems below, including the example problems. They will make you a better programmer | operator.*
 
 ### Example: 
 
