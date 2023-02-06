@@ -6,24 +6,29 @@
 
 * How do you make decisions in code?
 * How to use a button? 
-* How to read input from an arduino as a variable? 
+* How to read input from an Arduino as a variable? 
+
+
+#### Knowledge checklist
+
+* [How do breadboards work?](https://github.com/carteras/IT-CBR/blob/main/cookbook/electronics/foundations.breadboards.md)
+* [Digital Signals]()
+* [Buttons how do they work?]()
+* [Making decisions in code](https://github.com/carteras/IT-CBR/blob/main/cookbook/arduino/foundations.programming.conditions.md)
 
 
 ## Commands | Code
 
 *It is important to practice commands | code and challenge our brain in new ways. Do all of the problems below, including the example problems. They will make you a better programmer | operator.*
 
-### Example: 
 
-#### Conditions 
+### Practice example
 
-* [Making decisions in code](https://github.com/carteras/IT-CBR/blob/main/cookbook/arduino/foundations.programming.conditions.md)
+Using the following design and circuit create the following code
 
+![](img/2023-02-06-20-26-25.png)
 
-## Practice Questions
-
-
-### Practice:
+![single led](./img/single_led.gif)
 
 ## Fluff about find out
 
