@@ -6,7 +6,7 @@ A breadboard is a plastic board for building and testing electronics circuits. I
 
 *By the end of this recipe you should be able to answer the following:*
 
-* What is a breadboard? 
+* What is a breadboard?
 * How does a breadboard work?
 
 ## Concepts
