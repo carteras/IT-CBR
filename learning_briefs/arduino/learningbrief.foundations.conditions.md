@@ -12,8 +12,8 @@
 #### Knowledge checklist
 
 * [How do breadboards work?](https://github.com/carteras/IT-CBR/blob/main/cookbook/electronics/foundations.breadboards.md)
-* [Digital Signals]()
-* [Buttons how do they work?]()
+* [Digital Signals](https://github.com/carteras/IT-CBR/blob/main/cookbook/electronics/foundations.digitalsignals.md)
+* [Buttons how do they work?](https://github.com/carteras/IT-CBR/blob/main/cookbook/electronics/foundations.buttons.md)
 * [Making decisions in code](https://github.com/carteras/IT-CBR/blob/main/cookbook/arduino/foundations.programming.conditions.md)
 
 
