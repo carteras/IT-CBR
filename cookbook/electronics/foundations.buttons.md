@@ -10,7 +10,7 @@
 ## Learning Resources
 
 * [Arduino Example](https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button)
-* [Accessing time on the arduino](https://www.arduino.cc/reference/en/language/functions/time/millis/)
+* [Accessing time on the Arduino](https://www.arduino.cc/reference/en/language/functions/time/millis/)
 
 ## Topics
 
