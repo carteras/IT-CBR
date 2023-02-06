@@ -1,4 +1,4 @@
-# Conditions
+# How do we make decisions in python?
 
 In Python, conditions are used to make decisions in the code by evaluating whether a statement is True or False.
 
