@@ -30,6 +30,15 @@ Using the following design and circuit create the following code
 
 ![single led](./img/single_led.gif)
 
+### Master challenge 
+
+Using the recorded example in class design and write the code required to make it
+
+Extra spicy challenge: 
+
+* Do it in fewer than 52 lines of properly formatted code
+
+When you've built it in TinkerCad help me find the components to build it for real!
 
 
 
@@ -45,3 +54,38 @@ Because it's our first week, I am happy to give you some hints to start you off,
 ## Bug hunt
 
 Kevin has written some code and it doesn't work. What's wrong with it?
+
+![kevin](img/kevin.png)
+
+```cpp
+#define LED_RED 13
+#define LED_GREEN 12
+#define BUTTON_LEFT 3
+#define BUTTON_RIGHT 2
+# No, they are fine
+
+int btn;
+
+void setup()
+{
+  pinMode(LED_RED, OUTPUT);
+  pinMode(LED_GREEN, OUTPUT);
+  pinMode(BUTTON_LEFT, INPUT);
+  pinMode(BUTTON_RIGHT, INPUT);
+}
+
+void loop()
+{
+  if (digitalRead(BTN_LEFT)) (
+    digitalWrite(LED_RED, ON); 
+    digitalWrite(LED_GREEN, OFF);
+  } else if (digitalRead(BTN_RIGHT));{
+    digitalWrite(LED_RED, ON);
+    digitalWrite(LED_GREEN, OFF);
+  } else {
+    digitalWrite(LED_RED, 0):
+    digitalWrite(LED_GREEN, 0);
+  }
+     
+}
+```
