@@ -27,7 +27,7 @@ In python, a list is indicated by the use of square brackets `[]`.
 Here is an example: 
 
 ```python
-swords = ['mortuary', 'arming', 'longsword', 'sabre']
+swords = ['mortuary', 'arming', 'long', 'sabre']
 print(swords)
 ```
 
@@ -60,7 +60,7 @@ first_sword = f'My first sword was a {swords[0].title()}.'
 print(first_sword)
 ```
 
-###Modifying lists
+### Modifying lists
 
 It is possible to change an element of a list dynamically simply by reassigning the value that the indexed variable points at. 
 
@@ -80,7 +80,7 @@ shield.append('targe')
 print(shield)
 ```
 
-###Adding new items of the list at specific locations
+### Adding new items of the list at specific locations
 
 Python also has tools to insert elements specifically where you want them. `insert(index, object)`. 
 
@@ -88,7 +88,7 @@ Python also has tools to insert elements specifically where you want them. `inse
 shield.insert(0, 'pavise')
 print(shield)
 ```
-###Removing items from lists
+### Removing items from lists
 
 Removing items from lists can be dangerous, so before you start doing this, think to yourself, do I really need to do this right now? 
 
@@ -106,7 +106,7 @@ shield.remove('pavise')
 print(shield)
 ```
 
-###Sorting lists
+### Sorting lists
 
 Now we have been adding and removing items from our list for what seems like hours, how do we make our list all ordered and beautiful? 
 
@@ -119,7 +119,7 @@ print(shield)
 
 More complex data structures and objects can also be sorted, but we will cross that bridge when we come to it. 
 
-###Iterating through lists
+### Iterating through lists
 
 One of the most common tools for working through a lot of data are loops. Python comes with a number of loops but today we are going to work on for loops. 
 
@@ -159,7 +159,7 @@ for knight in knights:
 print("Thank you, everyone! That what a great tournament!")
 ```
 
-###Creating lists dynamically
+### Creating lists dynamically
 
 Technically speaking this is not a best practice in Python, but the ideology is broadly used in other programming languages. 
 
@@ -192,7 +192,7 @@ print(max(squared_numbers))
 print(sum(squared_numbers))
 ```
 
-## Conditions
+### Conditions
 
 Programming involves examining a set of conditions and deciding which action to take based off of those conditions. 
 
@@ -314,7 +314,7 @@ print("making your pizza now!")
 
 *Practice questions are essential to mastering a skill. Often, you will be asked to do things you haven't exactly done yet, or not at all. Be challenged by it and see if you can get google, the person next to you, or the teacher, to help before you stop working.*
 
-#### Practice 1
+### Practice 1
 
 ```python
 '''Names: Store a list of the names of a few of your friends in a list called 
@@ -332,7 +332,7 @@ each person’s name, print a message to them. The text of each message should b
 the same but each message should be personalised with the person’s name'''
 ```
 
-#### Practice 3
+### Practice 3
 
 ```python
 '''Your own list: Think of your favourite modes of transportation, such as a 
@@ -341,7 +341,7 @@ to print a series of statements about these items, such as “I would like to ow
 a Honda motorcycle”. '''
 ```
 
-#### Practice 4
+### Practice 4
 
 ```python
 '''
@@ -352,7 +352,7 @@ person, inviting them to dinner.
 '''
 ```
 
-#### Practice 5
+### Practice 5
 
 ```python
 '''
