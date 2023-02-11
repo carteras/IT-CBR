@@ -6,6 +6,7 @@
 > Store data, keep it in line,
 > Efficient and neat.
 
+
 *By the end of this recipe you should be able to answer the following:*
 
 * Know what Lists are and what common syntax exists to manipulate them
