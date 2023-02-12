@@ -65,4 +65,5 @@ We can also refactor this code further with more functions:
 
 ## Challenges
 
-Your challenge is to create and modify the circuit and code given here and refactor it so it uses functions to clean up your main function. 
+Your challenge is to create and [modify the circuit and code given here](files/TrafficLight.ino) and refactor it so it uses functions to clean up your main function. 
+
