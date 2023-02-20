@@ -27,6 +27,8 @@ Download the following from GitHub and the flag will be the contents of the file
 
 `cbrcCBR{your_flag_goes_here}`
 
+Note, in later versions of this, the flag will be password protected or encrypted.
+
 Your answer is in the source:
 
 <!-- cbrcCTF{c7fadbb5ccc93cbaa1cb9cd16e213a5e} -->
