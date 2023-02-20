@@ -47,4 +47,4 @@ Find the following sequence `drere` in the linked document. Next to this documen
 
 `cbrcCTF{your_flag_goes_here}`
 
->! cbrcCTF{07788ac9181d0d7f280d8e2c07944a0d}
+<!-- cbrcCTF{07788ac9181d0d7f280d8e2c07944a0d} -->
