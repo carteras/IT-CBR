@@ -92,12 +92,12 @@ Would output
 ### MC: After executing, what is the value of a (1 mark)
 
 ```cpp
-int a = (8-3)/(5*2+4)
+int a = (18-4)/(5*2+3)
 ```
 
 1. 0.8
-2. 7.97
-3. "5/2.5"
+2. 7
+3. "14/7"
 4. 2
 
 ### Consider the following code blocks:  (4 marks)
