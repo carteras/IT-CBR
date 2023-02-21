@@ -92,7 +92,7 @@ Would output
 ### MC: After executing, what is the value of a (1 mark)
 
 ```cpp
-int a = (8-3)/(5**2/4)
+int a = (8-3)/(5*2+4)
 ```
 
 1. 0.8
