@@ -170,7 +170,7 @@ void loop()
 1. This is clearly the work of witchcraft
 2. This will likely have an exception due to the `if (c == 6 || c == 1)` being nonsense
 3. This code attempts to turn pins on in sequence from 2 to 6 and back and is likely successful. 
-4. This code attempts to create a triangle that is 9 high and 5 across but is not likely to be successful due to the while condition being broken.
+4. This code attempts to turn pins on in sequence from 2 to 6 and back but is likely to be unsuccessful.
 
 ### Long answer: There are at least 5 errors in the following circuit and code. (4 marks)
 
