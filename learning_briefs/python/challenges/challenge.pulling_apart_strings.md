@@ -16,8 +16,9 @@ To solve the following challenge, you may need to complete the following cookboo
 * using modules
 * string functions
 * strings as lists
+* [splitting strings](../../../cookbook/python/foundations/foundations.strings.splitting_strings.md)
 * simple regular expressions
-* Reading the source of a HTML page
+* [Reading the source of a HTML page](../../../cookbook/web/cookbook.web.reading_source_files.md)
 
 ## Challenge
 
