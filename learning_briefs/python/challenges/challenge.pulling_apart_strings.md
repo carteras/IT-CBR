@@ -9,7 +9,7 @@ One of the best ways of learning is to start with a challenge and learn the step
 
 ## Prerequisite learning
 
-To solve the following challenge, you will need to complete the following cookbooks:
+To solve the following challenge, you may need to complete the following cookbooks:
 
 * printing and variables
 * conditions
@@ -17,7 +17,14 @@ To solve the following challenge, you will need to complete the following cookbo
 * string functions
 * strings as lists
 * simple regular expressions
+* Reading the source of a HTML page
 
 ## Challenge
 
-You've found a string and you know parts of it are 
+You need to use the following string to find all of the non-unique sequences and put them together. Your flag should look a little like this: 
+
+ctfCBRC{SOME_UNIQUE_WORDS_GO_HERE}
+
+Your answer is hidden in the source document
+
+<!-- -->
