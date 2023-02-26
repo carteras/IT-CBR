@@ -11,8 +11,8 @@ One of the best ways of learning is to start with a challenge and learn the step
 
 To solve the following challenge, you may need to complete the following cookbooks:
 
-* Cookbook: Digital Signals
-* Cookbook: Distance Sensors
+* [Cookbook: Digital Signals](../../cookbook/arduino/foundations.programming.signals.md)
+* [Cookbook: Distance Sensors](../../cookbook/arduino/foundations.arduino.distance_sensors.md)
 
 ## Challenge
 
