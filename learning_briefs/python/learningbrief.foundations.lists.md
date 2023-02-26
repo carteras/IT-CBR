@@ -1,11 +1,10 @@
-# How does something work? 
+# How does something work?
 
 ## Learning Goals
 
 > Lists in Python code,
 > Store data, keep it in line,
 > Efficient and neat.
-
 
 *By the end of this recipe you should be able to answer the following:*
 
@@ -60,9 +59,9 @@ print(swords[0])
 mortuary
 ```
 
-It's important to note here, that indexes start at 0, not 1. This is because the number line starts at 0, not 1. 
+It's important to note here, that indexes start at 0, not 1. This is because the number line starts at 0, not 1.
 
-This use of an element in a list can be used like any other variable. Below, I have an f-string that is using the index position of the first sword.   
+This use of an element in a list can be used like any other variable. Below, I have an f-string that is using the index position of the first sword.
 
 ```python
 first_sword = f'My first sword was a {swords[0].title()}.'
@@ -195,9 +194,9 @@ print(shields)
 
 ### Sorting lists
 
-Now we have been adding and removing items from our list for what seems like hours, how do we make our list all ordered and beautiful? 
+Now we have been adding and removing items from our list for what seems like hours, how do we make our list all ordered and beautiful?
 
-Python provides us with a tool that will attempt to sort lists. In the case of strings and numbers, this sorting is easy: 
+Python provides us with a tool that will attempt to sort lists. In the case of strings and numbers, this sorting is easy:
 
 ```python
 shields = ['round', 'buckler', 'heater']
@@ -263,9 +262,9 @@ Charlie
 
 ### Creating lists dynamically
 
-Technically speaking this is not a best practice in Python, but the ideology is broadly used in other programming languages. 
+Technically speaking this is not a best practice in Python, but the ideology is broadly used in other programming languages.
 
-Sometimes we find a need to dynamically create a list of numbers to use in our loop. The range function allows us to create a list of numbers. 
+Sometimes we find a need to dynamically create a list of numbers to use in our loop. The range function allows us to create a list of numbers.
 
 ```python
 for value in range(1, 5):

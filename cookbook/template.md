@@ -1,4 +1,4 @@
-# How does something work? 
+# How does something work?
 
 ## Learning Goals
 
@@ -9,10 +9,4 @@
 
 ## Concepts
 
-
-
-## Example
-
 ## Practice Question
-
-## Challenge Question
