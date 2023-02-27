@@ -11,8 +11,8 @@ One of the best ways of learning is to start with a challenge and learn the step
 
 To solve the following challenge, you may need to complete the following cookbooks:
 
-* [Cookbook: Introduction to lists](../../cookbook/python/foundations/foundations.introductions.md)
-* [Cookbook: Accessing elements in a list](../../cookbook/python/foundations/foundations.lists.accessing_elements_in_list.md))
+* [Cookbook: Introduction to lists](../../cookbook/python/foundations/foundations.lists.introductions.md)
+* [Cookbook: Accessing elements in a list](../../cookbook/python/foundations/foundations.lists.add_item_at_index.md))
 * [Cookbook: Modifying lists](../../cookbook/python/foundations/foundations.lists.modifying_lists.md)
 * [Cookbook: Adding new items to a list](../../cookbook/python/foundations/foundations.lists.add_item_at_index.md)
 * [Cookbook: Adding new items of the list at specific locations](../../cookbook/python/foundations/foundations.lists.add_item_at_index.md)
