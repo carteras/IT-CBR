@@ -12,7 +12,8 @@ One of the best ways of learning is to start with a challenge and learn the step
 To solve the following challenge, you may need to complete the following cookbooks:
 
 * [Cookbook: Introduction to lists](../../cookbook/python/foundations/foundations.lists.introductions.md)
-* [Cookbook: Accessing elements in a list](../../cookbook/python/foundations/foundations.lists.add_item_at_index.md))
+* [Cookbook: Accessing elements in a list](../../cookbook/python/foundations/foundations.lists.add_item_at_index.md
+))
 * [Cookbook: Modifying lists](../../cookbook/python/foundations/foundations.lists.modifying_lists.md)
 * [Cookbook: Adding new items to a list](../../cookbook/python/foundations/foundations.lists.add_item_at_index.md)
 * [Cookbook: Adding new items of the list at specific locations](../../cookbook/python/foundations/foundations.lists.add_item_at_index.md)
@@ -66,6 +67,6 @@ words = ['pupas', 'rewet', 'where', 'upped', 'peter', 'aumil', 'photo', 'azyms',
 ```
 
 ```shell
->>> D:\github\IT-CBR>python -u "d:\github\secretnerdbusiness\foo.py"
+>>> D:\github\secretnerdbusiness>python -u "d:\github\secretnerdbusiness\foo.py"
 duplicate word detected: *****
 ```
