@@ -41,6 +41,7 @@ Suppose you have a dictionary of students with their test scores:
 
 ```python
 def get_score(name, students):
+    # your code goes here
     ...
 
 students = {'Alice': [95], 'Bob': [87], 'Charlie': [92], 'Dave': [84]}
