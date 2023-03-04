@@ -6,7 +6,6 @@
 
 * What?
 
-
 ## Concepts
 
 ## Practice Question
