@@ -4,11 +4,11 @@
 
 *By the end of this recipe you should be able to answer the following:*
 
-* What?
+* How can you find the length of a dictionary using the `len()` function.
 
 ## Concepts
 
-In Python, if you have a dictionary, you can count how many pairs of things it has using a special tool called the "len()" function.
+In Python, if you have a dictionary, you can count how many pairs of things it has using a special tool called the `len()` function.
 
 ```python
 pets = {
