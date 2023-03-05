@@ -1,4 +1,4 @@
-# TITLE 
+# Introduction to Dictionaries challenges 
 
 One of the best ways of learning is to start with a challenge and learn the steps of solving that challenge. 
 
