@@ -11,6 +11,10 @@ One of the best ways of learning is to start with a challenge and learn the step
 
 To solve the following challenge, you will need to complete the following cookbooks: 
 
-* 
+* ["Simple introductions"](../../cookbook/python/foundations/foundations.dictionaries.simple.md)
+* [Accessing a value with a key](../../cookbook/python/foundations/foundations.dictionaries.accessing_a_value.md)
+* [Adding a new key value pair](../../cookbook/python/foundations/foundations.dictionaries.adding_new_key_value_pair.md)
 
 ## Challenge
+
+TBA
