@@ -56,23 +56,14 @@ void loop()
 #define trig 13
 #define echo 12
 
-#define LED_START ______
-#define LED_END ______
+#define LED_START 2
+#define LED_END 7
 
-#define MAX_RANGE ______
-#define MIN_RANGE ______
+#define MAX_RANGE 300
+#define MIN_RANGE 50
 
 int maxPinOn;
 unsigned long distance;
-
-void setup(){
-  pinMode(trig, OUTPUT);
-  pinMode(echo, INPUT);
-
-  for (int i = LED_START; i <= LED_END; i++){
-    pinMode(i, OUTPUT);
-  }
-}
 
 unsigned long ping(int trigPin, int echoPin){
   long duration;
@@ -85,17 +76,27 @@ unsigned long ping(int trigPin, int echoPin){
   return duration * 0.034 / 2; 
 }
 
+void setup(){
+  pinMode(trig, OUTPUT);
+  pinMode(echo, INPUT);
+  for (int i = LED_START; i <= LED_END; i++){
+    pinMode(i, OUTPUT);
+  }
+  Serial.begin(9600);
+  
+}
+
 void loop()
 {
   distance = ping(trig, echo);
-  maxPinOn = map(distance, ______, ______, ______, ______);
+  maxPinOn = map(distance, ____, ____, ____, ____);
   
-  for (int pin = LED_START; pin <= LED_END; pin++){
-    Serial.print("Given the following variable: ");
-    Serial.print(pin);
-    Serial.print(" ");
-    Serial.print("I would turn on this LED: ");
-    Serial.println(maxPinOn);
+  for (int pin = ____; pin <= ____; pin++){
+    if (____ == ____) {
+      digitalWrite(pin, ____);
+    } else {
+      digitalWrite(pin, ____);
+    }
   }
 }
 ```
