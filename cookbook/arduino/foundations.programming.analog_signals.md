@@ -18,10 +18,63 @@ In Arduino programming, analog inputs are typically read using the analogRead() 
 
 Consider the following circuit: 
 
-![PMW to Analog](img/2023-03-04-17-37-54.png)
+![](img/2023-03-08-19-39-04.png)
 
+```cpp
+#define DIAL A0
+#define LOW_LEDS 2
+#define HIGH_LEDS 6
 
-![Analog circuits](img/2023-03-04-17-28-50.png)
+int reading;
+
+void setup(){
+  Serial.begin(9600);
+  pinMode(DIAL, INPUT);
+  for (int led = LOW_LEDS; led <= HIGH_LEDS; led++){
+    pinMode(led, OUTPUT);
+  }
+}
+
+void loop(){
+  reading = analogRead(DIAL);
+  Serial.print(reading);
+  Serial.print(" ");
+  reading = map(reading, 0, 1023, LOW_LEDS, HIGH_LEDS);
+  Serial.println(reading);
+  
+}
+```
+
 
 ## Practice Question
 
+Consider the following circuit and complete the code.
+
+![](img/2023-03-08-19-31-08.png)
+
+```cpp
+#define DIAL A0
+#define LOW_LEDS 2
+#define HIGH_LEDS 6
+
+int reading;
+
+void setup(){
+  pinMode(DIAL, INPUT);
+  for (int led = LOW_LEDS; led <= HIGH_LEDS; led++){
+    pinMode(led, OUTPUT);
+  }
+}
+
+void loop(){
+  reading = analogRead(____);
+  reading = map(reading, ____, ____, ____, ____);
+  for (int led = LOW_LEDS; led <= HIGH_LEDS; led++){
+    if (reading >= led) {
+      digitalWrite(led, HIGH);
+    } else {
+      digitalWrite(led, LOW);
+    }
+  }
+}
+```
