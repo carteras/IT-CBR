@@ -9,7 +9,7 @@ One of the best ways of learning is to start with a challenge and learn the step
 
 ## Prerequisite learning
 
-To solve the following challenge, you will need to complete the following cookbooks: 
+To solve the following challenge, you will need to complete the following cookbooks:
 
 * 
 
