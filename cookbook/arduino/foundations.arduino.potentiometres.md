@@ -18,31 +18,32 @@ When a potentiometer is connected to an Arduino circuit, the wiper is typically 
 
 Potentiometers are commonly used in a variety of applications, including audio equipment, motor speed control, and lighting dimming circuits. In Arduino projects, they are often used to control the brightness of an LED, the speed of a motor, or the position of a servo motor.
 
-![](img/2023-03-08-19-39-04.png)
+![](img/2023-03-08-19-46-30.png)
 
 ```cpp
-#define DIAL A0
-#define LOW_LEDS 2
-#define HIGH_LEDS 6
+#define DIAL_RIGHT A0
+#define DIAL_LEFT A5
 
-int reading;
+int leftReading;
+int rightReading;
 
 void setup(){
   Serial.begin(9600);
-  pinMode(DIAL, INPUT);
-  for (int led = LOW_LEDS; led <= HIGH_LEDS; led++){
-    pinMode(led, OUTPUT);
-  }
+  pinMode(DIAL_RIGHT, INPUT);
+  pinMode(DIAL_LEFT, INPUT);
 }
 
 void loop(){
-  reading = analogRead(DIAL);
-  Serial.print(reading);
+  leftReading = analogRead(DIAL_LEFT);
+  rightReading = analogRead(DIAL_RIGHT);
+  Serial.print(leftReading);
   Serial.print(" ");
-  reading = map(reading, 0, 1023, LOW_LEDS, HIGH_LEDS);
-  Serial.println(reading);
-  
+  Serial.println(rightReading);
 }
 ```
 
 ## Practice Question
+
+Create the program for the following circuit: 
+
+![](img/analog%20potentio%20meters.gif)
