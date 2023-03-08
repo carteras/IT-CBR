@@ -15,6 +15,15 @@ To solve the following challenge, you will need to complete the following cookbo
 
 ## Challenge
 
+Create a program that turns on an LED corresponding to the distance sensed by the distance sensor. The LED brightness should vary depending on the value of the potentiometer.
 
+Use one potentiometer to control the brightness of the LEDs (for example, pin A0).
 
+Use three distance sensors to measure distance (for example, pins A1, A2, and A3).
 
+Use a for loop to iterate through each distance sensor in sequence.
+Use the analogRead() function to read the values of the potentiometer and distance sensors.
+
+Use the map() function to map the potentiometer value to the LED brightness value.
+
+Use the analogWrite() function to set the brightness of the LEDs.
