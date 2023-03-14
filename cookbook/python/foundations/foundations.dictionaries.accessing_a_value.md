@@ -44,10 +44,10 @@ def get_score(name, students):
     # your code goes here
     ...
 
-students = {'Alice': [95], 'Bob': [87], 'Charlie': [92], 'Dave': [84]}
+students = {'Alice': 95, 'Bob': 87, 'Charlie': 92, 'Dave': 84}
 
 
-if __name__ == "__main__"():
+if __name__ == "__main__":
     for name in students:
         print(f"{name} received {get_score(name, students)}")
 ```
