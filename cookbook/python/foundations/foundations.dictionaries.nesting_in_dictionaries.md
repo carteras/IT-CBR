@@ -16,7 +16,7 @@ Someone may want to put a dictionary inside another dictionary when they need to
 ```python
 programmers = {
   'alovela': {'given_name': 'ada','family_name': 'lovelace','location': 'London'},
-  'lhopper': {'given_name': 'grace', 'family_name': 'hopper','location': 'virginia',}
+  'ghopper': {'given_name': 'grace', 'family_name': 'hopper','location': 'virginia',}
 }
 
 for programmer in programmers:
@@ -28,11 +28,11 @@ for programmer in programmers:
 Example output:
 
 ```shell
-username: AGARCIA
+username: ALOVELA
  - given_name: Ada
  - family_name: Lovelace
  - location: London
-username: LHOPPER
+username: GHOPPER
  - given_name: Grace
  - family_name: Hopper
  - location: Virginia
