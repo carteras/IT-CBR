@@ -37,16 +37,8 @@ def question3(list_of_numbers):
 import unittest
 class TestQuestions(unittest.TestCase):
     def test_question1(self):
-        self.assertEqual('hardister, JOHN') == 'John, Hardister'
-        self.assertEqual('ROBY, STEPHEN') == 'Stephen, Roby'
-        self.assertEqual('Frankenfield, Carlos') == 'Carlos, Frankenfield'
-        self.assertEqual('BREWER, ISABEL') == 'Isabel, Brewer'
-        self.assertEqual('davis, DENNIS') == 'Dennis, Davis'
-        self.assertEqual('hewlett, CHRISTY') == 'Christy, Hewlett'
-        self.assertEqual('blockett, thomas') == 'Thomas, Blockett'
-        self.assertEqual('garrell, NANCY') == 'Nancy, Garrell'
-        self.assertEqual('ragusano, ELIZABETH') == 'Elizabeth, Ragusano'
-        self.assertEqual('Heath, Irene') == 'Irene, Heath'
+        self.assertEqual(question1('hardister, JOHN'), 'John, Hardister')
+        
 
     def test_question2(self):
         self.assertEqual(question2('test_question.2.data'), ['GERALD, delarosa', 'MARIA, lymon', 'CINDY, durham', 'ERNEST, brock', 'NATHAN, campbell', 'VIVIAN, martin', 'WILMA, cawley', 'ELEANOR, beam', 'BEVERLY, wilson', 'MICHAEL, hay', 'SUSAN, riley', 'EVA, meyer', 'ANGELO, tanner', 'DAVID, anderson', 'CARLA, jackson', 'CYNTHIA, sutphin', 'MELISSA, hale', 'ILA, buckner', 'DANICA, simon', 'HAROLD, vanriper', 'ANTHONY, smith', 'DONNA, kirschner', 'BARBARA, stoops', 'WAYNE, hankin', 'AGUEDA, kochan', 'KEVIN, speis', 'RUTH, jackson', 'SALLY, correll', 'ROBERT, crocker', 'JAMES, smith', 'JOHN, jordan', 'DESIREE, lee', 'ANTHONY, ota', 'JAMES, mueller', 'ROY, hoffman', 'KEITH, smith', 'JOSEPH, stockton', 'RYAN, pagel', 'DONALD, hernandez', 'DALE, weed', 'PAUL, bourg', 'JAIME, ricks', 'HARRY, smith', 'MARYLOU, liggins', 'NICK, cronin', 'GERTIE, hildebrand', 'COREY, jones', 'JOHN, sanford', 'PAULINE, roberts', 'MICHAEL, durham', 'ANN, bennett', 'JOSHUA, dial', 'JAMES, loh', 'ANGELIQUE, vanconant', 'MELISSA, robin', 'RUSSEL, leahy', 'WILLIAM, olson', 'JANETTE, natonabah', 'STEPHEN, pugh', 'ANGELA, bussard', 'SUZY, norwood', 'CHRISTOPHER, griffin', 'GEORGE, brown', 'STEPHANIE, griest', 'ROBERT, york', 'COLETTE, crieghton', 'JEFFREY, moczygemba', 'SCOTT, bevis', 'JAN, valdez', 'VALENCIA, dorfman', 'LARRY, nicol', 'JEFFREY, rouleau', 'JILL, judkins', 'ELLA, hernandez', 'LOUISA, mcclaine', 'LYNN, price', 'MICHAEL, polk', 'LAURIE, harris', 'DAVID, wood', 'STEPHANE, lewis', 'LUIS, wakley', 'BRITTANY, bailey', 'GLORIA, christopherso', 'TIFFANY, ewell', 'KATHRYN, guymon', 'JODY, kozlowski', 'JAMES, bank', 'PAULETTE, moore', 'JANET, boyd', 'MELISSA, french', 'CATHERINE, williams', 'MILTON, davis', 'RANDY, colter', 'RONALD, cobham', 'LISA, hayden', 'CARL, elliott', 'JOSE, mcgough', 'TERRI, bencomo', 'VICTORIA, sinnott', 'JOHN, tung'])
