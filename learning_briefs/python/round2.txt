@@ -1,0 +1,7 @@
+ada 8.65
+bob 9.12
+charles 8.45
+erin 7.81
+fred 8.05
+georgia 7.21
+harry 8.31

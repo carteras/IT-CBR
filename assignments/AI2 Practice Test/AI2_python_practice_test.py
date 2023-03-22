@@ -10,7 +10,9 @@ def question1(name):
 
     example: in -> LOVELACE, Ada | out -> Ada, Lovelace
     '''
-    ...
+    family_name, given_name = name.split(', ')
+    return f"{given_name}, {family_name}".title()
+    
     
 
 def question2(file_name):
@@ -24,7 +26,13 @@ def question2(file_name):
 
     example: in -> ['LOVELACE, ada', "BOBBINGTON, bob"] | out -> ['ADA, lovelace', 'BOB', "BOBBINGTON"]
     '''
-    ...
+    out = []
+    with open(file_name, 'r') as file_name: 
+        for line in file_name:
+            line = line.strip()
+            family_name, given_name = line.split(', ')
+            out.append(f"{given_name.upper()}, {family_name.lower()}")
+    return out
 
 def question3(list_of_numbers):
     ''' This list accepts a list of numbers
@@ -32,13 +40,13 @@ def question3(list_of_numbers):
     return: a list of the even numbers from the list of numbers you received
     example: in -> [1, 2, 3, 4, 5, 6] | out -> [2, 4, 6]
     '''
-    ...
+    out = []
+    for i in list_of_numbers:
+        if i % 2 == 0: out.append(i)
+    return out
 
-def test_question0(): 
-    return True
 
 
-# print(question1('hardister, JOHN'))
 import unittest
 class TestQuestions(unittest.TestCase):
 
