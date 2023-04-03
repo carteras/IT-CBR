@@ -1,6 +1,10 @@
 # Using GIT
 
-This cookbook recipe will guide you through the process of using Git to clone the networking_security_cyber_security_challenges repository from GitHub and how to update that repository on Manjaro Linux. Git is a version control system that allows you to keep track of changes to your code over time. It is commonly used for collaborative software development and is essential for working with GitHub repositories.
+This cookbook recipe will guide you through the process of using Git to clone the networking_security_cyber_security_challenges repository from GitHub and how to update that repository on Manjaro Linux.
+
+Git is a version control system that allows you to keep track of changes to your code over time. It is commonly used for collaborative software development and is essential for working with GitHub repositories.
+
+For the purposes of this recipe, we will use the example from the Networking and Cyber Security unit challenge. 
 
 To clone the networking_security_cyber_security_challenges repository from GitHub on Manjaro Linux, you can follow these steps:
 
