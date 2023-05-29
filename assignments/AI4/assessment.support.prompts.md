@@ -1,5 +1,15 @@
 # What is a challenge and what do you need to do
 
+## Handy hints 
+
+* Linux permissions: Represented by '`rwx`', defining read, write, and execute rights for users, groups, and others on files or directories.
+* `chmod`: Modify permissions with chmod, e.g., `chmod 755 filename` for setting user's read, write, execute permissions and group's/others' read, execute permissions.
+* Add users: Use `useradd [username]` to add a new user.
+* Add groups: Create a new group using `groupadd [groupname]`.
+* Set groups to users: Assign a user to a group using `usermod -aG [groupname] [username]`.
+* `ls -la`: Lists all files, including hidden ones, along with their permissions.
+* `cd`: Change the working directory, e.g., `cd [directory]` moves you to the specified directory.
+
 ## Think about your problem
 
 If it is a bushranger-type problem log into Bushranger (or if you are at home, bandit at overthewire) log into the directory and type `ls -la` 
