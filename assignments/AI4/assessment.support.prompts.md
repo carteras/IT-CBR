@@ -2,13 +2,61 @@
 
 ## Handy hints 
 
-* Linux permissions: Represented by '`rwx`', defining read, write, and execute rights for users, groups, and others on files or directories.
-* `chmod`: Modify permissions with chmod, e.g., `chmod 755 filename` for setting user's read, write, execute permissions and group's/others' read, execute permissions.
-* Add users: Use `useradd [username]` to add a new user.
-* Add groups: Create a new group using `groupadd [groupname]`.
-* Set groups to users: Assign a user to a group using `usermod -aG [groupname] [username]`.
-* `ls -la`: Lists all files, including hidden ones, along with their permissions.
-* `cd`: Change the working directory, e.g., `cd [directory]` moves you to the specified directory.
+### Linux Permissions
+
+Permissions in Linux are represented by 'rwx', which stands for read, write, and execute. Examples:
+
+- 'rwx' for a user means they can read, write, and execute the file.
+- 'r-x' for a group means group members can read and execute the file, but not write to it.
+- '--x' for others means they can only execute the file.
+
+### chmod
+
+The `chmod` command is used to change the permissions of a file or directory. Examples:
+
+- `chmod 755 filename` sets read, write, execute permissions for the user, and read, execute permissions for the group and others.
+- `chmod u+x filename` adds execute permission for the user.
+- `chmod go-w filename` removes write permissions from the group and others.
+
+### Add Users
+
+You can add a new user with the `useradd` command. Examples:
+
+- `useradd Alice` adds a user named Alice.
+- `useradd -m Bob` adds a user named Bob and creates a home directory for Bob.
+- `useradd -s /bin/bash Charlie` adds a user named Charlie and sets /bin/bash as Charlie's login shell.
+
+### Add Groups
+
+To create a new group, use the `groupadd` command. Examples:
+
+- `groupadd developers` creates a group named developers.
+- `groupadd -g 1000 designers` creates a group named designers with a GID of 1000.
+- `groupadd -r testers` creates a system group named testers.
+
+### Set Groups to Users
+
+Assign a user to a group with the `usermod` command. Examples:
+
+- `usermod -aG developers Alice` adds Alice to the developers group.
+- `usermod -G designers Bob` sets designers as the only group for Bob.
+- `usermod -g testers Charlie` changes Charlie's primary group to testers.
+
+### ls -la
+
+The `ls -la` command lists all files and directories, including hidden ones, in the current directory along with their permissions. Examples:
+
+- `ls -la` lists all files and directories in the current directory with permissions.
+- `ls -la /home` lists all files and directories in the /home directory with permissions.
+- `ls -la *.txt` lists all .txt files in the current directory with permissions.
+
+### cd
+
+Use `cd` to change the working directory. Examples:
+
+- `cd /home` changes the working directory to /home.
+- `cd ..` moves up one directory level.
+- `cd ~` moves to the current user's home directory.
 
 ## Think about your problem
 
