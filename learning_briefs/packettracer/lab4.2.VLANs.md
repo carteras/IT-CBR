@@ -16,7 +16,7 @@ VLAN is a network that is usually segmented by function or application. VLANs be
 
 VLANs can also be used to enhance performance by reducing the need to send broadcasts and multicasts to unnecessary destinations. It also eases network configuration by logically connecting devices without physically relocating those devices.
 
-![](2021-08-06-10-50-52.png)
+![](imgs/2021-08-06-10-50-52.png)
 
 * VLAN1 - This is the default VLAN. The switch is connected to the router through this VLAN. This can be used but cannot be modified or deleted.
 * VLAN10 - Virtual network for the Admin department. The network address is 192.168.10.1 with subnet mask 255.255.255.0 or /24.
@@ -25,7 +25,7 @@ VLANs can also be used to enhance performance by reducing the need to send broad
 
 In a bigger network, the configured VLANs with interfaces assigned as access and trunk ports on switches could look like this:
 
-![](2021-08-06-10-52-19.png)
+![](imgs/2021-08-06-10-52-19.png)
 
 he port modes are defined as follows:
 
@@ -41,11 +41,11 @@ We are going to cover this a little later (subnet masks) but in essence they lim
 Configures the interface to support non-trucking non-tagged VLANs. 
 ## Lab 
 
-###Topology: 
+### Topology: 
 
 Please use the following topology to complete this lab exercise: 
 
-![](2021-08-06-10-37-06.png)
+![](imgs/2021-08-06-10-37-06.png)
 
 ### Step 1: 
 
@@ -60,7 +60,7 @@ Allocate IP addresses to the hosts from within the subnets they are assigned to:
 
 I suggest you use 192.168.10.1 and 192.168.10.2 for VLAN 10 and 192.168.20.1 and 192.168.20.2 for VLAN 20, but feel free to use any IP address within the subnet. Here is an example from a host on VLAN 10:
 
-![](2021-08-06-10-36-35.png)
+![](imgs/2021-08-06-10-36-35.png)
 
 
 
@@ -115,7 +115,7 @@ VLAN Name                             Status    Ports
 
 Task 5: Now test some pings. You should be able to ping between hosts in the same VLAN but not to the other VLAN (you would need a router to be able to do this). 
 
-![](2021-08-06-10-41-58.png)
+![](imgs/2021-08-06-10-41-58.png)
 
 Notes: You will need a Layer 3 device to ping between VLANs. We will do this in another lab. You can make recognizing each VLAN easier by naming it ADMIN or SALES, for example.
 
@@ -126,9 +126,11 @@ Switch(config)#vlan 10
 Switch(config-vlan)#name SALES 
 Switch(config-vlan)#end 
 Switch#show vlan brief [output truncated] 10 SALES active 1002 fddi-default active
+```
 
 Practice: 
 
 Complete Lab5_Vlan_challenge
-![](2021-08-06-10-47-43.png)
+
+![](imgs/2021-08-06-10-47-43.png)
 
