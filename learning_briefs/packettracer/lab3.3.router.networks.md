@@ -64,11 +64,11 @@ Router configuration
 
 Click on each PC and open up to Desktop mode. 
 
-![](img/2022-08-28-13-06-11.png)
+![](imgs/2022-08-28-13-06-11.png)
 
 Open the IP Configuration panel and configure the network
 
-![](img/2022-08-28-13-05-27.png)
+![](imgs/2022-08-28-13-05-27.png)
 
 Repeat this process for each PC in both networks using the appropriate IP addresses. 
 
@@ -76,31 +76,31 @@ Repeat this process for each PC in both networks using the appropriate IP addres
 
 Click on a PC and go back to to the Desktop (I chose `192.168.1.10`)
 
-![](img/2022-08-28-13-06-11.png)
+![](imgs/2022-08-28-13-06-11.png)
 
 Click on Command Prompt
 
 Type `ipconfig`
 
-![](img/2022-08-28-13-08-43.png)
+![](imgs/2022-08-28-13-08-43.png)
 
 Ping the address shown on this device
 
-![](img/2022-08-28-13-09-23.png)
+![](imgs/2022-08-28-13-09-23.png)
 
 Test the gateway (this shouldn't work)
 
-![](img/2022-08-28-13-10-24.png)
+![](imgs/2022-08-28-13-10-24.png)
 
 ### Configure the router for Network 1
 
 Click on the router
 
-![](img/2022-08-28-13-10-49.png)
+![](imgs/2022-08-28-13-10-49.png)
 
 Go to CLI mode
 
-![](img/2022-08-28-13-11-14.png)
+![](imgs/2022-08-28-13-11-14.png)
 
 ```bash
 Would you like to enter the initial configuration dialog? [yes/no]: no
@@ -134,7 +134,7 @@ Vlan1                  unassigned      YES unset  administratively down down
 
 Network 1 should be enabled
 
-![](img/2022-08-28-13-14-15.png)
+![](imgs/2022-08-28-13-14-15.png)
 
 Let's ping ourselves 
 
@@ -165,7 +165,7 @@ Remember, that first failure is due to the routing pathway being created for the
 
 Open up to desktop 
 
-![](img/2022-08-28-13-06-11.png)
+![](imgs/2022-08-28-13-06-11.png)
 
 Click on `command prompt`
 
@@ -199,3 +199,10 @@ Configure newtork 2 to connect and route to the network.
 <!-- Make up a challenge question which asks people to use all of their knowledge they just learnt (and maybe some prior learning) to solve -->
 
 Test that `192.168.1.10` can ping `192.168.2.10`
+
+
+## Challenge 
+
+Create the following network
+
+![](img/2023-07-26-18-26-12.png)
