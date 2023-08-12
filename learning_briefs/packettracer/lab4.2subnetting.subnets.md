@@ -146,7 +146,7 @@ addresses in each range.
 For example if two bits are borrowed for the network portion of the address you can easily
 determine the number of subnets and hosts per subnets using the two formulas.
 
-![](2021-08-22-13-34-20.png)
+![](imgs/2021-08-22-13-34-20.png)
 
 #### What about that second subnet formula:
 
@@ -186,7 +186,7 @@ subnet in the broadcast subnet is the same as the classful broadcast address.
 |Number of bits borrowed|4|
 
 Working out: 
-![](2021-08-22-13-41-29.png)
+![](imgs/2021-08-22-13-41-29.png)
 
 ##### Example 2
 * Number of needed subnets: 1000
@@ -204,7 +204,7 @@ Working out:
 |Number of bits borrowed|10|
 
 Working out:
-![](2021-08-22-13-45-56.png)
+![](imgs/2021-08-22-13-45-56.png)
 
 ##### Example 3
 
@@ -223,7 +223,7 @@ NOTE: /26 indicates the total number of bits used for the network and subnetwork
 
 Working out:
 
-![](2021-08-22-13-49-56.png)
+![](imgs/2021-08-22-13-49-56.png)
 
 ##### Example 4
 * Number of needed subnets:14
@@ -245,7 +245,7 @@ Working out:
 |What are the assignable addresses for the 9th subnet|192.10.10.129 to 192.10.10.142|
 
 Working out:
-![](2021-08-22-13-56-18.png)
+![](imgs/2021-08-22-13-56-18.png)
 #### Practice
 
 ##### Question 1
@@ -264,7 +264,7 @@ Working out:
 |Number of bits borrowed||
 
 Working out:
-![](2021-08-22-13-50-35.png)
+![](imgs/2021-08-22-13-50-35.png)
 ##### Question 2
 * Number of needed subnets: 6
 * Number of needed usable hosts:  30
@@ -281,7 +281,7 @@ Working out:
 |Number of bits borrowed||
 
 Working out:
-![](2021-08-22-13-51-11.png)
+![](imgs/2021-08-22-13-51-11.png)
 
 ##### Question 3
 
@@ -312,7 +312,7 @@ Based on the diagram below design a network addressing scheme that will supply t
 
 
 
-![](2021-08-22-14-11-35.png)
+![](imgs/2021-08-22-14-11-35.png)
 
 * Number of needed subnets:
 * Number of needed usable hosts:  
