@@ -27,7 +27,7 @@
 * create an advanced PDU to test a service (HTTP)
 * use the scenario tool
 
-## Topic | Commands | Code
+## How do we test stuff in packet tracer? 
 
 *It is important to practice commands | code and challenge our brain in new ways. Do all of the problems below, including the example problems. They will make you a better programmer | operator.*
 
