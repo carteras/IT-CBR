@@ -1,28 +1,30 @@
-# TITLE 
+# TITLE
 
-## Learning Goals
+## Learning intentions and selection criterion
 
-*By the end of this module you should be able to answer the following:*
+### Learning intentions
 
+*What are we learning in this brief?*
 
-## Commands | Code
+### Selection criterion
+
+*I will know I have learned this when I can:"
+
+## Topic | Commands | Code
 
 *It is important to practice commands | code and challenge our brain in new ways. Do all of the problems below, including the example problems. They will make you a better programmer | operator.*
 
-### Example: 
-
+### Example
 
 ## Practice Questions
 
-
-### Practice:
+### Practice
 
 ## Fluff about find out
 
 So, you've learnt lots of things so far today. I challenge you to use your imagination and try and find some things that you feel you might be able to do, but weren't necessarily taught.
 
-Because it's our first week, I am happy to give you some hints to start you off, but go nuts. 
-
+Because it's our first week, I am happy to give you some hints to start you off, but go nuts.
 
 ## Bug hunt
 
