@@ -90,7 +90,7 @@ Router(dhcp-config)#dns-server 10.176.120.10
 Router(dhcp-config)#exit
 ```
 
-WAIT: Before we go into the PC settings and turn on the dhcp.client breath and wait a bit. 
+WAIT: Before we go into the PC settings and turn on the `dhcp.client` breath and wait a bit. 
 
 If we turn the PC on now, it will pick any IP address between 1 and 254. We don't want that, we want to reserve some IP ranges. 
 
@@ -216,7 +216,7 @@ GigabitEthernet1/0     unassigned      YES unset  administratively down down
 GigabitEthernet2/0     unassigned      YES unset  administratively down down
 ```
 
-Let's enable `g0/1` to work with the ip address range that the DNS server is set up on `10.170.126.0/24` 
+Let's enable `g0/1` to work with the IP address range that the DNS server is set up on `10.170.126.0/24` 
 
 ```bash
 Router#
@@ -262,7 +262,7 @@ Now, make sure that the server here has HTTP/HTTPS enabled:
 ![](img/20230813145517.png)
 
 
-Add cbrc.local to your name lookup table: 
+Add `cbrc.local` to your name lookup table: 
 
 ![](img/20230813145551.png)
 
@@ -273,6 +273,8 @@ See if `PC0` can reach `cbrc.local`
 
 ## Challenge
 
-Configure RIGHT_NETWORK so it works in this environment. 
-
+* Configure RIGHT_NETWORK so it works in this environment. 
+* Create a second server `www.cbrc.local` and give it an IP address. I chose `10.176.120.11` but you can give it whatever you want. 
+* add `www.cbrc.local` to your DNS lookup table. 
+* ensure everybody can reach it.
 
