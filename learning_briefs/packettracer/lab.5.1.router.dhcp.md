@@ -103,7 +103,7 @@ Now we could have manually limited that above but we can also exclude some speci
 Router#configure terminal
 Enter configuration commands, one per line.  End with CNTL/Z.
 Router(config)#ip dhcp excluded-address 192.168.1.1 192.168.1.99
-Router(config)# ip dhcp exclude-address 192.168.1.1 192.168.200.254
+Router(config)# ip dhcp exclude-address 192.168.1.150 192.168.1.254
 ```
 
 ### Seeing what you've done
@@ -144,11 +144,13 @@ Magic!
 
 Before that, let's delete that router, and put a PT-Empty router on the screen. This gives us more power. 
 
-Once we get on, turn it off, and slot 3 PT-ROUTER-NM-CGE adaptors into the slot. This gives us 3 Gb interfaces to play with. 
+Once we get on, turn it off, and slot 3 PT-ROUTER-NM-1CGE adaptors into the slot. This gives us 3 Gb interfaces to play with.
+
+![](img/20230813144957.png)
 
 Turn the router back on and connect it to the following network. 
 
-![](imgs/2023-08-02-12-01-02.png)
+![](img/20230813144931.png)
 
 Let's quickly config g0/0
 
@@ -253,10 +255,24 @@ Pool SERVERS :
  1 subnet is currently in the pool
  Current index        IP address range                    Leased/Excluded/Total
  10.176.120.1         10.176.120.1     - 10.176.120.254    0    / 3     / 254
+```
+
+Now, make sure that the server here has HTTP/HTTPS enabled: 
+
+![](img/20230813145517.png)
 
 
+Add cbrc.local to your name lookup table: 
 
+![](img/20230813145551.png)
 
+See if `PC0` can reach `cbrc.local`
+
+![](img/20230813145622.png)
 
 
 ## Challenge
+
+Configure RIGHT_NETWORK so it works in this environment. 
+
+
