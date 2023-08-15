@@ -19,13 +19,13 @@
 
 *I will know I have learned this when I can:"
 
-* find out my network details using ipconfig
-* ping the local machine using ping
-* ping remote machines using ping
-* use tracert to search the network
-* create a simple PDU to test the network
-* create an advanced PDU to test a service (HTTP)
-* use the scenario tool
+* find out my network details using `ipconfig`
+* `ping` the local machine using ping
+* `ping` remote machines using ping
+* use `tracert` to search the network
+* create a `simple PDU` to test the network
+* create an `advanced PDU` to test a service (`HTTP`)
+* use the `scenario` tool
 
 ## How do we test stuff in packet tracer? 
 
@@ -33,11 +33,11 @@
 
 ### Using CLI tools 
 
-Consider the following network: 
+Consider the following network:
 
 ![](img/20230813180920.png)
 
-You can use the example from lab.5.1
+You can use the example from `lab.5.1`
 
 #### ipconfig
 
