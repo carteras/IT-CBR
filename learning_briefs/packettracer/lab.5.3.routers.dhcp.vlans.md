@@ -14,6 +14,9 @@
 
 *It is important to practice commands | code and challenge our brain in new ways. Do all of the problems below, including the example problems. They will make you a better programmer | operator.*
 
+
+![](img/20230815190055.png)
+
 ### Example
 
 ## Practice Questions
