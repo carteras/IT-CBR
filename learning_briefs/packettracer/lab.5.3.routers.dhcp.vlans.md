@@ -76,6 +76,17 @@ Switch(config-if)#int range fa0/1-4
 Switch(config-if-range)#switchport mode access
 ```
 
+Let's configure that outbound connection from the switch to the router so it handles multiple VLANs. We'll set it up for trunk access. 
+
+```cmd
+Switch> enable
+Switch#Configure Terminal
+Switch(config)# interface f0/5
+Switch(config-if)#switchport mode trunk
+```
+
+Done!
+
 Now, let's configure the router. 
 
 ```cmd
