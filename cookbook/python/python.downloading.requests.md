@@ -85,7 +85,7 @@ r = requests.get(url, stream=True)
 
 with open(f'alice.txt', 'wb') as file_descriptor:
     for chunk in r.iter_content(128):
-        fd.write(chunk)
+        file_descriptor.write(chunk)
 ```
 
 ## Practice Questions
